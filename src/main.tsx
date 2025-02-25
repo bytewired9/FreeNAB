@@ -310,7 +310,7 @@ function App() {
     }
     loadManifest();
   }, [basePath]);
-  
+
 
   // Update isMobile on resize.
   React.useEffect(() => {
@@ -362,6 +362,8 @@ function App() {
     }
     return pages;
   }, [manifest, isMobile]);
+
+
 
   // renderedPages: combine virtualPages with any loaded chapter content.
   const renderedPages: RenderedPage[] = React.useMemo(() => {
@@ -468,6 +470,36 @@ function App() {
       })();
     }
   }, [currentPage, virtualPages, chapters]);
+
+  // In App component, after virtualPages and chapterMapping are defined:
+  React.useEffect(() => {
+    if (manifest && virtualPages.length > 0) {
+      const params = new URLSearchParams(window.location.search);
+      const pageParam = params.get('page');
+      const fileParam = params.get('file');
+      let targetPage = 0;
+
+      if (pageParam) {
+        const parsed = parseInt(pageParam, 10);
+        if (!isNaN(parsed)) {
+          targetPage = parsed;
+        }
+      } else if (fileParam) {
+        // find the chapter mapping with a matching file name (ignoring extension and case)
+        const mapping = chapterMapping.find(
+          (m) => m.fileName.toLowerCase() === fileParam.toLowerCase()
+        );
+        if (mapping) {
+          targetPage = mapping.globalPageIndex;
+        }
+      }
+
+      if (targetPage !== currentPage && targetPage >= 0 && targetPage < virtualPages.length) {
+        setCurrentPage(targetPage);
+      }
+    }
+  }, [manifest, virtualPages, chapterMapping]);
+
 
   if (loadingManifest || !manifest) {
     return (
