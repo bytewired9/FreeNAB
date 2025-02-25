@@ -1,5 +1,5 @@
 {
-  "name": "FreeNAB",
+  "name": "freenab",
   "description": "A Free and Open Source translation app for the NAB",
   "private": true,
   "author": "ByteWired9",
@@ -8,8 +8,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "electron:dev": "vite dev & electron .",
-    "electron:build": "vite build && electron-builder",
+    "electron:dev": "vite dev --mode electron & wait-on http://localhost:5173 && electron .",
+    "electron:build": "vite build --mode electron && electron-builder",
     "lint": "eslint .",
     "preview": "vite preview"
   },
