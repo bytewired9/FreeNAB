@@ -3,7 +3,7 @@
   "description": "A Free and Open Source translation app for the NAB",
   "private": true,
   "author": "ByteWired9",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
