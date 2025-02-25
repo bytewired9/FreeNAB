@@ -1,1546 +1,5744 @@
 {
     "Genesis": [
-        "Genesis_1.txt",
-        "Genesis_2.txt",
-        "Genesis_3.txt",
-        "Genesis_4.txt",
-        "Genesis_5.txt",
-        "Genesis_6.txt",
-        "Genesis_7.txt",
-        "Genesis_8.txt",
-        "Genesis_9.txt",
-        "Genesis_10.txt",
-        "Genesis_11.txt",
-        "Genesis_12.txt",
-        "Genesis_13.txt",
-        "Genesis_14.txt",
-        "Genesis_15.txt",
-        "Genesis_16.txt",
-        "Genesis_17.txt",
-        "Genesis_18.txt",
-        "Genesis_19.txt",
-        "Genesis_20.txt",
-        "Genesis_21.txt",
-        "Genesis_22.txt",
-        "Genesis_23.txt",
-        "Genesis_24.txt",
-        "Genesis_25.txt",
-        "Genesis_26.txt",
-        "Genesis_27.txt",
-        "Genesis_28.txt",
-        "Genesis_29.txt",
-        "Genesis_30.txt",
-        "Genesis_31.txt",
-        "Genesis_32.txt",
-        "Genesis_33.txt",
-        "Genesis_34.txt",
-        "Genesis_35.txt",
-        "Genesis_36.txt",
-        "Genesis_37.txt",
-        "Genesis_38.txt",
-        "Genesis_39.txt",
-        "Genesis_40.txt",
-        "Genesis_41.txt",
-        "Genesis_42.txt",
-        "Genesis_43.txt",
-        "Genesis_44.txt",
-        "Genesis_45.txt",
-        "Genesis_46.txt",
-        "Genesis_47.txt",
-        "Genesis_48.txt",
-        "Genesis_49.txt",
-        "Genesis_50.txt"
+        {
+            "filename": "Genesis_1.txt",
+            "char_count": 5003
+        },
+        {
+            "filename": "Genesis_2.txt",
+            "char_count": 4474
+        },
+        {
+            "filename": "Genesis_3.txt",
+            "char_count": 4666
+        },
+        {
+            "filename": "Genesis_4.txt",
+            "char_count": 4346
+        },
+        {
+            "filename": "Genesis_5.txt",
+            "char_count": 4080
+        },
+        {
+            "filename": "Genesis_6.txt",
+            "char_count": 5579
+        },
+        {
+            "filename": "Genesis_7.txt",
+            "char_count": 2876
+        },
+        {
+            "filename": "Genesis_8.txt",
+            "char_count": 3328
+        },
+        {
+            "filename": "Genesis_9.txt",
+            "char_count": 4493
+        },
+        {
+            "filename": "Genesis_10.txt",
+            "char_count": 5412
+        },
+        {
+            "filename": "Genesis_11.txt",
+            "char_count": 6067
+        },
+        {
+            "filename": "Genesis_12.txt",
+            "char_count": 3963
+        },
+        {
+            "filename": "Genesis_13.txt",
+            "char_count": 2090
+        },
+        {
+            "filename": "Genesis_14.txt",
+            "char_count": 4855
+        },
+        {
+            "filename": "Genesis_15.txt",
+            "char_count": 3367
+        },
+        {
+            "filename": "Genesis_16.txt",
+            "char_count": 2915
+        },
+        {
+            "filename": "Genesis_17.txt",
+            "char_count": 4121
+        },
+        {
+            "filename": "Genesis_18.txt",
+            "char_count": 5561
+        },
+        {
+            "filename": "Genesis_19.txt",
+            "char_count": 7174
+        },
+        {
+            "filename": "Genesis_20.txt",
+            "char_count": 3056
+        },
+        {
+            "filename": "Genesis_21.txt",
+            "char_count": 5369
+        },
+        {
+            "filename": "Genesis_22.txt",
+            "char_count": 3639
+        },
+        {
+            "filename": "Genesis_23.txt",
+            "char_count": 3455
+        },
+        {
+            "filename": "Genesis_24.txt",
+            "char_count": 9774
+        },
+        {
+            "filename": "Genesis_25.txt",
+            "char_count": 5281
+        },
+        {
+            "filename": "Genesis_26.txt",
+            "char_count": 5708
+        },
+        {
+            "filename": "Genesis_27.txt",
+            "char_count": 7646
+        },
+        {
+            "filename": "Genesis_28.txt",
+            "char_count": 4183
+        },
+        {
+            "filename": "Genesis_29.txt",
+            "char_count": 5742
+        },
+        {
+            "filename": "Genesis_30.txt",
+            "char_count": 7954
+        },
+        {
+            "filename": "Genesis_31.txt",
+            "char_count": 9314
+        },
+        {
+            "filename": "Genesis_32.txt",
+            "char_count": 5139
+        },
+        {
+            "filename": "Genesis_33.txt",
+            "char_count": 2991
+        },
+        {
+            "filename": "Genesis_34.txt",
+            "char_count": 4798
+        },
+        {
+            "filename": "Genesis_35.txt",
+            "char_count": 4620
+        },
+        {
+            "filename": "Genesis_36.txt",
+            "char_count": 4832
+        },
+        {
+            "filename": "Genesis_37.txt",
+            "char_count": 5270
+        },
+        {
+            "filename": "Genesis_38.txt",
+            "char_count": 5870
+        },
+        {
+            "filename": "Genesis_39.txt",
+            "char_count": 3459
+        },
+        {
+            "filename": "Genesis_40.txt",
+            "char_count": 3060
+        },
+        {
+            "filename": "Genesis_41.txt",
+            "char_count": 8088
+        },
+        {
+            "filename": "Genesis_42.txt",
+            "char_count": 5618
+        },
+        {
+            "filename": "Genesis_43.txt",
+            "char_count": 5118
+        },
+        {
+            "filename": "Genesis_44.txt",
+            "char_count": 5323
+        },
+        {
+            "filename": "Genesis_45.txt",
+            "char_count": 4290
+        },
+        {
+            "filename": "Genesis_46.txt",
+            "char_count": 4500
+        },
+        {
+            "filename": "Genesis_47.txt",
+            "char_count": 5633
+        },
+        {
+            "filename": "Genesis_48.txt",
+            "char_count": 4008
+        },
+        {
+            "filename": "Genesis_49.txt",
+            "char_count": 4939
+        },
+        {
+            "filename": "Genesis_50.txt",
+            "char_count": 4146
+        }
     ],
     "Exodus": [
-        "Exodus_Exodus.txt",
-        "Exodus_1.txt",
-        "Exodus_2.txt",
-        "Exodus_3.txt",
-        "Exodus_4.txt",
-        "Exodus_5.txt",
-        "Exodus_6.txt",
-        "Exodus_7.txt",
-        "Exodus_8.txt",
-        "Exodus_9.txt",
-        "Exodus_10.txt",
-        "Exodus_11.txt",
-        "Exodus_12.txt",
-        "Exodus_13.txt",
-        "Exodus_14.txt",
-        "Exodus_15.txt",
-        "Exodus_16.txt",
-        "Exodus_17.txt",
-        "Exodus_18.txt",
-        "Exodus_19.txt",
-        "Exodus_20.txt",
-        "Exodus_21.txt",
-        "Exodus_22.txt",
-        "Exodus_23.txt",
-        "Exodus_24.txt",
-        "Exodus_25.txt",
-        "Exodus_26.txt",
-        "Exodus_27.txt",
-        "Exodus_28.txt",
-        "Exodus_29.txt",
-        "Exodus_30.txt",
-        "Exodus_31.txt",
-        "Exodus_32.txt",
-        "Exodus_33.txt",
-        "Exodus_34.txt",
-        "Exodus_35.txt",
-        "Exodus_36.txt",
-        "Exodus_37.txt",
-        "Exodus_38.txt",
-        "Exodus_39.txt",
-        "Exodus_40.txt"
+        {
+            "filename": "Exodus_Exodus.txt",
+            "char_count": 1152
+        },
+        {
+            "filename": "Exodus_1.txt",
+            "char_count": 3265
+        },
+        {
+            "filename": "Exodus_2.txt",
+            "char_count": 4102
+        },
+        {
+            "filename": "Exodus_3.txt",
+            "char_count": 5824
+        },
+        {
+            "filename": "Exodus_4.txt",
+            "char_count": 5119
+        },
+        {
+            "filename": "Exodus_5.txt",
+            "char_count": 3366
+        },
+        {
+            "filename": "Exodus_6.txt",
+            "char_count": 3803
+        },
+        {
+            "filename": "Exodus_7.txt",
+            "char_count": 4208
+        },
+        {
+            "filename": "Exodus_8.txt",
+            "char_count": 4530
+        },
+        {
+            "filename": "Exodus_9.txt",
+            "char_count": 4695
+        },
+        {
+            "filename": "Exodus_10.txt",
+            "char_count": 5166
+        },
+        {
+            "filename": "Exodus_11.txt",
+            "char_count": 1522
+        },
+        {
+            "filename": "Exodus_12.txt",
+            "char_count": 8054
+        },
+        {
+            "filename": "Exodus_13.txt",
+            "char_count": 3519
+        },
+        {
+            "filename": "Exodus_14.txt",
+            "char_count": 5054
+        },
+        {
+            "filename": "Exodus_15.txt",
+            "char_count": 3801
+        },
+        {
+            "filename": "Exodus_16.txt",
+            "char_count": 6444
+        },
+        {
+            "filename": "Exodus_17.txt",
+            "char_count": 2618
+        },
+        {
+            "filename": "Exodus_18.txt",
+            "char_count": 3783
+        },
+        {
+            "filename": "Exodus_19.txt",
+            "char_count": 3910
+        },
+        {
+            "filename": "Exodus_20.txt",
+            "char_count": 3365
+        },
+        {
+            "filename": "Exodus_21.txt",
+            "char_count": 5414
+        },
+        {
+            "filename": "Exodus_22.txt",
+            "char_count": 4595
+        },
+        {
+            "filename": "Exodus_23.txt",
+            "char_count": 5259
+        },
+        {
+            "filename": "Exodus_24.txt",
+            "char_count": 2821
+        },
+        {
+            "filename": "Exodus_25.txt",
+            "char_count": 5763
+        },
+        {
+            "filename": "Exodus_26.txt",
+            "char_count": 5107
+        },
+        {
+            "filename": "Exodus_27.txt",
+            "char_count": 3104
+        },
+        {
+            "filename": "Exodus_28.txt",
+            "char_count": 6872
+        },
+        {
+            "filename": "Exodus_29.txt",
+            "char_count": 7045
+        },
+        {
+            "filename": "Exodus_30.txt",
+            "char_count": 4583
+        },
+        {
+            "filename": "Exodus_31.txt",
+            "char_count": 2198
+        },
+        {
+            "filename": "Exodus_32.txt",
+            "char_count": 5857
+        },
+        {
+            "filename": "Exodus_33.txt",
+            "char_count": 3688
+        },
+        {
+            "filename": "Exodus_34.txt",
+            "char_count": 6230
+        },
+        {
+            "filename": "Exodus_35.txt",
+            "char_count": 3801
+        },
+        {
+            "filename": "Exodus_36.txt",
+            "char_count": 4395
+        },
+        {
+            "filename": "Exodus_37.txt",
+            "char_count": 3076
+        },
+        {
+            "filename": "Exodus_38.txt",
+            "char_count": 4489
+        },
+        {
+            "filename": "Exodus_39.txt",
+            "char_count": 4996
+        },
+        {
+            "filename": "Exodus_40.txt",
+            "char_count": 3878
+        }
     ],
     "Leviticus": [
-        "Leviticus_Int.txt",
-        "Leviticus_1.txt",
-        "Leviticus_2.txt",
-        "Leviticus_3.txt",
-        "Leviticus_4.txt",
-        "Leviticus_5.txt",
-        "Leviticus_6.txt",
-        "Leviticus_7.txt",
-        "Leviticus_8.txt",
-        "Leviticus_9.txt",
-        "Leviticus_10.txt",
-        "Leviticus_11.txt",
-        "Leviticus_12.txt",
-        "Leviticus_13.txt",
-        "Leviticus_14.txt",
-        "Leviticus_15.txt",
-        "Leviticus_16.txt",
-        "Leviticus_17.txt",
-        "Leviticus_18.txt",
-        "Leviticus_19.txt",
-        "Leviticus_20.txt",
-        "Leviticus_21.txt",
-        "Leviticus_22.txt",
-        "Leviticus_23.txt",
-        "Leviticus_24.txt",
-        "Leviticus_25.txt",
-        "Leviticus_26.txt",
-        "Leviticus_27.txt"
+        {
+            "filename": "Leviticus_Int.txt",
+            "char_count": 1065
+        },
+        {
+            "filename": "Leviticus_1.txt",
+            "char_count": 3000
+        },
+        {
+            "filename": "Leviticus_2.txt",
+            "char_count": 2649
+        },
+        {
+            "filename": "Leviticus_3.txt",
+            "char_count": 2911
+        },
+        {
+            "filename": "Leviticus_4.txt",
+            "char_count": 5574
+        },
+        {
+            "filename": "Leviticus_5.txt",
+            "char_count": 4903
+        },
+        {
+            "filename": "Leviticus_6.txt",
+            "char_count": 3909
+        },
+        {
+            "filename": "Leviticus_7.txt",
+            "char_count": 5662
+        },
+        {
+            "filename": "Leviticus_8.txt",
+            "char_count": 5651
+        },
+        {
+            "filename": "Leviticus_9.txt",
+            "char_count": 3119
+        },
+        {
+            "filename": "Leviticus_10.txt",
+            "char_count": 4633
+        },
+        {
+            "filename": "Leviticus_11.txt",
+            "char_count": 6699
+        },
+        {
+            "filename": "Leviticus_12.txt",
+            "char_count": 1850
+        },
+        {
+            "filename": "Leviticus_13.txt",
+            "char_count": 9549
+        },
+        {
+            "filename": "Leviticus_14.txt",
+            "char_count": 7886
+        },
+        {
+            "filename": "Leviticus_15.txt",
+            "char_count": 4458
+        },
+        {
+            "filename": "Leviticus_16.txt",
+            "char_count": 6253
+        },
+        {
+            "filename": "Leviticus_17.txt",
+            "char_count": 3371
+        },
+        {
+            "filename": "Leviticus_18.txt",
+            "char_count": 4168
+        },
+        {
+            "filename": "Leviticus_19.txt",
+            "char_count": 5157
+        },
+        {
+            "filename": "Leviticus_20.txt",
+            "char_count": 3993
+        },
+        {
+            "filename": "Leviticus_21.txt",
+            "char_count": 3438
+        },
+        {
+            "filename": "Leviticus_22.txt",
+            "char_count": 4382
+        },
+        {
+            "filename": "Leviticus_23.txt",
+            "char_count": 7424
+        },
+        {
+            "filename": "Leviticus_24.txt",
+            "char_count": 2608
+        },
+        {
+            "filename": "Leviticus_25.txt",
+            "char_count": 8186
+        },
+        {
+            "filename": "Leviticus_26.txt",
+            "char_count": 6611
+        },
+        {
+            "filename": "Leviticus_27.txt",
+            "char_count": 5828
+        }
     ],
     "Numbers": [
-        "Numbers_Int.txt",
-        "Numbers_1.txt",
-        "Numbers_2.txt",
-        "Numbers_3.txt",
-        "Numbers_4.txt",
-        "Numbers_5.txt",
-        "Numbers_6.txt",
-        "Numbers_7.txt",
-        "Numbers_8.txt",
-        "Numbers_9.txt",
-        "Numbers_10.txt",
-        "Numbers_11.txt",
-        "Numbers_12.txt",
-        "Numbers_13.txt",
-        "Numbers_14.txt",
-        "Numbers_15.txt",
-        "Numbers_16.txt",
-        "Numbers_17.txt",
-        "Numbers_18.txt",
-        "Numbers_19.txt",
-        "Numbers_20.txt",
-        "Numbers_21.txt",
-        "Numbers_22.txt",
-        "Numbers_23.txt",
-        "Numbers_24.txt",
-        "Numbers_25.txt",
-        "Numbers_26.txt",
-        "Numbers_27.txt",
-        "Numbers_28.txt",
-        "Numbers_29.txt",
-        "Numbers_30.txt",
-        "Numbers_31.txt",
-        "Numbers_32.txt",
-        "Numbers_33.txt",
-        "Numbers_34.txt",
-        "Numbers_35.txt",
-        "Numbers_36.txt"
+        {
+            "filename": "Numbers_Int.txt",
+            "char_count": 1343
+        },
+        {
+            "filename": "Numbers_1.txt",
+            "char_count": 6354
+        },
+        {
+            "filename": "Numbers_2.txt",
+            "char_count": 3784
+        },
+        {
+            "filename": "Numbers_3.txt",
+            "char_count": 6716
+        },
+        {
+            "filename": "Numbers_4.txt",
+            "char_count": 7044
+        },
+        {
+            "filename": "Numbers_5.txt",
+            "char_count": 5729
+        },
+        {
+            "filename": "Numbers_6.txt",
+            "char_count": 4393
+        },
+        {
+            "filename": "Numbers_7.txt",
+            "char_count": 9995
+        },
+        {
+            "filename": "Numbers_8.txt",
+            "char_count": 3878
+        },
+        {
+            "filename": "Numbers_9.txt",
+            "char_count": 3572
+        },
+        {
+            "filename": "Numbers_10.txt",
+            "char_count": 4668
+        },
+        {
+            "filename": "Numbers_11.txt",
+            "char_count": 6045
+        },
+        {
+            "filename": "Numbers_12.txt",
+            "char_count": 2408
+        },
+        {
+            "filename": "Numbers_13.txt",
+            "char_count": 4450
+        },
+        {
+            "filename": "Numbers_14.txt",
+            "char_count": 6580
+        },
+        {
+            "filename": "Numbers_15.txt",
+            "char_count": 5740
+        },
+        {
+            "filename": "Numbers_16.txt",
+            "char_count": 5844
+        },
+        {
+            "filename": "Numbers_17.txt",
+            "char_count": 4610
+        },
+        {
+            "filename": "Numbers_18.txt",
+            "char_count": 6850
+        },
+        {
+            "filename": "Numbers_19.txt",
+            "char_count": 4280
+        },
+        {
+            "filename": "Numbers_20.txt",
+            "char_count": 5412
+        },
+        {
+            "filename": "Numbers_21.txt",
+            "char_count": 6398
+        },
+        {
+            "filename": "Numbers_22.txt",
+            "char_count": 6531
+        },
+        {
+            "filename": "Numbers_23.txt",
+            "char_count": 4554
+        },
+        {
+            "filename": "Numbers_24.txt",
+            "char_count": 4328
+        },
+        {
+            "filename": "Numbers_25.txt",
+            "char_count": 3523
+        },
+        {
+            "filename": "Numbers_26.txt",
+            "char_count": 7904
+        },
+        {
+            "filename": "Numbers_27.txt",
+            "char_count": 4327
+        },
+        {
+            "filename": "Numbers_28.txt",
+            "char_count": 4722
+        },
+        {
+            "filename": "Numbers_29.txt",
+            "char_count": 5814
+        },
+        {
+            "filename": "Numbers_30.txt",
+            "char_count": 3012
+        },
+        {
+            "filename": "Numbers_31.txt",
+            "char_count": 6754
+        },
+        {
+            "filename": "Numbers_32.txt",
+            "char_count": 6749
+        },
+        {
+            "filename": "Numbers_33.txt",
+            "char_count": 6074
+        },
+        {
+            "filename": "Numbers_34.txt",
+            "char_count": 2914
+        },
+        {
+            "filename": "Numbers_35.txt",
+            "char_count": 4954
+        },
+        {
+            "filename": "Numbers_36.txt",
+            "char_count": 2508
+        }
     ],
     "Deuteronomy": [
-        "Deuteronomy_Int.txt",
-        "Deuteronomy_1.txt",
-        "Deuteronomy_2.txt",
-        "Deuteronomy_3.txt",
-        "Deuteronomy_4.txt",
-        "Deuteronomy_5.txt",
-        "Deuteronomy_6.txt",
-        "Deuteronomy_7.txt",
-        "Deuteronomy_8.txt",
-        "Deuteronomy_9.txt",
-        "Deuteronomy_10.txt",
-        "Deuteronomy_11.txt",
-        "Deuteronomy_12.txt",
-        "Deuteronomy_13.txt",
-        "Deuteronomy_14.txt",
-        "Deuteronomy_15.txt",
-        "Deuteronomy_16.txt",
-        "Deuteronomy_17.txt",
-        "Deuteronomy_18.txt",
-        "Deuteronomy_19.txt",
-        "Deuteronomy_20.txt",
-        "Deuteronomy_21.txt",
-        "Deuteronomy_22.txt",
-        "Deuteronomy_23.txt",
-        "Deuteronomy_24.txt",
-        "Deuteronomy_25.txt",
-        "Deuteronomy_26.txt",
-        "Deuteronomy_27.txt",
-        "Deuteronomy_28.txt",
-        "Deuteronomy_29.txt",
-        "Deuteronomy_30.txt",
-        "Deuteronomy_31.txt",
-        "Deuteronomy_32.txt",
-        "Deuteronomy_33.txt",
-        "Deuteronomy_34.txt"
+        {
+            "filename": "Deuteronomy_Int.txt",
+            "char_count": 1845
+        },
+        {
+            "filename": "Deuteronomy_1.txt",
+            "char_count": 6525
+        },
+        {
+            "filename": "Deuteronomy_2.txt",
+            "char_count": 5239
+        },
+        {
+            "filename": "Deuteronomy_3.txt",
+            "char_count": 4167
+        },
+        {
+            "filename": "Deuteronomy_4.txt",
+            "char_count": 7900
+        },
+        {
+            "filename": "Deuteronomy_5.txt",
+            "char_count": 4602
+        },
+        {
+            "filename": "Deuteronomy_6.txt",
+            "char_count": 3905
+        },
+        {
+            "filename": "Deuteronomy_7.txt",
+            "char_count": 4218
+        },
+        {
+            "filename": "Deuteronomy_8.txt",
+            "char_count": 2921
+        },
+        {
+            "filename": "Deuteronomy_9.txt",
+            "char_count": 4653
+        },
+        {
+            "filename": "Deuteronomy_10.txt",
+            "char_count": 3497
+        },
+        {
+            "filename": "Deuteronomy_11.txt",
+            "char_count": 5016
+        },
+        {
+            "filename": "Deuteronomy_12.txt",
+            "char_count": 5038
+        },
+        {
+            "filename": "Deuteronomy_13.txt",
+            "char_count": 3211
+        },
+        {
+            "filename": "Deuteronomy_14.txt",
+            "char_count": 3933
+        },
+        {
+            "filename": "Deuteronomy_15.txt",
+            "char_count": 3923
+        },
+        {
+            "filename": "Deuteronomy_16.txt",
+            "char_count": 4223
+        },
+        {
+            "filename": "Deuteronomy_17.txt",
+            "char_count": 3968
+        },
+        {
+            "filename": "Deuteronomy_18.txt",
+            "char_count": 3925
+        },
+        {
+            "filename": "Deuteronomy_19.txt",
+            "char_count": 3515
+        },
+        {
+            "filename": "Deuteronomy_20.txt",
+            "char_count": 2937
+        },
+        {
+            "filename": "Deuteronomy_21.txt",
+            "char_count": 5331
+        },
+        {
+            "filename": "Deuteronomy_22.txt",
+            "char_count": 4819
+        },
+        {
+            "filename": "Deuteronomy_23.txt",
+            "char_count": 3901
+        },
+        {
+            "filename": "Deuteronomy_24.txt",
+            "char_count": 4425
+        },
+        {
+            "filename": "Deuteronomy_25.txt",
+            "char_count": 3985
+        },
+        {
+            "filename": "Deuteronomy_26.txt",
+            "char_count": 3659
+        },
+        {
+            "filename": "Deuteronomy_27.txt",
+            "char_count": 3144
+        },
+        {
+            "filename": "Deuteronomy_28.txt",
+            "char_count": 11123
+        },
+        {
+            "filename": "Deuteronomy_29.txt",
+            "char_count": 4787
+        },
+        {
+            "filename": "Deuteronomy_30.txt",
+            "char_count": 3659
+        },
+        {
+            "filename": "Deuteronomy_31.txt",
+            "char_count": 5415
+        },
+        {
+            "filename": "Deuteronomy_32.txt",
+            "char_count": 7769
+        },
+        {
+            "filename": "Deuteronomy_33.txt",
+            "char_count": 5938
+        },
+        {
+            "filename": "Deuteronomy_34.txt",
+            "char_count": 1573
+        }
     ],
     "Joshua": [
-        "Joshua_Int.txt",
-        "Joshua_1.txt",
-        "Joshua_2.txt",
-        "Joshua_3.txt",
-        "Joshua_4.txt",
-        "Joshua_5.txt",
-        "Joshua_6.txt",
-        "Joshua_7.txt",
-        "Joshua_8.txt",
-        "Joshua_9.txt",
-        "Joshua_10.txt",
-        "Joshua_11.txt",
-        "Joshua_12.txt",
-        "Joshua_13.txt",
-        "Joshua_14.txt",
-        "Joshua_15.txt",
-        "Joshua_16.txt",
-        "Joshua_17.txt",
-        "Joshua_18.txt",
-        "Joshua_19.txt",
-        "Joshua_20.txt",
-        "Joshua_21.txt",
-        "Joshua_22.txt",
-        "Joshua_23.txt",
-        "Joshua_24.txt"
+        {
+            "filename": "Joshua_Int.txt",
+            "char_count": 1837
+        },
+        {
+            "filename": "Joshua_1.txt",
+            "char_count": 2647
+        },
+        {
+            "filename": "Joshua_2.txt",
+            "char_count": 4326
+        },
+        {
+            "filename": "Joshua_3.txt",
+            "char_count": 3309
+        },
+        {
+            "filename": "Joshua_4.txt",
+            "char_count": 3358
+        },
+        {
+            "filename": "Joshua_5.txt",
+            "char_count": 3418
+        },
+        {
+            "filename": "Joshua_6.txt",
+            "char_count": 4920
+        },
+        {
+            "filename": "Joshua_7.txt",
+            "char_count": 4639
+        },
+        {
+            "filename": "Joshua_8.txt",
+            "char_count": 5675
+        },
+        {
+            "filename": "Joshua_9.txt",
+            "char_count": 4403
+        },
+        {
+            "filename": "Joshua_10.txt",
+            "char_count": 7529
+        },
+        {
+            "filename": "Joshua_11.txt",
+            "char_count": 4218
+        },
+        {
+            "filename": "Joshua_12.txt",
+            "char_count": 2175
+        },
+        {
+            "filename": "Joshua_13.txt",
+            "char_count": 4438
+        },
+        {
+            "filename": "Joshua_14.txt",
+            "char_count": 2345
+        },
+        {
+            "filename": "Joshua_15.txt",
+            "char_count": 5988
+        },
+        {
+            "filename": "Joshua_16.txt",
+            "char_count": 1841
+        },
+        {
+            "filename": "Joshua_17.txt",
+            "char_count": 3470
+        },
+        {
+            "filename": "Joshua_18.txt",
+            "char_count": 3858
+        },
+        {
+            "filename": "Joshua_19.txt",
+            "char_count": 6001
+        },
+        {
+            "filename": "Joshua_20.txt",
+            "char_count": 1529
+        },
+        {
+            "filename": "Joshua_21.txt",
+            "char_count": 5944
+        },
+        {
+            "filename": "Joshua_22.txt",
+            "char_count": 7518
+        },
+        {
+            "filename": "Joshua_23.txt",
+            "char_count": 2713
+        },
+        {
+            "filename": "Joshua_24.txt",
+            "char_count": 5633
+        }
     ],
     "Judges": [
-        "Judges_Int.txt",
-        "Judges_1.txt",
-        "Judges_2.txt",
-        "Judges_3.txt",
-        "Judges_4.txt",
-        "Judges_5.txt",
-        "Judges_6.txt",
-        "Judges_7.txt",
-        "Judges_8.txt",
-        "Judges_9.txt",
-        "Judges_10.txt",
-        "Judges_11.txt",
-        "Judges_12.txt",
-        "Judges_13.txt",
-        "Judges_14.txt",
-        "Judges_15.txt",
-        "Judges_16.txt",
-        "Judges_17.txt",
-        "Judges_18.txt",
-        "Judges_19.txt",
-        "Judges_20.txt",
-        "Judges_21.txt"
+        {
+            "filename": "Judges_Int.txt",
+            "char_count": 1699
+        },
+        {
+            "filename": "Judges_1.txt",
+            "char_count": 5572
+        },
+        {
+            "filename": "Judges_2.txt",
+            "char_count": 3770
+        },
+        {
+            "filename": "Judges_3.txt",
+            "char_count": 4454
+        },
+        {
+            "filename": "Judges_4.txt",
+            "char_count": 3919
+        },
+        {
+            "filename": "Judges_5.txt",
+            "char_count": 4559
+        },
+        {
+            "filename": "Judges_6.txt",
+            "char_count": 6168
+        },
+        {
+            "filename": "Judges_7.txt",
+            "char_count": 5098
+        },
+        {
+            "filename": "Judges_8.txt",
+            "char_count": 5235
+        },
+        {
+            "filename": "Judges_9.txt",
+            "char_count": 8623
+        },
+        {
+            "filename": "Judges_10.txt",
+            "char_count": 2241
+        },
+        {
+            "filename": "Judges_11.txt",
+            "char_count": 6606
+        },
+        {
+            "filename": "Judges_12.txt",
+            "char_count": 2404
+        },
+        {
+            "filename": "Judges_13.txt",
+            "char_count": 3806
+        },
+        {
+            "filename": "Judges_14.txt",
+            "char_count": 4050
+        },
+        {
+            "filename": "Judges_15.txt",
+            "char_count": 3165
+        },
+        {
+            "filename": "Judges_16.txt",
+            "char_count": 5359
+        },
+        {
+            "filename": "Judges_17.txt",
+            "char_count": 1964
+        },
+        {
+            "filename": "Judges_18.txt",
+            "char_count": 5078
+        },
+        {
+            "filename": "Judges_19.txt",
+            "char_count": 5435
+        },
+        {
+            "filename": "Judges_20.txt",
+            "char_count": 7988
+        },
+        {
+            "filename": "Judges_21.txt",
+            "char_count": 4371
+        }
     ],
     "Ruth": [
-        "Ruth_Int.txt",
-        "Ruth_1.txt",
-        "Ruth_2.txt",
-        "Ruth_3.txt",
-        "Ruth_4.txt"
+        {
+            "filename": "Ruth_Int.txt",
+            "char_count": 1338
+        },
+        {
+            "filename": "Ruth_1.txt",
+            "char_count": 4273
+        },
+        {
+            "filename": "Ruth_2.txt",
+            "char_count": 3998
+        },
+        {
+            "filename": "Ruth_3.txt",
+            "char_count": 2810
+        },
+        {
+            "filename": "Ruth_4.txt",
+            "char_count": 4565
+        }
     ],
     "1_Samuel": [
-        "1_Samuel_1.txt",
-        "1_Samuel_2.txt",
-        "1_Samuel_3.txt",
-        "1_Samuel_4.txt",
-        "1_Samuel_5.txt",
-        "1_Samuel_6.txt",
-        "1_Samuel_7.txt",
-        "1_Samuel_8.txt",
-        "1_Samuel_9.txt",
-        "1_Samuel_10.txt",
-        "1_Samuel_11.txt",
-        "1_Samuel_12.txt",
-        "1_Samuel_13.txt",
-        "1_Samuel_14.txt",
-        "1_Samuel_15.txt",
-        "1_Samuel_16.txt",
-        "1_Samuel_17.txt",
-        "1_Samuel_18.txt",
-        "1_Samuel_19.txt",
-        "1_Samuel_20.txt",
-        "1_Samuel_21.txt",
-        "1_Samuel_22.txt",
-        "1_Samuel_23.txt",
-        "1_Samuel_24.txt",
-        "1_Samuel_25.txt",
-        "1_Samuel_26.txt",
-        "1_Samuel_27.txt",
-        "1_Samuel_28.txt",
-        "1_Samuel_29.txt",
-        "1_Samuel_30.txt",
-        "1_Samuel_31.txt"
+        {
+            "filename": "1_Samuel_1.txt",
+            "char_count": 4165
+        },
+        {
+            "filename": "1_Samuel_2.txt",
+            "char_count": 7335
+        },
+        {
+            "filename": "1_Samuel_3.txt",
+            "char_count": 2720
+        },
+        {
+            "filename": "1_Samuel_4.txt",
+            "char_count": 3980
+        },
+        {
+            "filename": "1_Samuel_5.txt",
+            "char_count": 2247
+        },
+        {
+            "filename": "1_Samuel_6.txt",
+            "char_count": 3915
+        },
+        {
+            "filename": "1_Samuel_7.txt",
+            "char_count": 2680
+        },
+        {
+            "filename": "1_Samuel_8.txt",
+            "char_count": 3175
+        },
+        {
+            "filename": "1_Samuel_9.txt",
+            "char_count": 5145
+        },
+        {
+            "filename": "1_Samuel_10.txt",
+            "char_count": 5328
+        },
+        {
+            "filename": "1_Samuel_11.txt",
+            "char_count": 2884
+        },
+        {
+            "filename": "1_Samuel_12.txt",
+            "char_count": 3768
+        },
+        {
+            "filename": "1_Samuel_13.txt",
+            "char_count": 4361
+        },
+        {
+            "filename": "1_Samuel_14.txt",
+            "char_count": 8862
+        },
+        {
+            "filename": "1_Samuel_15.txt",
+            "char_count": 5440
+        },
+        {
+            "filename": "1_Samuel_16.txt",
+            "char_count": 4314
+        },
+        {
+            "filename": "1_Samuel_17.txt",
+            "char_count": 8758
+        },
+        {
+            "filename": "1_Samuel_18.txt",
+            "char_count": 4092
+        },
+        {
+            "filename": "1_Samuel_19.txt",
+            "char_count": 3718
+        },
+        {
+            "filename": "1_Samuel_20.txt",
+            "char_count": 6042
+        },
+        {
+            "filename": "1_Samuel_21.txt",
+            "char_count": 2688
+        },
+        {
+            "filename": "1_Samuel_22.txt",
+            "char_count": 3551
+        },
+        {
+            "filename": "1_Samuel_23.txt",
+            "char_count": 3973
+        },
+        {
+            "filename": "1_Samuel_24.txt",
+            "char_count": 3067
+        },
+        {
+            "filename": "1_Samuel_25.txt",
+            "char_count": 7179
+        },
+        {
+            "filename": "1_Samuel_26.txt",
+            "char_count": 4062
+        },
+        {
+            "filename": "1_Samuel_27.txt",
+            "char_count": 1968
+        },
+        {
+            "filename": "1_Samuel_28.txt",
+            "char_count": 4375
+        },
+        {
+            "filename": "1_Samuel_29.txt",
+            "char_count": 2097
+        },
+        {
+            "filename": "1_Samuel_30.txt",
+            "char_count": 4325
+        },
+        {
+            "filename": "1_Samuel_31.txt",
+            "char_count": 1965
+        }
     ],
     "2_Samuel": [
-        "2_Samuel_1.txt",
-        "2_Samuel_2.txt",
-        "2_Samuel_3.txt",
-        "2_Samuel_4.txt",
-        "2_Samuel_5.txt",
-        "2_Samuel_6.txt",
-        "2_Samuel_7.txt",
-        "2_Samuel_8.txt",
-        "2_Samuel_9.txt",
-        "2_Samuel_10.txt",
-        "2_Samuel_11.txt",
-        "2_Samuel_12.txt",
-        "2_Samuel_13.txt",
-        "2_Samuel_14.txt",
-        "2_Samuel_15.txt",
-        "2_Samuel_16.txt",
-        "2_Samuel_17.txt",
-        "2_Samuel_18.txt",
-        "2_Samuel_19.txt",
-        "2_Samuel_20.txt",
-        "2_Samuel_21.txt",
-        "2_Samuel_22.txt",
-        "2_Samuel_23.txt",
-        "2_Samuel_24.txt"
+        {
+            "filename": "2_Samuel_1.txt",
+            "char_count": 3536
+        },
+        {
+            "filename": "2_Samuel_2.txt",
+            "char_count": 4336
+        },
+        {
+            "filename": "2_Samuel_3.txt",
+            "char_count": 5495
+        },
+        {
+            "filename": "2_Samuel_4.txt",
+            "char_count": 2223
+        },
+        {
+            "filename": "2_Samuel_5.txt",
+            "char_count": 3821
+        },
+        {
+            "filename": "2_Samuel_6.txt",
+            "char_count": 3203
+        },
+        {
+            "filename": "2_Samuel_7.txt",
+            "char_count": 4962
+        },
+        {
+            "filename": "2_Samuel_8.txt",
+            "char_count": 3095
+        },
+        {
+            "filename": "2_Samuel_9.txt",
+            "char_count": 1853
+        },
+        {
+            "filename": "2_Samuel_10.txt",
+            "char_count": 3466
+        },
+        {
+            "filename": "2_Samuel_11.txt",
+            "char_count": 4178
+        },
+        {
+            "filename": "2_Samuel_12.txt",
+            "char_count": 4961
+        },
+        {
+            "filename": "2_Samuel_13.txt",
+            "char_count": 5695
+        },
+        {
+            "filename": "2_Samuel_14.txt",
+            "char_count": 5652
+        },
+        {
+            "filename": "2_Samuel_15.txt",
+            "char_count": 5411
+        },
+        {
+            "filename": "2_Samuel_16.txt",
+            "char_count": 3574
+        },
+        {
+            "filename": "2_Samuel_17.txt",
+            "char_count": 4595
+        },
+        {
+            "filename": "2_Samuel_18.txt",
+            "char_count": 5230
+        },
+        {
+            "filename": "2_Samuel_19.txt",
+            "char_count": 6919
+        },
+        {
+            "filename": "2_Samuel_20.txt",
+            "char_count": 4228
+        },
+        {
+            "filename": "2_Samuel_21.txt",
+            "char_count": 3858
+        },
+        {
+            "filename": "2_Samuel_22.txt",
+            "char_count": 6229
+        },
+        {
+            "filename": "2_Samuel_23.txt",
+            "char_count": 5259
+        },
+        {
+            "filename": "2_Samuel_24.txt",
+            "char_count": 4620
+        }
     ],
     "1_Kings": [
-        "1_Kings_Int.txt",
-        "1_Kings_1.txt",
-        "1_Kings_2.txt",
-        "1_Kings_3.txt",
-        "1_Kings_4.txt",
-        "1_Kings_5.txt",
-        "1_Kings_6.txt",
-        "1_Kings_7.txt",
-        "1_Kings_8.txt",
-        "1_Kings_9.txt",
-        "1_Kings_10.txt",
-        "1_Kings_11.txt",
-        "1_Kings_12.txt",
-        "1_Kings_13.txt",
-        "1_Kings_14.txt",
-        "1_Kings_15.txt",
-        "1_Kings_16.txt",
-        "1_Kings_17.txt",
-        "1_Kings_18.txt",
-        "1_Kings_19.txt",
-        "1_Kings_20.txt",
-        "1_Kings_21.txt",
-        "1_Kings_22.txt"
+        {
+            "filename": "1_Kings_Int.txt",
+            "char_count": 2760
+        },
+        {
+            "filename": "1_Kings_1.txt",
+            "char_count": 7870
+        },
+        {
+            "filename": "1_Kings_2.txt",
+            "char_count": 7497
+        },
+        {
+            "filename": "1_Kings_3.txt",
+            "char_count": 4091
+        },
+        {
+            "filename": "1_Kings_4.txt",
+            "char_count": 2246
+        },
+        {
+            "filename": "1_Kings_5.txt",
+            "char_count": 4343
+        },
+        {
+            "filename": "1_Kings_6.txt",
+            "char_count": 5827
+        },
+        {
+            "filename": "1_Kings_7.txt",
+            "char_count": 6876
+        },
+        {
+            "filename": "1_Kings_8.txt",
+            "char_count": 10753
+        },
+        {
+            "filename": "1_Kings_9.txt",
+            "char_count": 4329
+        },
+        {
+            "filename": "1_Kings_10.txt",
+            "char_count": 4555
+        },
+        {
+            "filename": "1_Kings_11.txt",
+            "char_count": 6755
+        },
+        {
+            "filename": "1_Kings_12.txt",
+            "char_count": 5811
+        },
+        {
+            "filename": "1_Kings_13.txt",
+            "char_count": 4874
+        },
+        {
+            "filename": "1_Kings_14.txt",
+            "char_count": 5069
+        },
+        {
+            "filename": "1_Kings_15.txt",
+            "char_count": 4551
+        },
+        {
+            "filename": "1_Kings_16.txt",
+            "char_count": 4577
+        },
+        {
+            "filename": "1_Kings_17.txt",
+            "char_count": 3554
+        },
+        {
+            "filename": "1_Kings_18.txt",
+            "char_count": 6332
+        },
+        {
+            "filename": "1_Kings_19.txt",
+            "char_count": 4587
+        },
+        {
+            "filename": "1_Kings_20.txt",
+            "char_count": 6881
+        },
+        {
+            "filename": "1_Kings_21.txt",
+            "char_count": 4908
+        },
+        {
+            "filename": "1_Kings_22.txt",
+            "char_count": 7787
+        }
     ],
     "2_Kings": [
-        "2_Kings_1.txt",
-        "2_Kings_2.txt",
-        "2_Kings_3.txt",
-        "2_Kings_4.txt",
-        "2_Kings_5.txt",
-        "2_Kings_6.txt",
-        "2_Kings_7.txt",
-        "2_Kings_8.txt",
-        "2_Kings_9.txt",
-        "2_Kings_10.txt",
-        "2_Kings_11.txt",
-        "2_Kings_12.txt",
-        "2_Kings_13.txt",
-        "2_Kings_14.txt",
-        "2_Kings_15.txt",
-        "2_Kings_16.txt",
-        "2_Kings_17.txt",
-        "2_Kings_18.txt",
-        "2_Kings_19.txt",
-        "2_Kings_20.txt",
-        "2_Kings_21.txt",
-        "2_Kings_22.txt",
-        "2_Kings_23.txt",
-        "2_Kings_24.txt",
-        "2_Kings_25.txt"
+        {
+            "filename": "2_Kings_1.txt",
+            "char_count": 4393
+        },
+        {
+            "filename": "2_Kings_2.txt",
+            "char_count": 4904
+        },
+        {
+            "filename": "2_Kings_3.txt",
+            "char_count": 5767
+        },
+        {
+            "filename": "2_Kings_4.txt",
+            "char_count": 6493
+        },
+        {
+            "filename": "2_Kings_5.txt",
+            "char_count": 5116
+        },
+        {
+            "filename": "2_Kings_6.txt",
+            "char_count": 4898
+        },
+        {
+            "filename": "2_Kings_7.txt",
+            "char_count": 3798
+        },
+        {
+            "filename": "2_Kings_8.txt",
+            "char_count": 5141
+        },
+        {
+            "filename": "2_Kings_9.txt",
+            "char_count": 6046
+        },
+        {
+            "filename": "2_Kings_10.txt",
+            "char_count": 5579
+        },
+        {
+            "filename": "2_Kings_11.txt",
+            "char_count": 3368
+        },
+        {
+            "filename": "2_Kings_12.txt",
+            "char_count": 3409
+        },
+        {
+            "filename": "2_Kings_13.txt",
+            "char_count": 4261
+        },
+        {
+            "filename": "2_Kings_14.txt",
+            "char_count": 4973
+        },
+        {
+            "filename": "2_Kings_15.txt",
+            "char_count": 5635
+        },
+        {
+            "filename": "2_Kings_16.txt",
+            "char_count": 4320
+        },
+        {
+            "filename": "2_Kings_17.txt",
+            "char_count": 6738
+        },
+        {
+            "filename": "2_Kings_18.txt",
+            "char_count": 6234
+        },
+        {
+            "filename": "2_Kings_19.txt",
+            "char_count": 5512
+        },
+        {
+            "filename": "2_Kings_20.txt",
+            "char_count": 3178
+        },
+        {
+            "filename": "2_Kings_21.txt",
+            "char_count": 3567
+        },
+        {
+            "filename": "2_Kings_22.txt",
+            "char_count": 3510
+        },
+        {
+            "filename": "2_Kings_23.txt",
+            "char_count": 8194
+        },
+        {
+            "filename": "2_Kings_24.txt",
+            "char_count": 2889
+        },
+        {
+            "filename": "2_Kings_25.txt",
+            "char_count": 4855
+        }
     ],
     "1_Chronicles": [
-        "1_Chronicles_Int.txt",
-        "1_Chronicles_1.txt",
-        "1_Chronicles_2.txt",
-        "1_Chronicles_3.txt",
-        "1_Chronicles_4.txt",
-        "1_Chronicles_5.txt",
-        "1_Chronicles_6.txt",
-        "1_Chronicles_7.txt",
-        "1_Chronicles_8.txt",
-        "1_Chronicles_9.txt",
-        "1_Chronicles_10.txt",
-        "1_Chronicles_11.txt",
-        "1_Chronicles_12.txt",
-        "1_Chronicles_13.txt",
-        "1_Chronicles_14.txt",
-        "1_Chronicles_15.txt",
-        "1_Chronicles_16.txt",
-        "1_Chronicles_17.txt",
-        "1_Chronicles_18.txt",
-        "1_Chronicles_19.txt",
-        "1_Chronicles_20.txt",
-        "1_Chronicles_21.txt",
-        "1_Chronicles_22.txt",
-        "1_Chronicles_23.txt",
-        "1_Chronicles_24.txt",
-        "1_Chronicles_25.txt",
-        "1_Chronicles_26.txt",
-        "1_Chronicles_27.txt",
-        "1_Chronicles_28.txt",
-        "1_Chronicles_29.txt"
+        {
+            "filename": "1_Chronicles_Int.txt",
+            "char_count": 4236
+        },
+        {
+            "filename": "1_Chronicles_1.txt",
+            "char_count": 4388
+        },
+        {
+            "filename": "1_Chronicles_2.txt",
+            "char_count": 6090
+        },
+        {
+            "filename": "1_Chronicles_3.txt",
+            "char_count": 3206
+        },
+        {
+            "filename": "1_Chronicles_4.txt",
+            "char_count": 4702
+        },
+        {
+            "filename": "1_Chronicles_5.txt",
+            "char_count": 5341
+        },
+        {
+            "filename": "1_Chronicles_6.txt",
+            "char_count": 6736
+        },
+        {
+            "filename": "1_Chronicles_7.txt",
+            "char_count": 4253
+        },
+        {
+            "filename": "1_Chronicles_8.txt",
+            "char_count": 2933
+        },
+        {
+            "filename": "1_Chronicles_9.txt",
+            "char_count": 5212
+        },
+        {
+            "filename": "1_Chronicles_10.txt",
+            "char_count": 2136
+        },
+        {
+            "filename": "1_Chronicles_11.txt",
+            "char_count": 5359
+        },
+        {
+            "filename": "1_Chronicles_12.txt",
+            "char_count": 5417
+        },
+        {
+            "filename": "1_Chronicles_13.txt",
+            "char_count": 2105
+        },
+        {
+            "filename": "1_Chronicles_14.txt",
+            "char_count": 1844
+        },
+        {
+            "filename": "1_Chronicles_15.txt",
+            "char_count": 3963
+        },
+        {
+            "filename": "1_Chronicles_16.txt",
+            "char_count": 4474
+        },
+        {
+            "filename": "1_Chronicles_17.txt",
+            "char_count": 3662
+        },
+        {
+            "filename": "1_Chronicles_18.txt",
+            "char_count": 3185
+        },
+        {
+            "filename": "1_Chronicles_19.txt",
+            "char_count": 3175
+        },
+        {
+            "filename": "1_Chronicles_20.txt",
+            "char_count": 1605
+        },
+        {
+            "filename": "1_Chronicles_21.txt",
+            "char_count": 5361
+        },
+        {
+            "filename": "1_Chronicles_22.txt",
+            "char_count": 4185
+        },
+        {
+            "filename": "1_Chronicles_23.txt",
+            "char_count": 3608
+        },
+        {
+            "filename": "1_Chronicles_24.txt",
+            "char_count": 3123
+        },
+        {
+            "filename": "1_Chronicles_25.txt",
+            "char_count": 3601
+        },
+        {
+            "filename": "1_Chronicles_26.txt",
+            "char_count": 4029
+        },
+        {
+            "filename": "1_Chronicles_27.txt",
+            "char_count": 4784
+        },
+        {
+            "filename": "1_Chronicles_28.txt",
+            "char_count": 4761
+        },
+        {
+            "filename": "1_Chronicles_29.txt",
+            "char_count": 5183
+        }
     ],
     "2_Chronicles": [
-        "2_Chronicles_Int.txt",
-        "2_Chronicles_1.txt",
-        "2_Chronicles_2.txt",
-        "2_Chronicles_3.txt",
-        "2_Chronicles_4.txt",
-        "2_Chronicles_5.txt",
-        "2_Chronicles_6.txt",
-        "2_Chronicles_7.txt",
-        "2_Chronicles_8.txt",
-        "2_Chronicles_9.txt",
-        "2_Chronicles_10.txt",
-        "2_Chronicles_11.txt",
-        "2_Chronicles_12.txt",
-        "2_Chronicles_13.txt",
-        "2_Chronicles_14.txt",
-        "2_Chronicles_15.txt",
-        "2_Chronicles_16.txt",
-        "2_Chronicles_17.txt",
-        "2_Chronicles_18.txt",
-        "2_Chronicles_19.txt",
-        "2_Chronicles_20.txt",
-        "2_Chronicles_21.txt",
-        "2_Chronicles_22.txt",
-        "2_Chronicles_23.txt",
-        "2_Chronicles_24.txt",
-        "2_Chronicles_25.txt",
-        "2_Chronicles_26.txt",
-        "2_Chronicles_27.txt",
-        "2_Chronicles_28.txt",
-        "2_Chronicles_29.txt",
-        "2_Chronicles_30.txt",
-        "2_Chronicles_31.txt",
-        "2_Chronicles_32.txt",
-        "2_Chronicles_33.txt",
-        "2_Chronicles_34.txt",
-        "2_Chronicles_35.txt",
-        "2_Chronicles_36.txt"
+        {
+            "filename": "2_Chronicles_Int.txt",
+            "char_count": 2736
+        },
+        {
+            "filename": "2_Chronicles_1.txt",
+            "char_count": 3619
+        },
+        {
+            "filename": "2_Chronicles_2.txt",
+            "char_count": 3322
+        },
+        {
+            "filename": "2_Chronicles_3.txt",
+            "char_count": 3161
+        },
+        {
+            "filename": "2_Chronicles_4.txt",
+            "char_count": 3005
+        },
+        {
+            "filename": "2_Chronicles_5.txt",
+            "char_count": 2816
+        },
+        {
+            "filename": "2_Chronicles_6.txt",
+            "char_count": 7018
+        },
+        {
+            "filename": "2_Chronicles_7.txt",
+            "char_count": 4227
+        },
+        {
+            "filename": "2_Chronicles_8.txt",
+            "char_count": 3226
+        },
+        {
+            "filename": "2_Chronicles_9.txt",
+            "char_count": 4626
+        },
+        {
+            "filename": "2_Chronicles_10.txt",
+            "char_count": 2979
+        },
+        {
+            "filename": "2_Chronicles_11.txt",
+            "char_count": 2698
+        },
+        {
+            "filename": "2_Chronicles_12.txt",
+            "char_count": 2608
+        },
+        {
+            "filename": "2_Chronicles_13.txt",
+            "char_count": 3481
+        },
+        {
+            "filename": "2_Chronicles_14.txt",
+            "char_count": 2355
+        },
+        {
+            "filename": "2_Chronicles_15.txt",
+            "char_count": 2832
+        },
+        {
+            "filename": "2_Chronicles_16.txt",
+            "char_count": 2445
+        },
+        {
+            "filename": "2_Chronicles_17.txt",
+            "char_count": 2524
+        },
+        {
+            "filename": "2_Chronicles_18.txt",
+            "char_count": 5306
+        },
+        {
+            "filename": "2_Chronicles_19.txt",
+            "char_count": 1936
+        },
+        {
+            "filename": "2_Chronicles_20.txt",
+            "char_count": 6454
+        },
+        {
+            "filename": "2_Chronicles_21.txt",
+            "char_count": 3619
+        },
+        {
+            "filename": "2_Chronicles_22.txt",
+            "char_count": 2451
+        },
+        {
+            "filename": "2_Chronicles_23.txt",
+            "char_count": 4119
+        },
+        {
+            "filename": "2_Chronicles_24.txt",
+            "char_count": 4961
+        },
+        {
+            "filename": "2_Chronicles_25.txt",
+            "char_count": 5177
+        },
+        {
+            "filename": "2_Chronicles_26.txt",
+            "char_count": 3794
+        },
+        {
+            "filename": "2_Chronicles_27.txt",
+            "char_count": 1200
+        },
+        {
+            "filename": "2_Chronicles_28.txt",
+            "char_count": 4707
+        },
+        {
+            "filename": "2_Chronicles_29.txt",
+            "char_count": 5946
+        },
+        {
+            "filename": "2_Chronicles_30.txt",
+            "char_count": 4763
+        },
+        {
+            "filename": "2_Chronicles_31.txt",
+            "char_count": 4260
+        },
+        {
+            "filename": "2_Chronicles_32.txt",
+            "char_count": 5758
+        },
+        {
+            "filename": "2_Chronicles_33.txt",
+            "char_count": 4435
+        },
+        {
+            "filename": "2_Chronicles_34.txt",
+            "char_count": 6537
+        },
+        {
+            "filename": "2_Chronicles_35.txt",
+            "char_count": 5106
+        },
+        {
+            "filename": "2_Chronicles_36.txt",
+            "char_count": 4987
+        }
     ],
     "Ezra": [
-        "Ezra_Int.txt",
-        "Ezra_1.txt",
-        "Ezra_2.txt",
-        "Ezra_3.txt",
-        "Ezra_4.txt",
-        "Ezra_5.txt",
-        "Ezra_6.txt",
-        "Ezra_7.txt",
-        "Ezra_8.txt",
-        "Ezra_9.txt",
-        "Ezra_10.txt"
+        {
+            "filename": "Ezra_Int.txt",
+            "char_count": 3607
+        },
+        {
+            "filename": "Ezra_1.txt",
+            "char_count": 2302
+        },
+        {
+            "filename": "Ezra_2.txt",
+            "char_count": 5552
+        },
+        {
+            "filename": "Ezra_3.txt",
+            "char_count": 3480
+        },
+        {
+            "filename": "Ezra_4.txt",
+            "char_count": 5153
+        },
+        {
+            "filename": "Ezra_5.txt",
+            "char_count": 3039
+        },
+        {
+            "filename": "Ezra_6.txt",
+            "char_count": 3994
+        },
+        {
+            "filename": "Ezra_7.txt",
+            "char_count": 4856
+        },
+        {
+            "filename": "Ezra_8.txt",
+            "char_count": 5194
+        },
+        {
+            "filename": "Ezra_9.txt",
+            "char_count": 3284
+        },
+        {
+            "filename": "Ezra_10.txt",
+            "char_count": 6175
+        }
     ],
     "Nehemiah": [
-        "Nehemiah_Int.txt",
-        "Nehemiah_1.txt",
-        "Nehemiah_2.txt",
-        "Nehemiah_3.txt",
-        "Nehemiah_4.txt",
-        "Nehemiah_5.txt",
-        "Nehemiah_6.txt",
-        "Nehemiah_7.txt",
-        "Nehemiah_8.txt",
-        "Nehemiah_9.txt",
-        "Nehemiah_10.txt",
-        "Nehemiah_11.txt",
-        "Nehemiah_12.txt",
-        "Nehemiah_13.txt"
+        {
+            "filename": "Nehemiah_Int.txt",
+            "char_count": 1586
+        },
+        {
+            "filename": "Nehemiah_1.txt",
+            "char_count": 2388
+        },
+        {
+            "filename": "Nehemiah_2.txt",
+            "char_count": 5313
+        },
+        {
+            "filename": "Nehemiah_3.txt",
+            "char_count": 6422
+        },
+        {
+            "filename": "Nehemiah_4.txt",
+            "char_count": 2540
+        },
+        {
+            "filename": "Nehemiah_5.txt",
+            "char_count": 3321
+        },
+        {
+            "filename": "Nehemiah_6.txt",
+            "char_count": 3321
+        },
+        {
+            "filename": "Nehemiah_7.txt",
+            "char_count": 6454
+        },
+        {
+            "filename": "Nehemiah_8.txt",
+            "char_count": 3560
+        },
+        {
+            "filename": "Nehemiah_9.txt",
+            "char_count": 7411
+        },
+        {
+            "filename": "Nehemiah_10.txt",
+            "char_count": 3914
+        },
+        {
+            "filename": "Nehemiah_11.txt",
+            "char_count": 4133
+        },
+        {
+            "filename": "Nehemiah_12.txt",
+            "char_count": 6865
+        },
+        {
+            "filename": "Nehemiah_13.txt",
+            "char_count": 5936
+        }
     ],
     "Tobit": [
-        "Tobit_Int.txt",
-        "Tobit_1.txt",
-        "Tobit_2.txt",
-        "Tobit_3.txt",
-        "Tobit_4.txt",
-        "Tobit_5.txt",
-        "Tobit_6.txt",
-        "Tobit_7.txt",
-        "Tobit_8.txt",
-        "Tobit_9.txt",
-        "Tobit_10.txt",
-        "Tobit_11.txt",
-        "Tobit_12.txt",
-        "Tobit_13.txt",
-        "Tobit_14.txt"
+        {
+            "filename": "Tobit_Int.txt",
+            "char_count": 3690
+        },
+        {
+            "filename": "Tobit_1.txt",
+            "char_count": 6700
+        },
+        {
+            "filename": "Tobit_2.txt",
+            "char_count": 3766
+        },
+        {
+            "filename": "Tobit_3.txt",
+            "char_count": 5204
+        },
+        {
+            "filename": "Tobit_4.txt",
+            "char_count": 4794
+        },
+        {
+            "filename": "Tobit_5.txt",
+            "char_count": 6734
+        },
+        {
+            "filename": "Tobit_6.txt",
+            "char_count": 4532
+        },
+        {
+            "filename": "Tobit_7.txt",
+            "char_count": 3384
+        },
+        {
+            "filename": "Tobit_8.txt",
+            "char_count": 4029
+        },
+        {
+            "filename": "Tobit_9.txt",
+            "char_count": 1278
+        },
+        {
+            "filename": "Tobit_10.txt",
+            "char_count": 3095
+        },
+        {
+            "filename": "Tobit_11.txt",
+            "char_count": 2792
+        },
+        {
+            "filename": "Tobit_12.txt",
+            "char_count": 4240
+        },
+        {
+            "filename": "Tobit_13.txt",
+            "char_count": 3673
+        },
+        {
+            "filename": "Tobit_14.txt",
+            "char_count": 5695
+        }
     ],
     "Judith": [
-        "Judith_Int.txt",
-        "Judith_1.txt",
-        "Judith_2.txt",
-        "Judith_3.txt",
-        "Judith_4.txt",
-        "Judith_5.txt",
-        "Judith_6.txt",
-        "Judith_7.txt",
-        "Judith_8.txt",
-        "Judith_9.txt",
-        "Judith_10.txt",
-        "Judith_11.txt",
-        "Judith_12.txt",
-        "Judith_13.txt",
-        "Judith_14.txt",
-        "Judith_15.txt",
-        "Judith_16.txt"
+        {
+            "filename": "Judith_Int.txt",
+            "char_count": 3712
+        },
+        {
+            "filename": "Judith_1.txt",
+            "char_count": 2974
+        },
+        {
+            "filename": "Judith_2.txt",
+            "char_count": 4574
+        },
+        {
+            "filename": "Judith_3.txt",
+            "char_count": 1430
+        },
+        {
+            "filename": "Judith_4.txt",
+            "char_count": 3458
+        },
+        {
+            "filename": "Judith_5.txt",
+            "char_count": 4320
+        },
+        {
+            "filename": "Judith_6.txt",
+            "char_count": 3786
+        },
+        {
+            "filename": "Judith_7.txt",
+            "char_count": 5403
+        },
+        {
+            "filename": "Judith_8.txt",
+            "char_count": 5966
+        },
+        {
+            "filename": "Judith_9.txt",
+            "char_count": 3185
+        },
+        {
+            "filename": "Judith_10.txt",
+            "char_count": 4035
+        },
+        {
+            "filename": "Judith_11.txt",
+            "char_count": 4043
+        },
+        {
+            "filename": "Judith_12.txt",
+            "char_count": 3132
+        },
+        {
+            "filename": "Judith_13.txt",
+            "char_count": 3463
+        },
+        {
+            "filename": "Judith_14.txt",
+            "char_count": 3185
+        },
+        {
+            "filename": "Judith_15.txt",
+            "char_count": 2811
+        },
+        {
+            "filename": "Judith_16.txt",
+            "char_count": 3924
+        }
     ],
     "Esther": [
-        "Esther_Int.txt",
-        "Esther_A.txt",
-        "Esther_1.txt",
-        "Esther_2.txt",
-        "Esther_3.txt",
-        "Esther_B.txt",
-        "Esther_4.txt",
-        "Esther_C.txt",
-        "Esther_D.txt",
-        "Esther_5.txt",
-        "Esther_6.txt",
-        "Esther_7.txt",
-        "Esther_8.txt",
-        "Esther_E.txt",
-        "Esther_9.txt",
-        "Esther_10.txt",
-        "Esther_F.txt"
+        {
+            "filename": "Esther_Int.txt",
+            "char_count": 4379
+        },
+        {
+            "filename": "Esther_A.txt",
+            "char_count": 3079
+        },
+        {
+            "filename": "Esther_1.txt",
+            "char_count": 4439
+        },
+        {
+            "filename": "Esther_2.txt",
+            "char_count": 4499
+        },
+        {
+            "filename": "Esther_3.txt",
+            "char_count": 3116
+        },
+        {
+            "filename": "Esther_B.txt",
+            "char_count": 2523
+        },
+        {
+            "filename": "Esther_4.txt",
+            "char_count": 2804
+        },
+        {
+            "filename": "Esther_C.txt",
+            "char_count": 3894
+        },
+        {
+            "filename": "Esther_D.txt",
+            "char_count": 1549
+        },
+        {
+            "filename": "Esther_5.txt",
+            "char_count": 2267
+        },
+        {
+            "filename": "Esther_6.txt",
+            "char_count": 2284
+        },
+        {
+            "filename": "Esther_7.txt",
+            "char_count": 1702
+        },
+        {
+            "filename": "Esther_8.txt",
+            "char_count": 3810
+        },
+        {
+            "filename": "Esther_E.txt",
+            "char_count": 3954
+        },
+        {
+            "filename": "Esther_9.txt",
+            "char_count": 5927
+        },
+        {
+            "filename": "Esther_10.txt",
+            "char_count": 474
+        },
+        {
+            "filename": "Esther_F.txt",
+            "char_count": 1911
+        }
     ],
     "1_Maccabees": [
-        "1_Maccabees_Int.txt",
-        "1_Maccabees_1.txt",
-        "1_Maccabees_2.txt",
-        "1_Maccabees_3.txt",
-        "1_Maccabees_4.txt",
-        "1_Maccabees_5.txt",
-        "1_Maccabees_6.txt",
-        "1_Maccabees_7.txt",
-        "1_Maccabees_8.txt",
-        "1_Maccabees_9.txt",
-        "1_Maccabees_10.txt",
-        "1_Maccabees_11.txt",
-        "1_Maccabees_12.txt",
-        "1_Maccabees_13.txt",
-        "1_Maccabees_14.txt",
-        "1_Maccabees_15.txt",
-        "1_Maccabees_16.txt"
+        {
+            "filename": "1_Maccabees_Int.txt",
+            "char_count": 4436
+        },
+        {
+            "filename": "1_Maccabees_1.txt",
+            "char_count": 9629
+        },
+        {
+            "filename": "1_Maccabees_2.txt",
+            "char_count": 8073
+        },
+        {
+            "filename": "1_Maccabees_3.txt",
+            "char_count": 8814
+        },
+        {
+            "filename": "1_Maccabees_4.txt",
+            "char_count": 8176
+        },
+        {
+            "filename": "1_Maccabees_5.txt",
+            "char_count": 9900
+        },
+        {
+            "filename": "1_Maccabees_6.txt",
+            "char_count": 9215
+        },
+        {
+            "filename": "1_Maccabees_7.txt",
+            "char_count": 7688
+        },
+        {
+            "filename": "1_Maccabees_8.txt",
+            "char_count": 7381
+        },
+        {
+            "filename": "1_Maccabees_9.txt",
+            "char_count": 10673
+        },
+        {
+            "filename": "1_Maccabees_10.txt",
+            "char_count": 12958
+        },
+        {
+            "filename": "1_Maccabees_11.txt",
+            "char_count": 11810
+        },
+        {
+            "filename": "1_Maccabees_12.txt",
+            "char_count": 7334
+        },
+        {
+            "filename": "1_Maccabees_13.txt",
+            "char_count": 7507
+        },
+        {
+            "filename": "1_Maccabees_14.txt",
+            "char_count": 7942
+        },
+        {
+            "filename": "1_Maccabees_15.txt",
+            "char_count": 6493
+        },
+        {
+            "filename": "1_Maccabees_16.txt",
+            "char_count": 3806
+        }
     ],
     "2_Maccabees": [
-        "2_Maccabees_Int.txt",
-        "2_Maccabees_1.txt",
-        "2_Maccabees_2.txt",
-        "2_Maccabees_3.txt",
-        "2_Maccabees_4.txt",
-        "2_Maccabees_5.txt",
-        "2_Maccabees_6.txt",
-        "2_Maccabees_7.txt",
-        "2_Maccabees_8.txt",
-        "2_Maccabees_9.txt",
-        "2_Maccabees_10.txt",
-        "2_Maccabees_11.txt",
-        "2_Maccabees_12.txt",
-        "2_Maccabees_13.txt",
-        "2_Maccabees_14.txt",
-        "2_Maccabees_15.txt"
+        {
+            "filename": "2_Maccabees_Int.txt",
+            "char_count": 3866
+        },
+        {
+            "filename": "2_Maccabees_1.txt",
+            "char_count": 6986
+        },
+        {
+            "filename": "2_Maccabees_2.txt",
+            "char_count": 5383
+        },
+        {
+            "filename": "2_Maccabees_3.txt",
+            "char_count": 6970
+        },
+        {
+            "filename": "2_Maccabees_4.txt",
+            "char_count": 9868
+        },
+        {
+            "filename": "2_Maccabees_5.txt",
+            "char_count": 5866
+        },
+        {
+            "filename": "2_Maccabees_6.txt",
+            "char_count": 5822
+        },
+        {
+            "filename": "2_Maccabees_7.txt",
+            "char_count": 6811
+        },
+        {
+            "filename": "2_Maccabees_8.txt",
+            "char_count": 6719
+        },
+        {
+            "filename": "2_Maccabees_9.txt",
+            "char_count": 6109
+        },
+        {
+            "filename": "2_Maccabees_10.txt",
+            "char_count": 6718
+        },
+        {
+            "filename": "2_Maccabees_11.txt",
+            "char_count": 5711
+        },
+        {
+            "filename": "2_Maccabees_12.txt",
+            "char_count": 9130
+        },
+        {
+            "filename": "2_Maccabees_13.txt",
+            "char_count": 4979
+        },
+        {
+            "filename": "2_Maccabees_14.txt",
+            "char_count": 7432
+        },
+        {
+            "filename": "2_Maccabees_15.txt",
+            "char_count": 6950
+        }
     ],
     "Job": [
-        "Job_Int.txt",
-        "Job_1.txt",
-        "Job_2.txt",
-        "Job_3.txt",
-        "Job_4.txt",
-        "Job_5.txt",
-        "Job_6.txt",
-        "Job_7.txt",
-        "Job_8.txt",
-        "Job_9.txt",
-        "Job_10.txt",
-        "Job_11.txt",
-        "Job_12.txt",
-        "Job_13.txt",
-        "Job_14.txt",
-        "Job_15.txt",
-        "Job_16.txt",
-        "Job_17.txt",
-        "Job_18.txt",
-        "Job_19.txt",
-        "Job_20.txt",
-        "Job_21.txt",
-        "Job_22.txt",
-        "Job_23.txt",
-        "Job_24.txt",
-        "Job_25.txt",
-        "Job_26.txt",
-        "Job_27.txt",
-        "Job_28.txt",
-        "Job_29.txt",
-        "Job_30.txt",
-        "Job_31.txt",
-        "Job_32.txt",
-        "Job_33.txt",
-        "Job_34.txt",
-        "Job_35.txt",
-        "Job_36.txt",
-        "Job_37.txt",
-        "Job_38.txt",
-        "Job_39.txt",
-        "Job_40.txt",
-        "Job_41.txt",
-        "Job_42.txt"
+        {
+            "filename": "Job_Int.txt",
+            "char_count": 2592
+        },
+        {
+            "filename": "Job_1.txt",
+            "char_count": 3519
+        },
+        {
+            "filename": "Job_2.txt",
+            "char_count": 2296
+        },
+        {
+            "filename": "Job_3.txt",
+            "char_count": 2822
+        },
+        {
+            "filename": "Job_4.txt",
+            "char_count": 1954
+        },
+        {
+            "filename": "Job_5.txt",
+            "char_count": 2496
+        },
+        {
+            "filename": "Job_6.txt",
+            "char_count": 2686
+        },
+        {
+            "filename": "Job_7.txt",
+            "char_count": 2092
+        },
+        {
+            "filename": "Job_8.txt",
+            "char_count": 1981
+        },
+        {
+            "filename": "Job_9.txt",
+            "char_count": 2898
+        },
+        {
+            "filename": "Job_10.txt",
+            "char_count": 1917
+        },
+        {
+            "filename": "Job_11.txt",
+            "char_count": 1694
+        },
+        {
+            "filename": "Job_12.txt",
+            "char_count": 2206
+        },
+        {
+            "filename": "Job_13.txt",
+            "char_count": 2540
+        },
+        {
+            "filename": "Job_14.txt",
+            "char_count": 2019
+        },
+        {
+            "filename": "Job_15.txt",
+            "char_count": 2973
+        },
+        {
+            "filename": "Job_16.txt",
+            "char_count": 2014
+        },
+        {
+            "filename": "Job_17.txt",
+            "char_count": 1293
+        },
+        {
+            "filename": "Job_18.txt",
+            "char_count": 1823
+        },
+        {
+            "filename": "Job_19.txt",
+            "char_count": 3159
+        },
+        {
+            "filename": "Job_20.txt",
+            "char_count": 2417
+        },
+        {
+            "filename": "Job_21.txt",
+            "char_count": 2728
+        },
+        {
+            "filename": "Job_22.txt",
+            "char_count": 2749
+        },
+        {
+            "filename": "Job_23.txt",
+            "char_count": 1387
+        },
+        {
+            "filename": "Job_24.txt",
+            "char_count": 2809
+        },
+        {
+            "filename": "Job_25.txt",
+            "char_count": 589
+        },
+        {
+            "filename": "Job_26.txt",
+            "char_count": 1974
+        },
+        {
+            "filename": "Job_27.txt",
+            "char_count": 2232
+        },
+        {
+            "filename": "Job_28.txt",
+            "char_count": 2664
+        },
+        {
+            "filename": "Job_29.txt",
+            "char_count": 2208
+        },
+        {
+            "filename": "Job_30.txt",
+            "char_count": 2746
+        },
+        {
+            "filename": "Job_31.txt",
+            "char_count": 4158
+        },
+        {
+            "filename": "Job_32.txt",
+            "char_count": 2541
+        },
+        {
+            "filename": "Job_33.txt",
+            "char_count": 2804
+        },
+        {
+            "filename": "Job_34.txt",
+            "char_count": 2921
+        },
+        {
+            "filename": "Job_35.txt",
+            "char_count": 1642
+        },
+        {
+            "filename": "Job_36.txt",
+            "char_count": 3081
+        },
+        {
+            "filename": "Job_37.txt",
+            "char_count": 2826
+        },
+        {
+            "filename": "Job_38.txt",
+            "char_count": 4401
+        },
+        {
+            "filename": "Job_39.txt",
+            "char_count": 2658
+        },
+        {
+            "filename": "Job_40.txt",
+            "char_count": 2811
+        },
+        {
+            "filename": "Job_41.txt",
+            "char_count": 1890
+        },
+        {
+            "filename": "Job_42.txt",
+            "char_count": 3240
+        }
     ],
     "Psalms": [
-        "Psalms_Int.txt",
-        "Psalms_1.txt",
-        "Psalms_2.txt",
-        "Psalms_3.txt",
-        "Psalms_4.txt",
-        "Psalms_5.txt",
-        "Psalms_6.txt",
-        "Psalms_7.txt",
-        "Psalms_8.txt",
-        "Psalms_9.txt",
-        "Psalms_10.txt",
-        "Psalms_11.txt",
-        "Psalms_12.txt",
-        "Psalms_13.txt",
-        "Psalms_14.txt",
-        "Psalms_15.txt",
-        "Psalms_16.txt",
-        "Psalms_17.txt",
-        "Psalms_18.txt",
-        "Psalms_19.txt",
-        "Psalms_20.txt",
-        "Psalms_21.txt",
-        "Psalms_22.txt",
-        "Psalms_23.txt",
-        "Psalms_24.txt",
-        "Psalms_25.txt",
-        "Psalms_26.txt",
-        "Psalms_27.txt",
-        "Psalms_28.txt",
-        "Psalms_29.txt",
-        "Psalms_31.txt",
-        "Psalms_32.txt",
-        "Psalms_33.txt",
-        "Psalms_34.txt",
-        "Psalms_35.txt",
-        "Psalms_36.txt",
-        "Psalms_37.txt",
-        "Psalms_38.txt",
-        "Psalms_39.txt",
-        "Psalms_40.txt",
-        "Psalms_41.txt",
-        "Psalms_42.txt",
-        "Psalms_43.txt",
-        "Psalms_44.txt",
-        "Psalms_45.txt",
-        "Psalms_46.txt",
-        "Psalms_47.txt",
-        "Psalms_48.txt",
-        "Psalms_49.txt",
-        "Psalms_50.txt",
-        "Psalms_51.txt",
-        "Psalms_52.txt",
-        "Psalms_53.txt",
-        "Psalms_54.txt",
-        "Psalms_55.txt",
-        "Psalms_56.txt",
-        "Psalms_57.txt",
-        "Psalms_58.txt",
-        "Psalms_59.txt",
-        "Psalms_60.txt",
-        "Psalms_61.txt",
-        "Psalms_62.txt",
-        "Psalms_63.txt",
-        "Psalms_64.txt",
-        "Psalms_65.txt",
-        "Psalms_66.txt",
-        "Psalms_67.txt",
-        "Psalms_68.txt",
-        "Psalms_69.txt",
-        "Psalms_70.txt",
-        "Psalms_71.txt",
-        "Psalms_72.txt",
-        "Psalms_73.txt",
-        "Psalms_74.txt",
-        "Psalms_75.txt",
-        "Psalms_76.txt",
-        "Psalms_77.txt",
-        "Psalms_78.txt",
-        "Psalms_79.txt",
-        "Psalms_80.txt",
-        "Psalms_81.txt",
-        "Psalms_82.txt",
-        "Psalms_83.txt",
-        "Psalms_84.txt",
-        "Psalms_85.txt",
-        "Psalms_86.txt",
-        "Psalms_87.txt",
-        "Psalms_88.txt",
-        "Psalms_89.txt",
-        "Psalms_90.txt",
-        "Psalms_91.txt",
-        "Psalms_92.txt",
-        "Psalms_93.txt",
-        "Psalms_94.txt",
-        "Psalms_95.txt",
-        "Psalms_96.txt",
-        "Psalms_97.txt",
-        "Psalms_98.txt",
-        "Psalms_99.txt",
-        "Psalms_100.txt",
-        "Psalms_101.txt",
-        "Psalms_102.txt",
-        "Psalms_103.txt",
-        "Psalms_104.txt",
-        "Psalms_105.txt",
-        "Psalms_106.txt",
-        "Psalms_107.txt",
-        "Psalms_108.txt",
-        "Psalms_109.txt",
-        "Psalms_110.txt",
-        "Psalms_111.txt",
-        "Psalms_112.txt",
-        "Psalms_113.txt",
-        "Psalms_114.txt",
-        "Psalms_115.txt",
-        "Psalms_116.txt",
-        "Psalms_117.txt",
-        "Psalms_118.txt",
-        "Psalms_119.txt",
-        "Psalms_120.txt",
-        "Psalms_121.txt",
-        "Psalms_122.txt",
-        "Psalms_123.txt",
-        "Psalms_124.txt",
-        "Psalms_125.txt",
-        "Psalms_126.txt",
-        "Psalms_127.txt",
-        "Psalms_128.txt",
-        "Psalms_129.txt",
-        "Psalms_130.txt",
-        "Psalms_131.txt",
-        "Psalms_132.txt",
-        "Psalms_133.txt",
-        "Psalms_134.txt",
-        "Psalms_135.txt",
-        "Psalms_136.txt",
-        "Psalms_137.txt",
-        "Psalms_138.txt",
-        "Psalms_139.txt",
-        "Psalms_140.txt",
-        "Psalms_141.txt",
-        "Psalms_142.txt",
-        "Psalms_143.txt",
-        "Psalms_144.txt",
-        "Psalms_145.txt",
-        "Psalms_146.txt",
-        "Psalms_147.txt",
-        "Psalms_148.txt",
-        "Psalms_149.txt",
-        "Psalms_150.txt"
+        {
+            "filename": "Psalms_Int.txt",
+            "char_count": 5092
+        },
+        {
+            "filename": "Psalms_1.txt",
+            "char_count": 1418
+        },
+        {
+            "filename": "Psalms_2.txt",
+            "char_count": 1583
+        },
+        {
+            "filename": "Psalms_3.txt",
+            "char_count": 1244
+        },
+        {
+            "filename": "Psalms_4.txt",
+            "char_count": 1392
+        },
+        {
+            "filename": "Psalms_5.txt",
+            "char_count": 1582
+        },
+        {
+            "filename": "Psalms_6.txt",
+            "char_count": 2060
+        },
+        {
+            "filename": "Psalms_7.txt",
+            "char_count": 2002
+        },
+        {
+            "filename": "Psalms_8.txt",
+            "char_count": 2468
+        },
+        {
+            "filename": "Psalms_9.txt",
+            "char_count": 2618
+        },
+        {
+            "filename": "Psalms_10.txt",
+            "char_count": 1613
+        },
+        {
+            "filename": "Psalms_11.txt",
+            "char_count": 1136
+        },
+        {
+            "filename": "Psalms_12.txt",
+            "char_count": 1331
+        },
+        {
+            "filename": "Psalms_13.txt",
+            "char_count": 906
+        },
+        {
+            "filename": "Psalms_14.txt",
+            "char_count": 1283
+        },
+        {
+            "filename": "Psalms_15.txt",
+            "char_count": 1367
+        },
+        {
+            "filename": "Psalms_16.txt",
+            "char_count": 1961
+        },
+        {
+            "filename": "Psalms_17.txt",
+            "char_count": 2175
+        },
+        {
+            "filename": "Psalms_18.txt",
+            "char_count": 5627
+        },
+        {
+            "filename": "Psalms_19.txt",
+            "char_count": 2275
+        },
+        {
+            "filename": "Psalms_20.txt",
+            "char_count": 1397
+        },
+        {
+            "filename": "Psalms_21.txt",
+            "char_count": 1603
+        },
+        {
+            "filename": "Psalms_22.txt",
+            "char_count": 4634
+        },
+        {
+            "filename": "Psalms_23.txt",
+            "char_count": 1550
+        },
+        {
+            "filename": "Psalms_24.txt",
+            "char_count": 1823
+        },
+        {
+            "filename": "Psalms_25.txt",
+            "char_count": 2291
+        },
+        {
+            "filename": "Psalms_26.txt",
+            "char_count": 1343
+        },
+        {
+            "filename": "Psalms_27.txt",
+            "char_count": 2422
+        },
+        {
+            "filename": "Psalms_28.txt",
+            "char_count": 1405
+        },
+        {
+            "filename": "Psalms_29.txt",
+            "char_count": 2257
+        },
+        {
+            "filename": "Psalms_30.txt",
+            "char_count": 2191
+        },
+        {
+            "filename": "Psalms_31.txt",
+            "char_count": 3105
+        },
+        {
+            "filename": "Psalms_32.txt",
+            "char_count": 1825
+        },
+        {
+            "filename": "Psalms_33.txt",
+            "char_count": 2352
+        },
+        {
+            "filename": "Psalms_34.txt",
+            "char_count": 2353
+        },
+        {
+            "filename": "Psalms_35.txt",
+            "char_count": 3437
+        },
+        {
+            "filename": "Psalms_36.txt",
+            "char_count": 1692
+        },
+        {
+            "filename": "Psalms_37.txt",
+            "char_count": 4279
+        },
+        {
+            "filename": "Psalms_38.txt",
+            "char_count": 1735
+        },
+        {
+            "filename": "Psalms_39.txt",
+            "char_count": 1605
+        },
+        {
+            "filename": "Psalms_40.txt",
+            "char_count": 2830
+        },
+        {
+            "filename": "Psalms_41.txt",
+            "char_count": 2307
+        },
+        {
+            "filename": "Psalms_42.txt",
+            "char_count": 2451
+        },
+        {
+            "filename": "Psalms_43.txt",
+            "char_count": 744
+        },
+        {
+            "filename": "Psalms_44.txt",
+            "char_count": 3117
+        },
+        {
+            "filename": "Psalms_45.txt",
+            "char_count": 3025
+        },
+        {
+            "filename": "Psalms_46.txt",
+            "char_count": 2079
+        },
+        {
+            "filename": "Psalms_47.txt",
+            "char_count": 1216
+        },
+        {
+            "filename": "Psalms_48.txt",
+            "char_count": 2794
+        },
+        {
+            "filename": "Psalms_49.txt",
+            "char_count": 3023
+        },
+        {
+            "filename": "Psalms_50.txt",
+            "char_count": 2333
+        },
+        {
+            "filename": "Psalms_51.txt",
+            "char_count": 3693
+        },
+        {
+            "filename": "Psalms_52.txt",
+            "char_count": 1272
+        },
+        {
+            "filename": "Psalms_53.txt",
+            "char_count": 926
+        },
+        {
+            "filename": "Psalms_54.txt",
+            "char_count": 999
+        },
+        {
+            "filename": "Psalms_55.txt",
+            "char_count": 2803
+        },
+        {
+            "filename": "Psalms_56.txt",
+            "char_count": 1737
+        },
+        {
+            "filename": "Psalms_57.txt",
+            "char_count": 1810
+        },
+        {
+            "filename": "Psalms_58.txt",
+            "char_count": 2157
+        },
+        {
+            "filename": "Psalms_59.txt",
+            "char_count": 2193
+        },
+        {
+            "filename": "Psalms_60.txt",
+            "char_count": 2247
+        },
+        {
+            "filename": "Psalms_61.txt",
+            "char_count": 1202
+        },
+        {
+            "filename": "Psalms_62.txt",
+            "char_count": 1796
+        },
+        {
+            "filename": "Psalms_63.txt",
+            "char_count": 1631
+        },
+        {
+            "filename": "Psalms_64.txt",
+            "char_count": 1274
+        },
+        {
+            "filename": "Psalms_65.txt",
+            "char_count": 2272
+        },
+        {
+            "filename": "Psalms_66.txt",
+            "char_count": 2639
+        },
+        {
+            "filename": "Psalms_67.txt",
+            "char_count": 897
+        },
+        {
+            "filename": "Psalms_68.txt",
+            "char_count": 6730
+        },
+        {
+            "filename": "Psalms_69.txt",
+            "char_count": 4672
+        },
+        {
+            "filename": "Psalms_70.txt",
+            "char_count": 666
+        },
+        {
+            "filename": "Psalms_71.txt",
+            "char_count": 2593
+        },
+        {
+            "filename": "Psalms_72.txt",
+            "char_count": 3144
+        },
+        {
+            "filename": "Psalms_73.txt",
+            "char_count": 3792
+        },
+        {
+            "filename": "Psalms_74.txt",
+            "char_count": 3343
+        },
+        {
+            "filename": "Psalms_75.txt",
+            "char_count": 1728
+        },
+        {
+            "filename": "Psalms_76.txt",
+            "char_count": 1734
+        },
+        {
+            "filename": "Psalms_77.txt",
+            "char_count": 2254
+        },
+        {
+            "filename": "Psalms_78.txt",
+            "char_count": 8187
+        },
+        {
+            "filename": "Psalms_79.txt",
+            "char_count": 2010
+        },
+        {
+            "filename": "Psalms_80.txt",
+            "char_count": 2442
+        },
+        {
+            "filename": "Psalms_81.txt",
+            "char_count": 2906
+        },
+        {
+            "filename": "Psalms_82.txt",
+            "char_count": 1728
+        },
+        {
+            "filename": "Psalms_83.txt",
+            "char_count": 2183
+        },
+        {
+            "filename": "Psalms_84.txt",
+            "char_count": 1781
+        },
+        {
+            "filename": "Psalms_85.txt",
+            "char_count": 1591
+        },
+        {
+            "filename": "Psalms_86.txt",
+            "char_count": 1626
+        },
+        {
+            "filename": "Psalms_87.txt",
+            "char_count": 1184
+        },
+        {
+            "filename": "Psalms_88.txt",
+            "char_count": 2008
+        },
+        {
+            "filename": "Psalms_89.txt",
+            "char_count": 5913
+        },
+        {
+            "filename": "Psalms_90.txt",
+            "char_count": 2422
+        },
+        {
+            "filename": "Psalms_91.txt",
+            "char_count": 2138
+        },
+        {
+            "filename": "Psalms_92.txt",
+            "char_count": 1622
+        },
+        {
+            "filename": "Psalms_93.txt",
+            "char_count": 1432
+        },
+        {
+            "filename": "Psalms_94.txt",
+            "char_count": 2165
+        },
+        {
+            "filename": "Psalms_95.txt",
+            "char_count": 1594
+        },
+        {
+            "filename": "Psalms_96.txt",
+            "char_count": 1579
+        },
+        {
+            "filename": "Psalms_97.txt",
+            "char_count": 1397
+        },
+        {
+            "filename": "Psalms_98.txt",
+            "char_count": 1369
+        },
+        {
+            "filename": "Psalms_99.txt",
+            "char_count": 1619
+        },
+        {
+            "filename": "Psalms_100.txt",
+            "char_count": 704
+        },
+        {
+            "filename": "Psalms_101.txt",
+            "char_count": 1563
+        },
+        {
+            "filename": "Psalms_102.txt",
+            "char_count": 2890
+        },
+        {
+            "filename": "Psalms_103.txt",
+            "char_count": 2154
+        },
+        {
+            "filename": "Psalms_104.txt",
+            "char_count": 4419
+        },
+        {
+            "filename": "Psalms_105.txt",
+            "char_count": 4158
+        },
+        {
+            "filename": "Psalms_106.txt",
+            "char_count": 5751
+        },
+        {
+            "filename": "Psalms_107.txt",
+            "char_count": 4220
+        },
+        {
+            "filename": "Psalms_108.txt",
+            "char_count": 1349
+        },
+        {
+            "filename": "Psalms_109.txt",
+            "char_count": 3309
+        },
+        {
+            "filename": "Psalms_110.txt",
+            "char_count": 2178
+        },
+        {
+            "filename": "Psalms_111.txt",
+            "char_count": 1608
+        },
+        {
+            "filename": "Psalms_112.txt",
+            "char_count": 1664
+        },
+        {
+            "filename": "Psalms_113.txt",
+            "char_count": 995
+        },
+        {
+            "filename": "Psalms_114.txt",
+            "char_count": 1525
+        },
+        {
+            "filename": "Psalms_115.txt",
+            "char_count": 2262
+        },
+        {
+            "filename": "Psalms_116.txt",
+            "char_count": 2440
+        },
+        {
+            "filename": "Psalms_117.txt",
+            "char_count": 375
+        },
+        {
+            "filename": "Psalms_118.txt",
+            "char_count": 3462
+        },
+        {
+            "filename": "Psalms_119.txt",
+            "char_count": 13684
+        },
+        {
+            "filename": "Psalms_120.txt",
+            "char_count": 2027
+        },
+        {
+            "filename": "Psalms_121.txt",
+            "char_count": 1324
+        },
+        {
+            "filename": "Psalms_122.txt",
+            "char_count": 1263
+        },
+        {
+            "filename": "Psalms_123.txt",
+            "char_count": 669
+        },
+        {
+            "filename": "Psalms_124.txt",
+            "char_count": 1113
+        },
+        {
+            "filename": "Psalms_125.txt",
+            "char_count": 1137
+        },
+        {
+            "filename": "Psalms_126.txt",
+            "char_count": 1056
+        },
+        {
+            "filename": "Psalms_127.txt",
+            "char_count": 1023
+        },
+        {
+            "filename": "Psalms_128.txt",
+            "char_count": 1007
+        },
+        {
+            "filename": "Psalms_129.txt",
+            "char_count": 1346
+        },
+        {
+            "filename": "Psalms_130.txt",
+            "char_count": 1076
+        },
+        {
+            "filename": "Psalms_131.txt",
+            "char_count": 551
+        },
+        {
+            "filename": "Psalms_132.txt",
+            "char_count": 2561
+        },
+        {
+            "filename": "Psalms_133.txt",
+            "char_count": 1179
+        },
+        {
+            "filename": "Psalms_134.txt",
+            "char_count": 604
+        },
+        {
+            "filename": "Psalms_135.txt",
+            "char_count": 2094
+        },
+        {
+            "filename": "Psalms_136.txt",
+            "char_count": 2236
+        },
+        {
+            "filename": "Psalms_137.txt",
+            "char_count": 1432
+        },
+        {
+            "filename": "Psalms_138.txt",
+            "char_count": 1365
+        },
+        {
+            "filename": "Psalms_139.txt",
+            "char_count": 2806
+        },
+        {
+            "filename": "Psalms_140.txt",
+            "char_count": 1814
+        },
+        {
+            "filename": "Psalms_141.txt",
+            "char_count": 1457
+        },
+        {
+            "filename": "Psalms_142.txt",
+            "char_count": 1344
+        },
+        {
+            "filename": "Psalms_143.txt",
+            "char_count": 1745
+        },
+        {
+            "filename": "Psalms_144.txt",
+            "char_count": 2549
+        },
+        {
+            "filename": "Psalms_145.txt",
+            "char_count": 2156
+        },
+        {
+            "filename": "Psalms_146.txt",
+            "char_count": 1101
+        },
+        {
+            "filename": "Psalms_147.txt",
+            "char_count": 2277
+        },
+        {
+            "filename": "Psalms_148.txt",
+            "char_count": 1631
+        },
+        {
+            "filename": "Psalms_149.txt",
+            "char_count": 1388
+        },
+        {
+            "filename": "Psalms_150.txt",
+            "char_count": 1097
+        }
     ],
     "Proverbs": [
-        "Proverbs_Int.txt",
-        "Proverbs_1.txt",
-        "Proverbs_2.txt",
-        "Proverbs_3.txt",
-        "Proverbs_4.txt",
-        "Proverbs_5.txt",
-        "Proverbs_6.txt",
-        "Proverbs_7.txt",
-        "Proverbs_8.txt",
-        "Proverbs_9.txt",
-        "Proverbs_10.txt",
-        "Proverbs_11.txt",
-        "Proverbs_12.txt",
-        "Proverbs_13.txt",
-        "Proverbs_14.txt",
-        "Proverbs_15.txt",
-        "Proverbs_16.txt",
-        "Proverbs_17.txt",
-        "Proverbs_18.txt",
-        "Proverbs_19.txt",
-        "Proverbs_20.txt",
-        "Proverbs_21.txt",
-        "Proverbs_22.txt",
-        "Proverbs_23.txt",
-        "Proverbs_24.txt",
-        "Proverbs_25.txt",
-        "Proverbs_26.txt",
-        "Proverbs_27.txt",
-        "Proverbs_28.txt",
-        "Proverbs_29.txt",
-        "Proverbs_30.txt",
-        "Proverbs_31.txt"
+        {
+            "filename": "Proverbs_Int.txt",
+            "char_count": 3138
+        },
+        {
+            "filename": "Proverbs_1.txt",
+            "char_count": 4198
+        },
+        {
+            "filename": "Proverbs_2.txt",
+            "char_count": 2393
+        },
+        {
+            "filename": "Proverbs_3.txt",
+            "char_count": 4020
+        },
+        {
+            "filename": "Proverbs_4.txt",
+            "char_count": 2734
+        },
+        {
+            "filename": "Proverbs_5.txt",
+            "char_count": 2680
+        },
+        {
+            "filename": "Proverbs_6.txt",
+            "char_count": 3791
+        },
+        {
+            "filename": "Proverbs_7.txt",
+            "char_count": 2325
+        },
+        {
+            "filename": "Proverbs_8.txt",
+            "char_count": 4447
+        },
+        {
+            "filename": "Proverbs_9.txt",
+            "char_count": 1997
+        },
+        {
+            "filename": "Proverbs_10.txt",
+            "char_count": 3372
+        },
+        {
+            "filename": "Proverbs_11.txt",
+            "char_count": 2821
+        },
+        {
+            "filename": "Proverbs_12.txt",
+            "char_count": 2380
+        },
+        {
+            "filename": "Proverbs_13.txt",
+            "char_count": 2232
+        },
+        {
+            "filename": "Proverbs_14.txt",
+            "char_count": 2910
+        },
+        {
+            "filename": "Proverbs_15.txt",
+            "char_count": 3018
+        },
+        {
+            "filename": "Proverbs_16.txt",
+            "char_count": 3164
+        },
+        {
+            "filename": "Proverbs_17.txt",
+            "char_count": 2662
+        },
+        {
+            "filename": "Proverbs_18.txt",
+            "char_count": 2463
+        },
+        {
+            "filename": "Proverbs_19.txt",
+            "char_count": 2486
+        },
+        {
+            "filename": "Proverbs_20.txt",
+            "char_count": 3042
+        },
+        {
+            "filename": "Proverbs_21.txt",
+            "char_count": 3151
+        },
+        {
+            "filename": "Proverbs_22.txt",
+            "char_count": 3834
+        },
+        {
+            "filename": "Proverbs_23.txt",
+            "char_count": 3010
+        },
+        {
+            "filename": "Proverbs_24.txt",
+            "char_count": 4632
+        },
+        {
+            "filename": "Proverbs_25.txt",
+            "char_count": 3070
+        },
+        {
+            "filename": "Proverbs_26.txt",
+            "char_count": 2730
+        },
+        {
+            "filename": "Proverbs_27.txt",
+            "char_count": 2619
+        },
+        {
+            "filename": "Proverbs_28.txt",
+            "char_count": 3116
+        },
+        {
+            "filename": "Proverbs_29.txt",
+            "char_count": 2477
+        },
+        {
+            "filename": "Proverbs_30.txt",
+            "char_count": 4413
+        },
+        {
+            "filename": "Proverbs_31.txt",
+            "char_count": 2852
+        }
     ],
     "Ecclesiastes": [
-        "Ecclesiastes_Int.txt",
-        "Ecclesiastes_1.txt",
-        "Ecclesiastes_2.txt",
-        "Ecclesiastes_3.txt",
-        "Ecclesiastes_4.txt",
-        "Ecclesiastes_5.txt",
-        "Ecclesiastes_6.txt",
-        "Ecclesiastes_7.txt",
-        "Ecclesiastes_8.txt",
-        "Ecclesiastes_9.txt",
-        "Ecclesiastes_10.txt",
-        "Ecclesiastes_11.txt",
-        "Ecclesiastes_12.txt"
+        {
+            "filename": "Ecclesiastes_Int.txt",
+            "char_count": 2748
+        },
+        {
+            "filename": "Ecclesiastes_1.txt",
+            "char_count": 2408
+        },
+        {
+            "filename": "Ecclesiastes_2.txt",
+            "char_count": 3728
+        },
+        {
+            "filename": "Ecclesiastes_3.txt",
+            "char_count": 2413
+        },
+        {
+            "filename": "Ecclesiastes_4.txt",
+            "char_count": 2445
+        },
+        {
+            "filename": "Ecclesiastes_5.txt",
+            "char_count": 2572
+        },
+        {
+            "filename": "Ecclesiastes_6.txt",
+            "char_count": 1990
+        },
+        {
+            "filename": "Ecclesiastes_7.txt",
+            "char_count": 4053
+        },
+        {
+            "filename": "Ecclesiastes_8.txt",
+            "char_count": 2647
+        },
+        {
+            "filename": "Ecclesiastes_9.txt",
+            "char_count": 2996
+        },
+        {
+            "filename": "Ecclesiastes_10.txt",
+            "char_count": 2141
+        },
+        {
+            "filename": "Ecclesiastes_11.txt",
+            "char_count": 1640
+        },
+        {
+            "filename": "Ecclesiastes_12.txt",
+            "char_count": 2824
+        }
     ],
     "The_Song_of_Songs": [
-        "The_Song_of_Songs_Int.txt",
-        "The_Song_of_Songs_1.txt",
-        "The_Song_of_Songs_2.txt",
-        "The_Song_of_Songs_3.txt",
-        "The_Song_of_Songs_4.txt",
-        "The_Song_of_Songs_5.txt",
-        "The_Song_of_Songs_6.txt",
-        "The_Song_of_Songs_7.txt",
-        "The_Song_of_Songs_8.txt"
+        {
+            "filename": "The_Song_of_Songs_Int.txt",
+            "char_count": 2629
+        },
+        {
+            "filename": "The_Song_of_Songs_1.txt",
+            "char_count": 3274
+        },
+        {
+            "filename": "The_Song_of_Songs_2.txt",
+            "char_count": 2793
+        },
+        {
+            "filename": "The_Song_of_Songs_3.txt",
+            "char_count": 1517
+        },
+        {
+            "filename": "The_Song_of_Songs_4.txt",
+            "char_count": 3105
+        },
+        {
+            "filename": "The_Song_of_Songs_5.txt",
+            "char_count": 2600
+        },
+        {
+            "filename": "The_Song_of_Songs_6.txt",
+            "char_count": 1919
+        },
+        {
+            "filename": "The_Song_of_Songs_7.txt",
+            "char_count": 3031
+        },
+        {
+            "filename": "The_Song_of_Songs_8.txt",
+            "char_count": 3308
+        }
     ],
     "The_Book_of_Wisdom": [
-        "The_Book_of_Wisdom_Int.txt",
-        "The_Book_of_Wisdom_1.txt",
-        "The_Book_of_Wisdom_2.txt",
-        "The_Book_of_Wisdom_3.txt",
-        "The_Book_of_Wisdom_4.txt",
-        "The_Book_of_Wisdom_5.txt",
-        "The_Book_of_Wisdom_6.txt",
-        "The_Book_of_Wisdom_7.txt",
-        "The_Book_of_Wisdom_8.txt",
-        "The_Book_of_Wisdom_9.txt",
-        "The_Book_of_Wisdom_10.txt",
-        "The_Book_of_Wisdom_11.txt",
-        "The_Book_of_Wisdom_12.txt",
-        "The_Book_of_Wisdom_13.txt",
-        "The_Book_of_Wisdom_14.txt",
-        "The_Book_of_Wisdom_15.txt",
-        "The_Book_of_Wisdom_16.txt",
-        "The_Book_of_Wisdom_17.txt",
-        "The_Book_of_Wisdom_18.txt",
-        "The_Book_of_Wisdom_19.txt"
+        {
+            "filename": "The_Book_of_Wisdom_Int.txt",
+            "char_count": 1881
+        },
+        {
+            "filename": "The_Book_of_Wisdom_1.txt",
+            "char_count": 2355
+        },
+        {
+            "filename": "The_Book_of_Wisdom_2.txt",
+            "char_count": 3150
+        },
+        {
+            "filename": "The_Book_of_Wisdom_3.txt",
+            "char_count": 2685
+        },
+        {
+            "filename": "The_Book_of_Wisdom_4.txt",
+            "char_count": 2746
+        },
+        {
+            "filename": "The_Book_of_Wisdom_5.txt",
+            "char_count": 2783
+        },
+        {
+            "filename": "The_Book_of_Wisdom_6.txt",
+            "char_count": 2786
+        },
+        {
+            "filename": "The_Book_of_Wisdom_7.txt",
+            "char_count": 3654
+        },
+        {
+            "filename": "The_Book_of_Wisdom_8.txt",
+            "char_count": 3165
+        },
+        {
+            "filename": "The_Book_of_Wisdom_9.txt",
+            "char_count": 2058
+        },
+        {
+            "filename": "The_Book_of_Wisdom_10.txt",
+            "char_count": 3224
+        },
+        {
+            "filename": "The_Book_of_Wisdom_11.txt",
+            "char_count": 3513
+        },
+        {
+            "filename": "The_Book_of_Wisdom_12.txt",
+            "char_count": 3942
+        },
+        {
+            "filename": "The_Book_of_Wisdom_13.txt",
+            "char_count": 2853
+        },
+        {
+            "filename": "The_Book_of_Wisdom_14.txt",
+            "char_count": 4074
+        },
+        {
+            "filename": "The_Book_of_Wisdom_15.txt",
+            "char_count": 3023
+        },
+        {
+            "filename": "The_Book_of_Wisdom_16.txt",
+            "char_count": 4017
+        },
+        {
+            "filename": "The_Book_of_Wisdom_17.txt",
+            "char_count": 3047
+        },
+        {
+            "filename": "The_Book_of_Wisdom_18.txt",
+            "char_count": 4131
+        },
+        {
+            "filename": "The_Book_of_Wisdom_19.txt",
+            "char_count": 3274
+        }
     ],
     "Sirach": [
-        "Sirach_Int.txt",
-        "Sirach_For.txt",
-        "Sirach_1.txt",
-        "Sirach_2.txt",
-        "Sirach_3.txt",
-        "Sirach_4.txt",
-        "Sirach_5.txt",
-        "Sirach_6.txt",
-        "Sirach_7.txt",
-        "Sirach_8.txt",
-        "Sirach_9.txt",
-        "Sirach_10.txt",
-        "Sirach_11.txt",
-        "Sirach_12.txt",
-        "Sirach_13.txt",
-        "Sirach_14.txt",
-        "Sirach_15.txt",
-        "Sirach_16.txt",
-        "Sirach_17.txt",
-        "Sirach_18.txt",
-        "Sirach_19.txt",
-        "Sirach_20.txt",
-        "Sirach_21.txt",
-        "Sirach_22.txt",
-        "Sirach_23.txt",
-        "Sirach_24.txt",
-        "Sirach_25.txt",
-        "Sirach_26.txt",
-        "Sirach_27.txt",
-        "Sirach_28.txt",
-        "Sirach_29.txt",
-        "Sirach_30.txt",
-        "Sirach_31.txt",
-        "Sirach_32.txt",
-        "Sirach_33.txt",
-        "Sirach_34.txt",
-        "Sirach_35.txt",
-        "Sirach_36.txt",
-        "Sirach_37.txt",
-        "Sirach_38.txt",
-        "Sirach_39.txt",
-        "Sirach_40.txt",
-        "Sirach_41.txt",
-        "Sirach_42.txt",
-        "Sirach_43.txt",
-        "Sirach_44.txt",
-        "Sirach_45.txt",
-        "Sirach_46.txt",
-        "Sirach_47.txt",
-        "Sirach_48.txt",
-        "Sirach_49.txt",
-        "Sirach_50.txt",
-        "Sirach_51.txt"
+        {
+            "filename": "Sirach_Int.txt",
+            "char_count": 2508
+        },
+        {
+            "filename": "Sirach_For.txt",
+            "char_count": 2232
+        },
+        {
+            "filename": "Sirach_1.txt",
+            "char_count": 3509
+        },
+        {
+            "filename": "Sirach_2.txt",
+            "char_count": 2167
+        },
+        {
+            "filename": "Sirach_3.txt",
+            "char_count": 3576
+        },
+        {
+            "filename": "Sirach_4.txt",
+            "char_count": 3655
+        },
+        {
+            "filename": "Sirach_5.txt",
+            "char_count": 1841
+        },
+        {
+            "filename": "Sirach_6.txt",
+            "char_count": 3962
+        },
+        {
+            "filename": "Sirach_7.txt",
+            "char_count": 4573
+        },
+        {
+            "filename": "Sirach_8.txt",
+            "char_count": 2381
+        },
+        {
+            "filename": "Sirach_9.txt",
+            "char_count": 2764
+        },
+        {
+            "filename": "Sirach_10.txt",
+            "char_count": 3536
+        },
+        {
+            "filename": "Sirach_11.txt",
+            "char_count": 3962
+        },
+        {
+            "filename": "Sirach_12.txt",
+            "char_count": 2375
+        },
+        {
+            "filename": "Sirach_13.txt",
+            "char_count": 2981
+        },
+        {
+            "filename": "Sirach_14.txt",
+            "char_count": 2989
+        },
+        {
+            "filename": "Sirach_15.txt",
+            "char_count": 1556
+        },
+        {
+            "filename": "Sirach_16.txt",
+            "char_count": 3808
+        },
+        {
+            "filename": "Sirach_17.txt",
+            "char_count": 3228
+        },
+        {
+            "filename": "Sirach_18.txt",
+            "char_count": 3916
+        },
+        {
+            "filename": "Sirach_19.txt",
+            "char_count": 2809
+        },
+        {
+            "filename": "Sirach_20.txt",
+            "char_count": 3573
+        },
+        {
+            "filename": "Sirach_21.txt",
+            "char_count": 4126
+        },
+        {
+            "filename": "Sirach_22.txt",
+            "char_count": 4105
+        },
+        {
+            "filename": "Sirach_23.txt",
+            "char_count": 5004
+        },
+        {
+            "filename": "Sirach_24.txt",
+            "char_count": 4290
+        },
+        {
+            "filename": "Sirach_25.txt",
+            "char_count": 3833
+        },
+        {
+            "filename": "Sirach_26.txt",
+            "char_count": 3614
+        },
+        {
+            "filename": "Sirach_27.txt",
+            "char_count": 3159
+        },
+        {
+            "filename": "Sirach_28.txt",
+            "char_count": 2956
+        },
+        {
+            "filename": "Sirach_29.txt",
+            "char_count": 3498
+        },
+        {
+            "filename": "Sirach_30.txt",
+            "char_count": 3219
+        },
+        {
+            "filename": "Sirach_31.txt",
+            "char_count": 4281
+        },
+        {
+            "filename": "Sirach_32.txt",
+            "char_count": 2345
+        },
+        {
+            "filename": "Sirach_33.txt",
+            "char_count": 4173
+        },
+        {
+            "filename": "Sirach_34.txt",
+            "char_count": 3108
+        },
+        {
+            "filename": "Sirach_35.txt",
+            "char_count": 2636
+        },
+        {
+            "filename": "Sirach_36.txt",
+            "char_count": 3111
+        },
+        {
+            "filename": "Sirach_37.txt",
+            "char_count": 3318
+        },
+        {
+            "filename": "Sirach_38.txt",
+            "char_count": 4915
+        },
+        {
+            "filename": "Sirach_39.txt",
+            "char_count": 4106
+        },
+        {
+            "filename": "Sirach_40.txt",
+            "char_count": 4225
+        },
+        {
+            "filename": "Sirach_41.txt",
+            "char_count": 3238
+        },
+        {
+            "filename": "Sirach_42.txt",
+            "char_count": 3662
+        },
+        {
+            "filename": "Sirach_43.txt",
+            "char_count": 3286
+        },
+        {
+            "filename": "Sirach_44.txt",
+            "char_count": 3912
+        },
+        {
+            "filename": "Sirach_45.txt",
+            "char_count": 5476
+        },
+        {
+            "filename": "Sirach_46.txt",
+            "char_count": 3798
+        },
+        {
+            "filename": "Sirach_47.txt",
+            "char_count": 4771
+        },
+        {
+            "filename": "Sirach_48.txt",
+            "char_count": 3321
+        },
+        {
+            "filename": "Sirach_49.txt",
+            "char_count": 2403
+        },
+        {
+            "filename": "Sirach_50.txt",
+            "char_count": 5180
+        },
+        {
+            "filename": "Sirach_51.txt",
+            "char_count": 5730
+        }
     ],
     "Isaiah": [
-        "Isaiah_Int.txt",
-        "Isaiah_1.txt",
-        "Isaiah_2.txt",
-        "Isaiah_3.txt",
-        "Isaiah_4.txt",
-        "Isaiah_5.txt",
-        "Isaiah_6.txt",
-        "Isaiah_7.txt",
-        "Isaiah_8.txt",
-        "Isaiah_9.txt",
-        "Isaiah_10.txt",
-        "Isaiah_11.txt",
-        "Isaiah_12.txt",
-        "Isaiah_13.txt",
-        "Isaiah_14.txt",
-        "Isaiah_15.txt",
-        "Isaiah_16.txt",
-        "Isaiah_17.txt",
-        "Isaiah_18.txt",
-        "Isaiah_19.txt",
-        "Isaiah_20.txt",
-        "Isaiah_21.txt",
-        "Isaiah_22.txt",
-        "Isaiah_23.txt",
-        "Isaiah_24.txt",
-        "Isaiah_25.txt",
-        "Isaiah_26.txt",
-        "Isaiah_27.txt",
-        "Isaiah_28.txt",
-        "Isaiah_29.txt",
-        "Isaiah_30.txt",
-        "Isaiah_31.txt",
-        "Isaiah_32.txt",
-        "Isaiah_33.txt",
-        "Isaiah_34.txt",
-        "Isaiah_35.txt",
-        "Isaiah_36.txt",
-        "Isaiah_37.txt",
-        "Isaiah_38.txt",
-        "Isaiah_39.txt",
-        "Isaiah_40.txt",
-        "Isaiah_41.txt",
-        "Isaiah_42.txt",
-        "Isaiah_43.txt",
-        "Isaiah_44.txt",
-        "Isaiah_45.txt",
-        "Isaiah_46.txt",
-        "Isaiah_47.txt",
-        "Isaiah_48.txt",
-        "Isaiah_49.txt",
-        "Isaiah_50.txt",
-        "Isaiah_51.txt",
-        "Isaiah_52.txt",
-        "Isaiah_53.txt",
-        "Isaiah_54.txt",
-        "Isaiah_55.txt",
-        "Isaiah_56.txt",
-        "Isaiah_57.txt",
-        "Isaiah_58.txt",
-        "Isaiah_59.txt",
-        "Isaiah_60.txt",
-        "Isaiah_61.txt",
-        "Isaiah_62.txt",
-        "Isaiah_63.txt",
-        "Isaiah_64.txt",
-        "Isaiah_65.txt",
-        "Isaiah_66.txt"
+        {
+            "filename": "Isaiah_Int.txt",
+            "char_count": 4220
+        },
+        {
+            "filename": "Isaiah_1.txt",
+            "char_count": 5360
+        },
+        {
+            "filename": "Isaiah_2.txt",
+            "char_count": 3558
+        },
+        {
+            "filename": "Isaiah_3.txt",
+            "char_count": 2947
+        },
+        {
+            "filename": "Isaiah_4.txt",
+            "char_count": 1304
+        },
+        {
+            "filename": "Isaiah_5.txt",
+            "char_count": 4685
+        },
+        {
+            "filename": "Isaiah_6.txt",
+            "char_count": 3143
+        },
+        {
+            "filename": "Isaiah_7.txt",
+            "char_count": 5248
+        },
+        {
+            "filename": "Isaiah_8.txt",
+            "char_count": 4308
+        },
+        {
+            "filename": "Isaiah_9.txt",
+            "char_count": 3078
+        },
+        {
+            "filename": "Isaiah_10.txt",
+            "char_count": 4736
+        },
+        {
+            "filename": "Isaiah_11.txt",
+            "char_count": 3166
+        },
+        {
+            "filename": "Isaiah_12.txt",
+            "char_count": 736
+        },
+        {
+            "filename": "Isaiah_13.txt",
+            "char_count": 3343
+        },
+        {
+            "filename": "Isaiah_14.txt",
+            "char_count": 4787
+        },
+        {
+            "filename": "Isaiah_15.txt",
+            "char_count": 1271
+        },
+        {
+            "filename": "Isaiah_16.txt",
+            "char_count": 2685
+        },
+        {
+            "filename": "Isaiah_17.txt",
+            "char_count": 2695
+        },
+        {
+            "filename": "Isaiah_18.txt",
+            "char_count": 1523
+        },
+        {
+            "filename": "Isaiah_19.txt",
+            "char_count": 3764
+        },
+        {
+            "filename": "Isaiah_20.txt",
+            "char_count": 1061
+        },
+        {
+            "filename": "Isaiah_21.txt",
+            "char_count": 3004
+        },
+        {
+            "filename": "Isaiah_22.txt",
+            "char_count": 3766
+        },
+        {
+            "filename": "Isaiah_23.txt",
+            "char_count": 2783
+        },
+        {
+            "filename": "Isaiah_24.txt",
+            "char_count": 3161
+        },
+        {
+            "filename": "Isaiah_25.txt",
+            "char_count": 1632
+        },
+        {
+            "filename": "Isaiah_26.txt",
+            "char_count": 2569
+        },
+        {
+            "filename": "Isaiah_27.txt",
+            "char_count": 2418
+        },
+        {
+            "filename": "Isaiah_28.txt",
+            "char_count": 5758
+        },
+        {
+            "filename": "Isaiah_29.txt",
+            "char_count": 4221
+        },
+        {
+            "filename": "Isaiah_30.txt",
+            "char_count": 5595
+        },
+        {
+            "filename": "Isaiah_31.txt",
+            "char_count": 1559
+        },
+        {
+            "filename": "Isaiah_32.txt",
+            "char_count": 2333
+        },
+        {
+            "filename": "Isaiah_33.txt",
+            "char_count": 3101
+        },
+        {
+            "filename": "Isaiah_34.txt",
+            "char_count": 2668
+        },
+        {
+            "filename": "Isaiah_35.txt",
+            "char_count": 1386
+        },
+        {
+            "filename": "Isaiah_36.txt",
+            "char_count": 4078
+        },
+        {
+            "filename": "Isaiah_37.txt",
+            "char_count": 6669
+        },
+        {
+            "filename": "Isaiah_38.txt",
+            "char_count": 4465
+        },
+        {
+            "filename": "Isaiah_39.txt",
+            "char_count": 1772
+        },
+        {
+            "filename": "Isaiah_40.txt",
+            "char_count": 4831
+        },
+        {
+            "filename": "Isaiah_41.txt",
+            "char_count": 4031
+        },
+        {
+            "filename": "Isaiah_42.txt",
+            "char_count": 3935
+        },
+        {
+            "filename": "Isaiah_43.txt",
+            "char_count": 4066
+        },
+        {
+            "filename": "Isaiah_44.txt",
+            "char_count": 4803
+        },
+        {
+            "filename": "Isaiah_45.txt",
+            "char_count": 5278
+        },
+        {
+            "filename": "Isaiah_46.txt",
+            "char_count": 1857
+        },
+        {
+            "filename": "Isaiah_47.txt",
+            "char_count": 2311
+        },
+        {
+            "filename": "Isaiah_48.txt",
+            "char_count": 3003
+        },
+        {
+            "filename": "Isaiah_49.txt",
+            "char_count": 4677
+        },
+        {
+            "filename": "Isaiah_50.txt",
+            "char_count": 2440
+        },
+        {
+            "filename": "Isaiah_51.txt",
+            "char_count": 3912
+        },
+        {
+            "filename": "Isaiah_52.txt",
+            "char_count": 2574
+        },
+        {
+            "filename": "Isaiah_53.txt",
+            "char_count": 2492
+        },
+        {
+            "filename": "Isaiah_54.txt",
+            "char_count": 2806
+        },
+        {
+            "filename": "Isaiah_55.txt",
+            "char_count": 2128
+        },
+        {
+            "filename": "Isaiah_56.txt",
+            "char_count": 2431
+        },
+        {
+            "filename": "Isaiah_57.txt",
+            "char_count": 3399
+        },
+        {
+            "filename": "Isaiah_58.txt",
+            "char_count": 2659
+        },
+        {
+            "filename": "Isaiah_59.txt",
+            "char_count": 3252
+        },
+        {
+            "filename": "Isaiah_60.txt",
+            "char_count": 3609
+        },
+        {
+            "filename": "Isaiah_61.txt",
+            "char_count": 2042
+        },
+        {
+            "filename": "Isaiah_62.txt",
+            "char_count": 2073
+        },
+        {
+            "filename": "Isaiah_63.txt",
+            "char_count": 3208
+        },
+        {
+            "filename": "Isaiah_64.txt",
+            "char_count": 1298
+        },
+        {
+            "filename": "Isaiah_65.txt",
+            "char_count": 4157
+        },
+        {
+            "filename": "Isaiah_66.txt",
+            "char_count": 4535
+        }
     ],
     "Jeremiah": [
-        "Jeremiah_Int.txt",
-        "Jeremiah_1.txt",
-        "Jeremiah_2.txt",
-        "Jeremiah_3.txt",
-        "Jeremiah_4.txt",
-        "Jeremiah_5.txt",
-        "Jeremiah_6.txt",
-        "Jeremiah_7.txt",
-        "Jeremiah_8.txt",
-        "Jeremiah_9.txt",
-        "Jeremiah_10.txt",
-        "Jeremiah_11.txt",
-        "Jeremiah_12.txt",
-        "Jeremiah_13.txt",
-        "Jeremiah_14.txt",
-        "Jeremiah_15.txt",
-        "Jeremiah_16.txt",
-        "Jeremiah_17.txt",
-        "Jeremiah_18.txt",
-        "Jeremiah_19.txt",
-        "Jeremiah_20.txt",
-        "Jeremiah_21.txt",
-        "Jeremiah_22.txt",
-        "Jeremiah_23.txt",
-        "Jeremiah_24.txt",
-        "Jeremiah_25.txt",
-        "Jeremiah_26.txt",
-        "Jeremiah_27.txt",
-        "Jeremiah_28.txt",
-        "Jeremiah_29.txt",
-        "Jeremiah_30.txt",
-        "Jeremiah_31.txt",
-        "Jeremiah_32.txt",
-        "Jeremiah_33.txt",
-        "Jeremiah_34.txt",
-        "Jeremiah_35.txt",
-        "Jeremiah_36.txt",
-        "Jeremiah_37.txt",
-        "Jeremiah_38.txt",
-        "Jeremiah_39.txt",
-        "Jeremiah_40.txt",
-        "Jeremiah_41.txt",
-        "Jeremiah_42.txt",
-        "Jeremiah_43.txt",
-        "Jeremiah_44.txt",
-        "Jeremiah_45.txt",
-        "Jeremiah_46.txt",
-        "Jeremiah_47.txt",
-        "Jeremiah_48.txt",
-        "Jeremiah_49.txt",
-        "Jeremiah_50.txt",
-        "Jeremiah_51.txt",
-        "Jeremiah_52.txt"
+        {
+            "filename": "Jeremiah_Int.txt",
+            "char_count": 2626
+        },
+        {
+            "filename": "Jeremiah_1.txt",
+            "char_count": 3843
+        },
+        {
+            "filename": "Jeremiah_2.txt",
+            "char_count": 6476
+        },
+        {
+            "filename": "Jeremiah_3.txt",
+            "char_count": 4557
+        },
+        {
+            "filename": "Jeremiah_4.txt",
+            "char_count": 4686
+        },
+        {
+            "filename": "Jeremiah_5.txt",
+            "char_count": 4326
+        },
+        {
+            "filename": "Jeremiah_6.txt",
+            "char_count": 4349
+        },
+        {
+            "filename": "Jeremiah_7.txt",
+            "char_count": 5866
+        },
+        {
+            "filename": "Jeremiah_8.txt",
+            "char_count": 3762
+        },
+        {
+            "filename": "Jeremiah_9.txt",
+            "char_count": 3806
+        },
+        {
+            "filename": "Jeremiah_10.txt",
+            "char_count": 3210
+        },
+        {
+            "filename": "Jeremiah_11.txt",
+            "char_count": 2639
+        },
+        {
+            "filename": "Jeremiah_12.txt",
+            "char_count": 3770
+        },
+        {
+            "filename": "Jeremiah_13.txt",
+            "char_count": 3681
+        },
+        {
+            "filename": "Jeremiah_14.txt",
+            "char_count": 3375
+        },
+        {
+            "filename": "Jeremiah_15.txt",
+            "char_count": 3148
+        },
+        {
+            "filename": "Jeremiah_16.txt",
+            "char_count": 3399
+        },
+        {
+            "filename": "Jeremiah_17.txt",
+            "char_count": 3996
+        },
+        {
+            "filename": "Jeremiah_18.txt",
+            "char_count": 3613
+        },
+        {
+            "filename": "Jeremiah_19.txt",
+            "char_count": 2708
+        },
+        {
+            "filename": "Jeremiah_20.txt",
+            "char_count": 3697
+        },
+        {
+            "filename": "Jeremiah_21.txt",
+            "char_count": 3462
+        },
+        {
+            "filename": "Jeremiah_22.txt",
+            "char_count": 7179
+        },
+        {
+            "filename": "Jeremiah_23.txt",
+            "char_count": 7412
+        },
+        {
+            "filename": "Jeremiah_24.txt",
+            "char_count": 1949
+        },
+        {
+            "filename": "Jeremiah_25.txt",
+            "char_count": 6238
+        },
+        {
+            "filename": "Jeremiah_26.txt",
+            "char_count": 4201
+        },
+        {
+            "filename": "Jeremiah_27.txt",
+            "char_count": 4344
+        },
+        {
+            "filename": "Jeremiah_28.txt",
+            "char_count": 2527
+        },
+        {
+            "filename": "Jeremiah_29.txt",
+            "char_count": 5369
+        },
+        {
+            "filename": "Jeremiah_30.txt",
+            "char_count": 4097
+        },
+        {
+            "filename": "Jeremiah_31.txt",
+            "char_count": 8963
+        },
+        {
+            "filename": "Jeremiah_32.txt",
+            "char_count": 7905
+        },
+        {
+            "filename": "Jeremiah_33.txt",
+            "char_count": 4551
+        },
+        {
+            "filename": "Jeremiah_34.txt",
+            "char_count": 4987
+        },
+        {
+            "filename": "Jeremiah_35.txt",
+            "char_count": 3767
+        },
+        {
+            "filename": "Jeremiah_36.txt",
+            "char_count": 5696
+        },
+        {
+            "filename": "Jeremiah_37.txt",
+            "char_count": 3242
+        },
+        {
+            "filename": "Jeremiah_38.txt",
+            "char_count": 5026
+        },
+        {
+            "filename": "Jeremiah_39.txt",
+            "char_count": 3292
+        },
+        {
+            "filename": "Jeremiah_40.txt",
+            "char_count": 3904
+        },
+        {
+            "filename": "Jeremiah_41.txt",
+            "char_count": 3220
+        },
+        {
+            "filename": "Jeremiah_42.txt",
+            "char_count": 3138
+        },
+        {
+            "filename": "Jeremiah_43.txt",
+            "char_count": 2066
+        },
+        {
+            "filename": "Jeremiah_44.txt",
+            "char_count": 5837
+        },
+        {
+            "filename": "Jeremiah_45.txt",
+            "char_count": 983
+        },
+        {
+            "filename": "Jeremiah_46.txt",
+            "char_count": 4919
+        },
+        {
+            "filename": "Jeremiah_47.txt",
+            "char_count": 1592
+        },
+        {
+            "filename": "Jeremiah_48.txt",
+            "char_count": 5612
+        },
+        {
+            "filename": "Jeremiah_49.txt",
+            "char_count": 6712
+        },
+        {
+            "filename": "Jeremiah_50.txt",
+            "char_count": 7423
+        },
+        {
+            "filename": "Jeremiah_51.txt",
+            "char_count": 9450
+        },
+        {
+            "filename": "Jeremiah_52.txt",
+            "char_count": 6267
+        }
     ],
     "Lamentations": [
-        "Lamentations_Int.txt",
-        "Lamentations_1.txt",
-        "Lamentations_2.txt",
-        "Lamentations_3.txt",
-        "Lamentations_4.txt",
-        "Lamentations_5.txt"
+        {
+            "filename": "Lamentations_Int.txt",
+            "char_count": 1553
+        },
+        {
+            "filename": "Lamentations_1.txt",
+            "char_count": 4243
+        },
+        {
+            "filename": "Lamentations_2.txt",
+            "char_count": 4812
+        },
+        {
+            "filename": "Lamentations_3.txt",
+            "char_count": 4403
+        },
+        {
+            "filename": "Lamentations_4.txt",
+            "char_count": 3666
+        },
+        {
+            "filename": "Lamentations_5.txt",
+            "char_count": 2464
+        }
     ],
     "Baruch": [
-        "Baruch_Int.txt",
-        "Baruch_1.txt",
-        "Baruch_2.txt",
-        "Baruch_3.txt",
-        "Baruch_4.txt",
-        "Baruch_5.txt",
-        "Baruch_6.txt"
+        {
+            "filename": "Baruch_Int.txt",
+            "char_count": 2312
+        },
+        {
+            "filename": "Baruch_1.txt",
+            "char_count": 4341
+        },
+        {
+            "filename": "Baruch_2.txt",
+            "char_count": 4929
+        },
+        {
+            "filename": "Baruch_3.txt",
+            "char_count": 3859
+        },
+        {
+            "filename": "Baruch_4.txt",
+            "char_count": 4067
+        },
+        {
+            "filename": "Baruch_5.txt",
+            "char_count": 1023
+        },
+        {
+            "filename": "Baruch_6.txt",
+            "char_count": 8222
+        }
     ],
     "Ezekiel": [
-        "Ezekiel_Int.txt",
-        "Ezekiel_1.txt",
-        "Ezekiel_2.txt",
-        "Ezekiel_3.txt",
-        "Ezekiel_4.txt",
-        "Ezekiel_5.txt",
-        "Ezekiel_6.txt",
-        "Ezekiel_7.txt",
-        "Ezekiel_8.txt",
-        "Ezekiel_9.txt",
-        "Ezekiel_10.txt",
-        "Ezekiel_11.txt",
-        "Ezekiel_12.txt",
-        "Ezekiel_13.txt",
-        "Ezekiel_14.txt",
-        "Ezekiel_15.txt",
-        "Ezekiel_16.txt",
-        "Ezekiel_17.txt",
-        "Ezekiel_18.txt",
-        "Ezekiel_19.txt",
-        "Ezekiel_20.txt",
-        "Ezekiel_21.txt",
-        "Ezekiel_22.txt",
-        "Ezekiel_23.txt",
-        "Ezekiel_24.txt",
-        "Ezekiel_25.txt",
-        "Ezekiel_26.txt",
-        "Ezekiel_27.txt",
-        "Ezekiel_28.txt",
-        "Ezekiel_29.txt",
-        "Ezekiel_30.txt",
-        "Ezekiel_31.txt",
-        "Ezekiel_32.txt",
-        "Ezekiel_33.txt",
-        "Ezekiel_34.txt",
-        "Ezekiel_35.txt",
-        "Ezekiel_36.txt",
-        "Ezekiel_37.txt",
-        "Ezekiel_38.txt",
-        "Ezekiel_39.txt",
-        "Ezekiel_40.txt",
-        "Ezekiel_41.txt",
-        "Ezekiel_42.txt",
-        "Ezekiel_43.txt",
-        "Ezekiel_44.txt",
-        "Ezekiel_45.txt",
-        "Ezekiel_46.txt",
-        "Ezekiel_47.txt",
-        "Ezekiel_48.txt"
+        {
+            "filename": "Ezekiel_Int.txt",
+            "char_count": 3165
+        },
+        {
+            "filename": "Ezekiel_1.txt",
+            "char_count": 4539
+        },
+        {
+            "filename": "Ezekiel_2.txt",
+            "char_count": 1645
+        },
+        {
+            "filename": "Ezekiel_3.txt",
+            "char_count": 4646
+        },
+        {
+            "filename": "Ezekiel_4.txt",
+            "char_count": 3198
+        },
+        {
+            "filename": "Ezekiel_5.txt",
+            "char_count": 3075
+        },
+        {
+            "filename": "Ezekiel_6.txt",
+            "char_count": 2676
+        },
+        {
+            "filename": "Ezekiel_7.txt",
+            "char_count": 3838
+        },
+        {
+            "filename": "Ezekiel_8.txt",
+            "char_count": 3738
+        },
+        {
+            "filename": "Ezekiel_9.txt",
+            "char_count": 2138
+        },
+        {
+            "filename": "Ezekiel_10.txt",
+            "char_count": 4201
+        },
+        {
+            "filename": "Ezekiel_11.txt",
+            "char_count": 3613
+        },
+        {
+            "filename": "Ezekiel_12.txt",
+            "char_count": 4114
+        },
+        {
+            "filename": "Ezekiel_13.txt",
+            "char_count": 3834
+        },
+        {
+            "filename": "Ezekiel_14.txt",
+            "char_count": 4239
+        },
+        {
+            "filename": "Ezekiel_15.txt",
+            "char_count": 968
+        },
+        {
+            "filename": "Ezekiel_16.txt",
+            "char_count": 9826
+        },
+        {
+            "filename": "Ezekiel_17.txt",
+            "char_count": 4085
+        },
+        {
+            "filename": "Ezekiel_18.txt",
+            "char_count": 4765
+        },
+        {
+            "filename": "Ezekiel_19.txt",
+            "char_count": 1891
+        },
+        {
+            "filename": "Ezekiel_20.txt",
+            "char_count": 7481
+        },
+        {
+            "filename": "Ezekiel_21.txt",
+            "char_count": 6325
+        },
+        {
+            "filename": "Ezekiel_22.txt",
+            "char_count": 4156
+        },
+        {
+            "filename": "Ezekiel_23.txt",
+            "char_count": 7054
+        },
+        {
+            "filename": "Ezekiel_24.txt",
+            "char_count": 4134
+        },
+        {
+            "filename": "Ezekiel_25.txt",
+            "char_count": 2667
+        },
+        {
+            "filename": "Ezekiel_26.txt",
+            "char_count": 3744
+        },
+        {
+            "filename": "Ezekiel_27.txt",
+            "char_count": 4443
+        },
+        {
+            "filename": "Ezekiel_28.txt",
+            "char_count": 4156
+        },
+        {
+            "filename": "Ezekiel_29.txt",
+            "char_count": 4304
+        },
+        {
+            "filename": "Ezekiel_30.txt",
+            "char_count": 3910
+        },
+        {
+            "filename": "Ezekiel_31.txt",
+            "char_count": 3003
+        },
+        {
+            "filename": "Ezekiel_32.txt",
+            "char_count": 4874
+        },
+        {
+            "filename": "Ezekiel_33.txt",
+            "char_count": 5971
+        },
+        {
+            "filename": "Ezekiel_34.txt",
+            "char_count": 4650
+        },
+        {
+            "filename": "Ezekiel_35.txt",
+            "char_count": 2224
+        },
+        {
+            "filename": "Ezekiel_36.txt",
+            "char_count": 5679
+        },
+        {
+            "filename": "Ezekiel_37.txt",
+            "char_count": 4345
+        },
+        {
+            "filename": "Ezekiel_38.txt",
+            "char_count": 4467
+        },
+        {
+            "filename": "Ezekiel_39.txt",
+            "char_count": 4352
+        },
+        {
+            "filename": "Ezekiel_40.txt",
+            "char_count": 8964
+        },
+        {
+            "filename": "Ezekiel_41.txt",
+            "char_count": 4112
+        },
+        {
+            "filename": "Ezekiel_42.txt",
+            "char_count": 3106
+        },
+        {
+            "filename": "Ezekiel_43.txt",
+            "char_count": 4569
+        },
+        {
+            "filename": "Ezekiel_44.txt",
+            "char_count": 6250
+        },
+        {
+            "filename": "Ezekiel_45.txt",
+            "char_count": 5149
+        },
+        {
+            "filename": "Ezekiel_46.txt",
+            "char_count": 4073
+        },
+        {
+            "filename": "Ezekiel_47.txt",
+            "char_count": 4264
+        },
+        {
+            "filename": "Ezekiel_48.txt",
+            "char_count": 5255
+        }
     ],
     "Daniel": [
-        "Daniel_Int.txt",
-        "Daniel_1.txt",
-        "Daniel_2.txt",
-        "Daniel_3.txt",
-        "Daniel_4.txt",
-        "Daniel_5.txt",
-        "Daniel_6.txt",
-        "Daniel_7.txt",
-        "Daniel_8.txt",
-        "Daniel_9.txt",
-        "Daniel_10.txt",
-        "Daniel_11.txt",
-        "Daniel_12.txt",
-        "Daniel_13.txt",
-        "Daniel_14.txt"
+        {
+            "filename": "Daniel_Int.txt",
+            "char_count": 2534
+        },
+        {
+            "filename": "Daniel_1.txt",
+            "char_count": 3320
+        },
+        {
+            "filename": "Daniel_2.txt",
+            "char_count": 8514
+        },
+        {
+            "filename": "Daniel_3.txt",
+            "char_count": 12760
+        },
+        {
+            "filename": "Daniel_4.txt",
+            "char_count": 7274
+        },
+        {
+            "filename": "Daniel_5.txt",
+            "char_count": 5454
+        },
+        {
+            "filename": "Daniel_6.txt",
+            "char_count": 5190
+        },
+        {
+            "filename": "Daniel_7.txt",
+            "char_count": 7327
+        },
+        {
+            "filename": "Daniel_8.txt",
+            "char_count": 4989
+        },
+        {
+            "filename": "Daniel_9.txt",
+            "char_count": 7772
+        },
+        {
+            "filename": "Daniel_10.txt",
+            "char_count": 3487
+        },
+        {
+            "filename": "Daniel_11.txt",
+            "char_count": 8387
+        },
+        {
+            "filename": "Daniel_12.txt",
+            "char_count": 2298
+        },
+        {
+            "filename": "Daniel_13.txt",
+            "char_count": 7656
+        },
+        {
+            "filename": "Daniel_14.txt",
+            "char_count": 5545
+        }
     ],
     "Hosea": [
-        "Hosea_Int.txt",
-        "Hosea_1.txt",
-        "Hosea_2.txt",
-        "Hosea_3.txt",
-        "Hosea_4.txt",
-        "Hosea_5.txt",
-        "Hosea_6.txt",
-        "Hosea_7.txt",
-        "Hosea_8.txt",
-        "Hosea_9.txt",
-        "Hosea_10.txt",
-        "Hosea_11.txt",
-        "Hosea_12.txt",
-        "Hosea_13.txt",
-        "Hosea_14.txt"
+        {
+            "filename": "Hosea_Int.txt",
+            "char_count": 1978
+        },
+        {
+            "filename": "Hosea_1.txt",
+            "char_count": 3274
+        },
+        {
+            "filename": "Hosea_2.txt",
+            "char_count": 5094
+        },
+        {
+            "filename": "Hosea_3.txt",
+            "char_count": 2629
+        },
+        {
+            "filename": "Hosea_4.txt",
+            "char_count": 3785
+        },
+        {
+            "filename": "Hosea_5.txt",
+            "char_count": 3123
+        },
+        {
+            "filename": "Hosea_6.txt",
+            "char_count": 1465
+        },
+        {
+            "filename": "Hosea_7.txt",
+            "char_count": 3157
+        },
+        {
+            "filename": "Hosea_8.txt",
+            "char_count": 2332
+        },
+        {
+            "filename": "Hosea_9.txt",
+            "char_count": 3490
+        },
+        {
+            "filename": "Hosea_10.txt",
+            "char_count": 2920
+        },
+        {
+            "filename": "Hosea_11.txt",
+            "char_count": 1795
+        },
+        {
+            "filename": "Hosea_12.txt",
+            "char_count": 2171
+        },
+        {
+            "filename": "Hosea_13.txt",
+            "char_count": 2559
+        },
+        {
+            "filename": "Hosea_14.txt",
+            "char_count": 1438
+        }
     ],
     "Joel": [
-        "Joel_Int.txt",
-        "Joel_1.txt",
-        "Joel_2.txt",
-        "Joel_3.txt",
-        "Joel_4.txt"
+        {
+            "filename": "Joel_Int.txt",
+            "char_count": 1498
+        },
+        {
+            "filename": "Joel_1.txt",
+            "char_count": 2711
+        },
+        {
+            "filename": "Joel_2.txt",
+            "char_count": 4662
+        },
+        {
+            "filename": "Joel_3.txt",
+            "char_count": 978
+        },
+        {
+            "filename": "Joel_4.txt",
+            "char_count": 3846
+        }
     ],
     "Amos": [
-        "Amos_Int.txt",
-        "Amos_1.txt",
-        "Amos_2.txt",
-        "Amos_3.txt",
-        "Amos_4.txt",
-        "Amos_5.txt",
-        "Amos_6.txt",
-        "Amos_7.txt",
-        "Amos_8.txt",
-        "Amos_9.txt"
+        {
+            "filename": "Amos_Int.txt",
+            "char_count": 2058
+        },
+        {
+            "filename": "Amos_1.txt",
+            "char_count": 3828
+        },
+        {
+            "filename": "Amos_2.txt",
+            "char_count": 2970
+        },
+        {
+            "filename": "Amos_3.txt",
+            "char_count": 2403
+        },
+        {
+            "filename": "Amos_4.txt",
+            "char_count": 2625
+        },
+        {
+            "filename": "Amos_5.txt",
+            "char_count": 5031
+        },
+        {
+            "filename": "Amos_6.txt",
+            "char_count": 2567
+        },
+        {
+            "filename": "Amos_7.txt",
+            "char_count": 2519
+        },
+        {
+            "filename": "Amos_8.txt",
+            "char_count": 2279
+        },
+        {
+            "filename": "Amos_9.txt",
+            "char_count": 3294
+        }
     ],
     "Obadiah": [
-        "Obadiah_Obadiah.txt"
+        {
+            "filename": "Obadiah_Obadiah.txt",
+            "char_count": 5852
+        }
     ],
     "Jonah": [
-        "Jonah_Int.txt",
-        "Jonah_1.txt",
-        "Jonah_2.txt",
-        "Jonah_3.txt",
-        "Jonah_4.txt"
+        {
+            "filename": "Jonah_Int.txt",
+            "char_count": 1715
+        },
+        {
+            "filename": "Jonah_1.txt",
+            "char_count": 2700
+        },
+        {
+            "filename": "Jonah_2.txt",
+            "char_count": 2740
+        },
+        {
+            "filename": "Jonah_3.txt",
+            "char_count": 1589
+        },
+        {
+            "filename": "Jonah_4.txt",
+            "char_count": 2284
+        }
     ],
     "Micah": [
-        "Micah_Int.txt",
-        "Micah_1.txt",
-        "Micah_2.txt",
-        "Micah_3.txt",
-        "Micah_4.txt",
-        "Micah_5.txt",
-        "Micah_6.txt",
-        "Micah_7.txt"
+        {
+            "filename": "Micah_Int.txt",
+            "char_count": 1606
+        },
+        {
+            "filename": "Micah_1.txt",
+            "char_count": 2851
+        },
+        {
+            "filename": "Micah_2.txt",
+            "char_count": 3038
+        },
+        {
+            "filename": "Micah_3.txt",
+            "char_count": 3755
+        },
+        {
+            "filename": "Micah_4.txt",
+            "char_count": 2830
+        },
+        {
+            "filename": "Micah_5.txt",
+            "char_count": 3239
+        },
+        {
+            "filename": "Micah_6.txt",
+            "char_count": 3200
+        },
+        {
+            "filename": "Micah_7.txt",
+            "char_count": 3484
+        }
     ],
     "Nahum": [
-        "Nahum_Int.txt",
-        "Nahum_1.txt",
-        "Nahum_2.txt",
-        "Nahum_3.txt"
+        {
+            "filename": "Nahum_Int.txt",
+            "char_count": 1121
+        },
+        {
+            "filename": "Nahum_1.txt",
+            "char_count": 2597
+        },
+        {
+            "filename": "Nahum_2.txt",
+            "char_count": 2160
+        },
+        {
+            "filename": "Nahum_3.txt",
+            "char_count": 2754
+        }
     ],
     "Habakkuk": [
-        "Habakkuk_Int.txt",
-        "Habakkuk_1.txt",
-        "Habakkuk_2.txt",
-        "Habakkuk_3.txt"
+        {
+            "filename": "Habakkuk_Int.txt",
+            "char_count": 1186
+        },
+        {
+            "filename": "Habakkuk_1.txt",
+            "char_count": 4010
+        },
+        {
+            "filename": "Habakkuk_2.txt",
+            "char_count": 3835
+        },
+        {
+            "filename": "Habakkuk_3.txt",
+            "char_count": 2973
+        }
     ],
     "Zephaniah": [
-        "Zephaniah_Int.txt",
-        "Zephaniah_1.txt",
-        "Zephaniah_2.txt",
-        "Zephaniah_3.txt"
+        {
+            "filename": "Zephaniah_Int.txt",
+            "char_count": 1450
+        },
+        {
+            "filename": "Zephaniah_1.txt",
+            "char_count": 3435
+        },
+        {
+            "filename": "Zephaniah_2.txt",
+            "char_count": 2749
+        },
+        {
+            "filename": "Zephaniah_3.txt",
+            "char_count": 2994
+        }
     ],
     "Haggai": [
-        "Haggai_Int.txt",
-        "Haggai_1.txt",
-        "Haggai_2.txt"
+        {
+            "filename": "Haggai_Int.txt",
+            "char_count": 1707
+        },
+        {
+            "filename": "Haggai_1.txt",
+            "char_count": 2536
+        },
+        {
+            "filename": "Haggai_2.txt",
+            "char_count": 4183
+        }
     ],
     "Zechariah": [
-        "Zechariah_Int.txt",
-        "Zechariah_1.txt",
-        "Zechariah_2.txt",
-        "Zechariah_3.txt",
-        "Zechariah_4.txt",
-        "Zechariah_5.txt",
-        "Zechariah_6.txt",
-        "Zechariah_7.txt",
-        "Zechariah_8.txt",
-        "Zechariah_9.txt",
-        "Zechariah_10.txt",
-        "Zechariah_11.txt",
-        "Zechariah_12.txt",
-        "Zechariah_13.txt",
-        "Zechariah_14.txt"
+        {
+            "filename": "Zechariah_Int.txt",
+            "char_count": 1452
+        },
+        {
+            "filename": "Zechariah_1.txt",
+            "char_count": 3178
+        },
+        {
+            "filename": "Zechariah_2.txt",
+            "char_count": 2352
+        },
+        {
+            "filename": "Zechariah_3.txt",
+            "char_count": 2240
+        },
+        {
+            "filename": "Zechariah_4.txt",
+            "char_count": 2054
+        },
+        {
+            "filename": "Zechariah_5.txt",
+            "char_count": 2077
+        },
+        {
+            "filename": "Zechariah_6.txt",
+            "char_count": 2648
+        },
+        {
+            "filename": "Zechariah_7.txt",
+            "char_count": 1872
+        },
+        {
+            "filename": "Zechariah_8.txt",
+            "char_count": 3645
+        },
+        {
+            "filename": "Zechariah_9.txt",
+            "char_count": 3863
+        },
+        {
+            "filename": "Zechariah_10.txt",
+            "char_count": 1920
+        },
+        {
+            "filename": "Zechariah_11.txt",
+            "char_count": 3181
+        },
+        {
+            "filename": "Zechariah_12.txt",
+            "char_count": 3301
+        },
+        {
+            "filename": "Zechariah_13.txt",
+            "char_count": 2588
+        },
+        {
+            "filename": "Zechariah_14.txt",
+            "char_count": 3786
+        }
     ],
     "Malachi": [
-        "Malachi_Int.txt",
-        "Malachi_1.txt",
-        "Malachi_2.txt",
-        "Malachi_3.txt"
+        {
+            "filename": "Malachi_Int.txt",
+            "char_count": 1846
+        },
+        {
+            "filename": "Malachi_1.txt",
+            "char_count": 3131
+        },
+        {
+            "filename": "Malachi_2.txt",
+            "char_count": 3434
+        },
+        {
+            "filename": "Malachi_3.txt",
+            "char_count": 4581
+        }
     ],
     "Matthew": [
-        "Matthew_Int.txt",
-        "Matthew_1.txt",
-        "Matthew_2.txt",
-        "Matthew_3.txt",
-        "Matthew_4.txt",
-        "Matthew_5.txt",
-        "Matthew_6.txt",
-        "Matthew_7.txt",
-        "Matthew_8.txt",
-        "Matthew_9.txt",
-        "Matthew_10.txt",
-        "Matthew_11.txt",
-        "Matthew_12.txt",
-        "Matthew_13.txt",
-        "Matthew_14.txt",
-        "Matthew_15.txt",
-        "Matthew_16.txt",
-        "Matthew_17.txt",
-        "Matthew_18.txt",
-        "Matthew_19.txt",
-        "Matthew_20.txt",
-        "Matthew_21.txt",
-        "Matthew_22.txt",
-        "Matthew_23.txt",
-        "Matthew_24.txt",
-        "Matthew_25.txt",
-        "Matthew_26.txt",
-        "Matthew_27.txt",
-        "Matthew_28.txt"
+        {
+            "filename": "Matthew_Int.txt",
+            "char_count": 20777
+        },
+        {
+            "filename": "Matthew_1.txt",
+            "char_count": 8925
+        },
+        {
+            "filename": "Matthew_2.txt",
+            "char_count": 6926
+        },
+        {
+            "filename": "Matthew_3.txt",
+            "char_count": 6464
+        },
+        {
+            "filename": "Matthew_4.txt",
+            "char_count": 6201
+        },
+        {
+            "filename": "Matthew_5.txt",
+            "char_count": 15791
+        },
+        {
+            "filename": "Matthew_6.txt",
+            "char_count": 9210
+        },
+        {
+            "filename": "Matthew_7.txt",
+            "char_count": 6547
+        },
+        {
+            "filename": "Matthew_8.txt",
+            "char_count": 10274
+        },
+        {
+            "filename": "Matthew_9.txt",
+            "char_count": 9563
+        },
+        {
+            "filename": "Matthew_10.txt",
+            "char_count": 9924
+        },
+        {
+            "filename": "Matthew_11.txt",
+            "char_count": 8107
+        },
+        {
+            "filename": "Matthew_12.txt",
+            "char_count": 13414
+        },
+        {
+            "filename": "Matthew_13.txt",
+            "char_count": 17124
+        },
+        {
+            "filename": "Matthew_14.txt",
+            "char_count": 6957
+        },
+        {
+            "filename": "Matthew_15.txt",
+            "char_count": 7648
+        },
+        {
+            "filename": "Matthew_16.txt",
+            "char_count": 13277
+        },
+        {
+            "filename": "Matthew_17.txt",
+            "char_count": 11254
+        },
+        {
+            "filename": "Matthew_18.txt",
+            "char_count": 14295
+        },
+        {
+            "filename": "Matthew_19.txt",
+            "char_count": 13173
+        },
+        {
+            "filename": "Matthew_20.txt",
+            "char_count": 7636
+        },
+        {
+            "filename": "Matthew_21.txt",
+            "char_count": 17477
+        },
+        {
+            "filename": "Matthew_22.txt",
+            "char_count": 13488
+        },
+        {
+            "filename": "Matthew_23.txt",
+            "char_count": 15171
+        },
+        {
+            "filename": "Matthew_24.txt",
+            "char_count": 17381
+        },
+        {
+            "filename": "Matthew_25.txt",
+            "char_count": 9211
+        },
+        {
+            "filename": "Matthew_26.txt",
+            "char_count": 21621
+        },
+        {
+            "filename": "Matthew_27.txt",
+            "char_count": 21179
+        },
+        {
+            "filename": "Matthew_28.txt",
+            "char_count": 8777
+        }
     ],
     "Mark": [
-        "Mark_Int.txt",
-        "Mark_1.txt",
-        "Mark_2.txt",
-        "Mark_3.txt",
-        "Mark_4.txt",
-        "Mark_5.txt",
-        "Mark_6.txt",
-        "Mark_7.txt",
-        "Mark_8.txt",
-        "Mark_9.txt",
-        "Mark_10.txt",
-        "Mark_11.txt",
-        "Mark_12.txt",
-        "Mark_13.txt",
-        "Mark_14.txt",
-        "Mark_15.txt",
-        "Mark_16.txt"
+        {
+            "filename": "Mark_Int.txt",
+            "char_count": 9761
+        },
+        {
+            "filename": "Mark_1.txt",
+            "char_count": 9817
+        },
+        {
+            "filename": "Mark_2.txt",
+            "char_count": 7637
+        },
+        {
+            "filename": "Mark_3.txt",
+            "char_count": 6716
+        },
+        {
+            "filename": "Mark_4.txt",
+            "char_count": 7190
+        },
+        {
+            "filename": "Mark_5.txt",
+            "char_count": 7043
+        },
+        {
+            "filename": "Mark_6.txt",
+            "char_count": 13325
+        },
+        {
+            "filename": "Mark_7.txt",
+            "char_count": 6838
+        },
+        {
+            "filename": "Mark_8.txt",
+            "char_count": 7989
+        },
+        {
+            "filename": "Mark_9.txt",
+            "char_count": 9119
+        },
+        {
+            "filename": "Mark_10.txt",
+            "char_count": 8412
+        },
+        {
+            "filename": "Mark_11.txt",
+            "char_count": 5159
+        },
+        {
+            "filename": "Mark_12.txt",
+            "char_count": 6479
+        },
+        {
+            "filename": "Mark_13.txt",
+            "char_count": 5905
+        },
+        {
+            "filename": "Mark_14.txt",
+            "char_count": 13733
+        },
+        {
+            "filename": "Mark_15.txt",
+            "char_count": 7756
+        },
+        {
+            "filename": "Mark_16.txt",
+            "char_count": 4849
+        }
     ],
     "Luke": [
-        "Luke_Int.txt",
-        "Luke_1.txt",
-        "Luke_2.txt",
-        "Luke_3.txt",
-        "Luke_4.txt",
-        "Luke_5.txt",
-        "Luke_6.txt",
-        "Luke_7.txt",
-        "Luke_8.txt",
-        "Luke_9.txt",
-        "Luke_10.txt",
-        "Luke_11.txt",
-        "Luke_12.txt",
-        "Luke_13.txt",
-        "Luke_14.txt",
-        "Luke_15.txt",
-        "Luke_16.txt",
-        "Luke_17.txt",
-        "Luke_18.txt",
-        "Luke_19.txt",
-        "Luke_20.txt",
-        "Luke_21.txt",
-        "Luke_22.txt",
-        "Luke_23.txt",
-        "Luke_24.txt"
+        {
+            "filename": "Luke_Int.txt",
+            "char_count": 7561
+        },
+        {
+            "filename": "Luke_1.txt",
+            "char_count": 18309
+        },
+        {
+            "filename": "Luke_2.txt",
+            "char_count": 13502
+        },
+        {
+            "filename": "Luke_3.txt",
+            "char_count": 10902
+        },
+        {
+            "filename": "Luke_4.txt",
+            "char_count": 10394
+        },
+        {
+            "filename": "Luke_5.txt",
+            "char_count": 8316
+        },
+        {
+            "filename": "Luke_6.txt",
+            "char_count": 10930
+        },
+        {
+            "filename": "Luke_7.txt",
+            "char_count": 10135
+        },
+        {
+            "filename": "Luke_8.txt",
+            "char_count": 11323
+        },
+        {
+            "filename": "Luke_9.txt",
+            "char_count": 14649
+        },
+        {
+            "filename": "Luke_10.txt",
+            "char_count": 8482
+        },
+        {
+            "filename": "Luke_11.txt",
+            "char_count": 10005
+        },
+        {
+            "filename": "Luke_12.txt",
+            "char_count": 9186
+        },
+        {
+            "filename": "Luke_13.txt",
+            "char_count": 8097
+        },
+        {
+            "filename": "Luke_14.txt",
+            "char_count": 6311
+        },
+        {
+            "filename": "Luke_15.txt",
+            "char_count": 4148
+        },
+        {
+            "filename": "Luke_16.txt",
+            "char_count": 7749
+        },
+        {
+            "filename": "Luke_17.txt",
+            "char_count": 5928
+        },
+        {
+            "filename": "Luke_18.txt",
+            "char_count": 7540
+        },
+        {
+            "filename": "Luke_19.txt",
+            "char_count": 9468
+        },
+        {
+            "filename": "Luke_20.txt",
+            "char_count": 7538
+        },
+        {
+            "filename": "Luke_21.txt",
+            "char_count": 6555
+        },
+        {
+            "filename": "Luke_22.txt",
+            "char_count": 11980
+        },
+        {
+            "filename": "Luke_23.txt",
+            "char_count": 7997
+        },
+        {
+            "filename": "Luke_24.txt",
+            "char_count": 9182
+        }
     ],
     "John": [
-        "John_Int.txt",
-        "John_1.txt",
-        "John_2.txt",
-        "John_3.txt",
-        "John_4.txt",
-        "John_5.txt",
-        "John_6.txt",
-        "John_7.txt",
-        "John_8.txt",
-        "John_9.txt",
-        "John_10.txt",
-        "John_11.txt",
-        "John_12.txt",
-        "John_13.txt",
-        "John_14.txt",
-        "John_15.txt",
-        "John_16.txt",
-        "John_17.txt",
-        "John_18.txt",
-        "John_19.txt",
-        "John_20.txt",
-        "John_21.txt"
+        {
+            "filename": "John_Int.txt",
+            "char_count": 8475
+        },
+        {
+            "filename": "John_1.txt",
+            "char_count": 14798
+        },
+        {
+            "filename": "John_2.txt",
+            "char_count": 6668
+        },
+        {
+            "filename": "John_3.txt",
+            "char_count": 6643
+        },
+        {
+            "filename": "John_4.txt",
+            "char_count": 8714
+        },
+        {
+            "filename": "John_5.txt",
+            "char_count": 8740
+        },
+        {
+            "filename": "John_6.txt",
+            "char_count": 11430
+        },
+        {
+            "filename": "John_7.txt",
+            "char_count": 9540
+        },
+        {
+            "filename": "John_8.txt",
+            "char_count": 10143
+        },
+        {
+            "filename": "John_9.txt",
+            "char_count": 5853
+        },
+        {
+            "filename": "John_10.txt",
+            "char_count": 7220
+        },
+        {
+            "filename": "John_11.txt",
+            "char_count": 8181
+        },
+        {
+            "filename": "John_12.txt",
+            "char_count": 9563
+        },
+        {
+            "filename": "John_13.txt",
+            "char_count": 6811
+        },
+        {
+            "filename": "John_14.txt",
+            "char_count": 5980
+        },
+        {
+            "filename": "John_15.txt",
+            "char_count": 5490
+        },
+        {
+            "filename": "John_16.txt",
+            "char_count": 5514
+        },
+        {
+            "filename": "John_17.txt",
+            "char_count": 4686
+        },
+        {
+            "filename": "John_18.txt",
+            "char_count": 8115
+        },
+        {
+            "filename": "John_19.txt",
+            "char_count": 10487
+        },
+        {
+            "filename": "John_20.txt",
+            "char_count": 8243
+        },
+        {
+            "filename": "John_21.txt",
+            "char_count": 6983
+        }
     ],
     "Acts": [
-        "Acts_Int.txt",
-        "Acts_1.txt",
-        "Acts_2.txt",
-        "Acts_3.txt",
-        "Acts_4.txt",
-        "Acts_5.txt",
-        "Acts_6.txt",
-        "Acts_7.txt",
-        "Acts_8.txt",
-        "Acts_9.txt",
-        "Acts_10.txt",
-        "Acts_11.txt",
-        "Acts_12.txt",
-        "Acts_13.txt",
-        "Acts_14.txt",
-        "Acts_15.txt",
-        "Acts_16.txt",
-        "Acts_17.txt",
-        "Acts_18.txt",
-        "Acts_19.txt",
-        "Acts_20.txt",
-        "Acts_21.txt",
-        "Acts_22.txt",
-        "Acts_23.txt",
-        "Acts_24.txt",
-        "Acts_25.txt",
-        "Acts_26.txt",
-        "Acts_27.txt",
-        "Acts_28.txt"
+        {
+            "filename": "Acts_Int.txt",
+            "char_count": 5839
+        },
+        {
+            "filename": "Acts_1.txt",
+            "char_count": 6572
+        },
+        {
+            "filename": "Acts_2.txt",
+            "char_count": 8120
+        },
+        {
+            "filename": "Acts_3.txt",
+            "char_count": 7661
+        },
+        {
+            "filename": "Acts_4.txt",
+            "char_count": 6321
+        },
+        {
+            "filename": "Acts_5.txt",
+            "char_count": 7657
+        },
+        {
+            "filename": "Acts_6.txt",
+            "char_count": 4620
+        },
+        {
+            "filename": "Acts_7.txt",
+            "char_count": 8493
+        },
+        {
+            "filename": "Acts_8.txt",
+            "char_count": 8368
+        },
+        {
+            "filename": "Acts_9.txt",
+            "char_count": 7976
+        },
+        {
+            "filename": "Acts_10.txt",
+            "char_count": 9848
+        },
+        {
+            "filename": "Acts_11.txt",
+            "char_count": 5402
+        },
+        {
+            "filename": "Acts_12.txt",
+            "char_count": 4893
+        },
+        {
+            "filename": "Acts_13.txt",
+            "char_count": 10136
+        },
+        {
+            "filename": "Acts_14.txt",
+            "char_count": 4661
+        },
+        {
+            "filename": "Acts_15.txt",
+            "char_count": 8818
+        },
+        {
+            "filename": "Acts_16.txt",
+            "char_count": 6936
+        },
+        {
+            "filename": "Acts_17.txt",
+            "char_count": 8013
+        },
+        {
+            "filename": "Acts_18.txt",
+            "char_count": 5568
+        },
+        {
+            "filename": "Acts_19.txt",
+            "char_count": 6803
+        },
+        {
+            "filename": "Acts_20.txt",
+            "char_count": 6160
+        },
+        {
+            "filename": "Acts_21.txt",
+            "char_count": 8520
+        },
+        {
+            "filename": "Acts_22.txt",
+            "char_count": 4963
+        },
+        {
+            "filename": "Acts_23.txt",
+            "char_count": 6281
+        },
+        {
+            "filename": "Acts_24.txt",
+            "char_count": 4313
+        },
+        {
+            "filename": "Acts_25.txt",
+            "char_count": 4585
+        },
+        {
+            "filename": "Acts_26.txt",
+            "char_count": 6128
+        },
+        {
+            "filename": "Acts_27.txt",
+            "char_count": 6454
+        },
+        {
+            "filename": "Acts_28.txt",
+            "char_count": 6065
+        }
     ],
     "Romans": [
-        "Romans_Int.txt",
-        "Romans_1.txt",
-        "Romans_2.txt",
-        "Romans_3.txt",
-        "Romans_4.txt",
-        "Romans_5.txt",
-        "Romans_6.txt",
-        "Romans_7.txt",
-        "Romans_8.txt",
-        "Romans_9.txt",
-        "Romans_10.txt",
-        "Romans_11.txt",
-        "Romans_12.txt",
-        "Romans_13.txt",
-        "Romans_14.txt",
-        "Romans_15.txt",
-        "Romans_16.txt"
+        {
+            "filename": "Romans_Int.txt",
+            "char_count": 7642
+        },
+        {
+            "filename": "Romans_1.txt",
+            "char_count": 11526
+        },
+        {
+            "filename": "Romans_2.txt",
+            "char_count": 5420
+        },
+        {
+            "filename": "Romans_3.txt",
+            "char_count": 6936
+        },
+        {
+            "filename": "Romans_4.txt",
+            "char_count": 4649
+        },
+        {
+            "filename": "Romans_5.txt",
+            "char_count": 5770
+        },
+        {
+            "filename": "Romans_6.txt",
+            "char_count": 4508
+        },
+        {
+            "filename": "Romans_7.txt",
+            "char_count": 4708
+        },
+        {
+            "filename": "Romans_8.txt",
+            "char_count": 8642
+        },
+        {
+            "filename": "Romans_9.txt",
+            "char_count": 8597
+        },
+        {
+            "filename": "Romans_10.txt",
+            "char_count": 4333
+        },
+        {
+            "filename": "Romans_11.txt",
+            "char_count": 6608
+        },
+        {
+            "filename": "Romans_12.txt",
+            "char_count": 4664
+        },
+        {
+            "filename": "Romans_13.txt",
+            "char_count": 3926
+        },
+        {
+            "filename": "Romans_14.txt",
+            "char_count": 4110
+        },
+        {
+            "filename": "Romans_15.txt",
+            "char_count": 6535
+        },
+        {
+            "filename": "Romans_16.txt",
+            "char_count": 5000
+        }
     ],
     "1_Corinthians": [
-        "1_Corinthians_Int.txt",
-        "1_Corinthians_1.txt",
-        "1_Corinthians_2.txt",
-        "1_Corinthians_3.txt",
-        "1_Corinthians_4.txt",
-        "1_Corinthians_5.txt",
-        "1_Corinthians_6.txt",
-        "1_Corinthians_7.txt",
-        "1_Corinthians_8.txt",
-        "1_Corinthians_9.txt",
-        "1_Corinthians_10.txt",
-        "1_Corinthians_11.txt",
-        "1_Corinthians_12.txt",
-        "1_Corinthians_13.txt",
-        "1_Corinthians_14.txt",
-        "1_Corinthians_15.txt",
-        "1_Corinthians_16.txt"
+        {
+            "filename": "1_Corinthians_Int.txt",
+            "char_count": 6695
+        },
+        {
+            "filename": "1_Corinthians_1.txt",
+            "char_count": 7560
+        },
+        {
+            "filename": "1_Corinthians_2.txt",
+            "char_count": 5021
+        },
+        {
+            "filename": "1_Corinthians_3.txt",
+            "char_count": 6276
+        },
+        {
+            "filename": "1_Corinthians_4.txt",
+            "char_count": 6170
+        },
+        {
+            "filename": "1_Corinthians_5.txt",
+            "char_count": 4105
+        },
+        {
+            "filename": "1_Corinthians_6.txt",
+            "char_count": 6091
+        },
+        {
+            "filename": "1_Corinthians_7.txt",
+            "char_count": 9470
+        },
+        {
+            "filename": "1_Corinthians_8.txt",
+            "char_count": 4335
+        },
+        {
+            "filename": "1_Corinthians_9.txt",
+            "char_count": 7145
+        },
+        {
+            "filename": "1_Corinthians_10.txt",
+            "char_count": 7732
+        },
+        {
+            "filename": "1_Corinthians_11.txt",
+            "char_count": 9988
+        },
+        {
+            "filename": "1_Corinthians_12.txt",
+            "char_count": 5652
+        },
+        {
+            "filename": "1_Corinthians_13.txt",
+            "char_count": 3217
+        },
+        {
+            "filename": "1_Corinthians_14.txt",
+            "char_count": 9690
+        },
+        {
+            "filename": "1_Corinthians_15.txt",
+            "char_count": 16652
+        },
+        {
+            "filename": "1_Corinthians_16.txt",
+            "char_count": 4303
+        }
     ],
     "2_Corinthians": [
-        "2_Corinthians_Int.txt",
-        "2_Corinthians_1.txt",
-        "2_Corinthians_2.txt",
-        "2_Corinthians_3.txt",
-        "2_Corinthians_4.txt",
-        "2_Corinthians_5.txt",
-        "2_Corinthians_6.txt",
-        "2_Corinthians_7.txt",
-        "2_Corinthians_8.txt",
-        "2_Corinthians_9.txt",
-        "2_Corinthians_10.txt",
-        "2_Corinthians_11.txt",
-        "2_Corinthians_12.txt",
-        "2_Corinthians_13.txt"
+        {
+            "filename": "2_Corinthians_Int.txt",
+            "char_count": 6280
+        },
+        {
+            "filename": "2_Corinthians_1.txt",
+            "char_count": 8484
+        },
+        {
+            "filename": "2_Corinthians_2.txt",
+            "char_count": 6779
+        },
+        {
+            "filename": "2_Corinthians_3.txt",
+            "char_count": 8951
+        },
+        {
+            "filename": "2_Corinthians_4.txt",
+            "char_count": 6292
+        },
+        {
+            "filename": "2_Corinthians_5.txt",
+            "char_count": 8619
+        },
+        {
+            "filename": "2_Corinthians_6.txt",
+            "char_count": 6116
+        },
+        {
+            "filename": "2_Corinthians_7.txt",
+            "char_count": 4329
+        },
+        {
+            "filename": "2_Corinthians_8.txt",
+            "char_count": 9142
+        },
+        {
+            "filename": "2_Corinthians_9.txt",
+            "char_count": 3584
+        },
+        {
+            "filename": "2_Corinthians_10.txt",
+            "char_count": 7442
+        },
+        {
+            "filename": "2_Corinthians_11.txt",
+            "char_count": 11474
+        },
+        {
+            "filename": "2_Corinthians_12.txt",
+            "char_count": 9665
+        },
+        {
+            "filename": "2_Corinthians_13.txt",
+            "char_count": 5023
+        }
     ],
     "Galatians": [
-        "Galatians_Int.txt",
-        "Galatians_1.txt",
-        "Galatians_2.txt",
-        "Galatians_3.txt",
-        "Galatians_4.txt",
-        "Galatians_5.txt",
-        "Galatians_6.txt"
+        {
+            "filename": "Galatians_Int.txt",
+            "char_count": 4997
+        },
+        {
+            "filename": "Galatians_1.txt",
+            "char_count": 7240
+        },
+        {
+            "filename": "Galatians_2.txt",
+            "char_count": 9431
+        },
+        {
+            "filename": "Galatians_3.txt",
+            "char_count": 9267
+        },
+        {
+            "filename": "Galatians_4.txt",
+            "char_count": 7371
+        },
+        {
+            "filename": "Galatians_5.txt",
+            "char_count": 5426
+        },
+        {
+            "filename": "Galatians_6.txt",
+            "char_count": 5334
+        }
     ],
     "Ephesians": [
-        "Ephesians_Int.txt",
-        "Ephesians_1.txt",
-        "Ephesians_2.txt",
-        "Ephesians_3.txt",
-        "Ephesians_4.txt",
-        "Ephesians_5.txt",
-        "Ephesians_6.txt"
+        {
+            "filename": "Ephesians_Int.txt",
+            "char_count": 3460
+        },
+        {
+            "filename": "Ephesians_1.txt",
+            "char_count": 7258
+        },
+        {
+            "filename": "Ephesians_2.txt",
+            "char_count": 6317
+        },
+        {
+            "filename": "Ephesians_3.txt",
+            "char_count": 4687
+        },
+        {
+            "filename": "Ephesians_4.txt",
+            "char_count": 6592
+        },
+        {
+            "filename": "Ephesians_5.txt",
+            "char_count": 4749
+        },
+        {
+            "filename": "Ephesians_6.txt",
+            "char_count": 3261
+        }
     ],
     "Philippians": [
-        "Philippians_Int.txt",
-        "Philippians_1.txt",
-        "Philippians_2.txt",
-        "Philippians_3.txt",
-        "Philippians_4.txt"
+        {
+            "filename": "Philippians_Int.txt",
+            "char_count": 7440
+        },
+        {
+            "filename": "Philippians_1.txt",
+            "char_count": 8891
+        },
+        {
+            "filename": "Philippians_2.txt",
+            "char_count": 7731
+        },
+        {
+            "filename": "Philippians_3.txt",
+            "char_count": 6584
+        },
+        {
+            "filename": "Philippians_4.txt",
+            "char_count": 5375
+        }
     ],
     "Colossians": [
-        "Colossians_Int.txt",
-        "Colossians_1.txt",
-        "Colossians_2.txt",
-        "Colossians_3.txt",
-        "Colossians_4.txt"
+        {
+            "filename": "Colossians_Int.txt",
+            "char_count": 4563
+        },
+        {
+            "filename": "Colossians_1.txt",
+            "char_count": 9853
+        },
+        {
+            "filename": "Colossians_2.txt",
+            "char_count": 5755
+        },
+        {
+            "filename": "Colossians_3.txt",
+            "char_count": 4383
+        },
+        {
+            "filename": "Colossians_4.txt",
+            "char_count": 3814
+        }
     ],
     "1_Thessalonians": [
-        "1_Thessalonians_Int.txt",
-        "1_Thessalonians_1.txt",
-        "1_Thessalonians_2.txt",
-        "1_Thessalonians_3.txt",
-        "1_Thessalonians_4.txt",
-        "1_Thessalonians_5.txt"
+        {
+            "filename": "1_Thessalonians_Int.txt",
+            "char_count": 2594
+        },
+        {
+            "filename": "1_Thessalonians_1.txt",
+            "char_count": 1866
+        },
+        {
+            "filename": "1_Thessalonians_2.txt",
+            "char_count": 3863
+        },
+        {
+            "filename": "1_Thessalonians_3.txt",
+            "char_count": 2221
+        },
+        {
+            "filename": "1_Thessalonians_4.txt",
+            "char_count": 3987
+        },
+        {
+            "filename": "1_Thessalonians_5.txt",
+            "char_count": 3557
+        }
     ],
     "2_Thessalonians": [
-        "2_Thessalonians_Int.txt",
-        "2_Thessalonians_1.txt",
-        "2_Thessalonians_2.txt",
-        "2_Thessalonians_3.txt"
+        {
+            "filename": "2_Thessalonians_Int.txt",
+            "char_count": 3848
+        },
+        {
+            "filename": "2_Thessalonians_1.txt",
+            "char_count": 2620
+        },
+        {
+            "filename": "2_Thessalonians_2.txt",
+            "char_count": 8226
+        },
+        {
+            "filename": "2_Thessalonians_3.txt",
+            "char_count": 2990
+        }
     ],
     "1_Timothy": [
-        "1_Timothy_Int.txt",
-        "1_Timothy_1.txt",
-        "1_Timothy_2.txt",
-        "1_Timothy_3.txt",
-        "1_Timothy_4.txt",
-        "1_Timothy_5.txt",
-        "1_Timothy_6.txt"
+        {
+            "filename": "1_Timothy_Int.txt",
+            "char_count": 4642
+        },
+        {
+            "filename": "1_Timothy_1.txt",
+            "char_count": 5746
+        },
+        {
+            "filename": "1_Timothy_2.txt",
+            "char_count": 3369
+        },
+        {
+            "filename": "1_Timothy_3.txt",
+            "char_count": 5283
+        },
+        {
+            "filename": "1_Timothy_4.txt",
+            "char_count": 3921
+        },
+        {
+            "filename": "1_Timothy_5.txt",
+            "char_count": 4980
+        },
+        {
+            "filename": "1_Timothy_6.txt",
+            "char_count": 4922
+        }
     ],
     "2_Timothy": [
-        "2_Timothy_Int.txt",
-        "2_Timothy_1.txt",
-        "2_Timothy_2.txt",
-        "2_Timothy_3.txt",
-        "2_Timothy_4.txt"
+        {
+            "filename": "2_Timothy_Int.txt",
+            "char_count": 3015
+        },
+        {
+            "filename": "2_Timothy_1.txt",
+            "char_count": 4500
+        },
+        {
+            "filename": "2_Timothy_2.txt",
+            "char_count": 5285
+        },
+        {
+            "filename": "2_Timothy_3.txt",
+            "char_count": 3101
+        },
+        {
+            "filename": "2_Timothy_4.txt",
+            "char_count": 5203
+        }
     ],
     "Titus": [
-        "Titus_Int.txt",
-        "Titus_1.txt",
-        "Titus_2.txt",
-        "Titus_3.txt"
+        {
+            "filename": "Titus_Int.txt",
+            "char_count": 3228
+        },
+        {
+            "filename": "Titus_1.txt",
+            "char_count": 3080
+        },
+        {
+            "filename": "Titus_2.txt",
+            "char_count": 2437
+        },
+        {
+            "filename": "Titus_3.txt",
+            "char_count": 2670
+        }
     ],
     "Philemon": [
-        "Philemon_Philemon.txt"
+        {
+            "filename": "Philemon_Philemon.txt",
+            "char_count": 6941
+        }
     ],
     "Hebrews": [
-        "Hebrews_Int.txt",
-        "Hebrews_1.txt",
-        "Hebrews_2.txt",
-        "Hebrews_3.txt",
-        "Hebrews_4.txt",
-        "Hebrews_5.txt",
-        "Hebrews_6.txt",
-        "Hebrews_7.txt",
-        "Hebrews_8.txt",
-        "Hebrews_9.txt",
-        "Hebrews_10.txt",
-        "Hebrews_11.txt",
-        "Hebrews_12.txt",
-        "Hebrews_13.txt"
+        {
+            "filename": "Hebrews_Int.txt",
+            "char_count": 7078
+        },
+        {
+            "filename": "Hebrews_1.txt",
+            "char_count": 4846
+        },
+        {
+            "filename": "Hebrews_2.txt",
+            "char_count": 5510
+        },
+        {
+            "filename": "Hebrews_3.txt",
+            "char_count": 5448
+        },
+        {
+            "filename": "Hebrews_4.txt",
+            "char_count": 3000
+        },
+        {
+            "filename": "Hebrews_5.txt",
+            "char_count": 5177
+        },
+        {
+            "filename": "Hebrews_6.txt",
+            "char_count": 4324
+        },
+        {
+            "filename": "Hebrews_7.txt",
+            "char_count": 9988
+        },
+        {
+            "filename": "Hebrews_8.txt",
+            "char_count": 4146
+        },
+        {
+            "filename": "Hebrews_9.txt",
+            "char_count": 11842
+        },
+        {
+            "filename": "Hebrews_10.txt",
+            "char_count": 11004
+        },
+        {
+            "filename": "Hebrews_11.txt",
+            "char_count": 8877
+        },
+        {
+            "filename": "Hebrews_12.txt",
+            "char_count": 6327
+        },
+        {
+            "filename": "Hebrews_13.txt",
+            "char_count": 4413
+        }
     ],
     "James": [
-        "James_Int.txt",
-        "James_1.txt",
-        "James_2.txt",
-        "James_3.txt",
-        "James_4.txt",
-        "James_5.txt"
+        {
+            "filename": "James_Int.txt",
+            "char_count": 4785
+        },
+        {
+            "filename": "James_1.txt",
+            "char_count": 6668
+        },
+        {
+            "filename": "James_2.txt",
+            "char_count": 5103
+        },
+        {
+            "filename": "James_3.txt",
+            "char_count": 2616
+        },
+        {
+            "filename": "James_4.txt",
+            "char_count": 4644
+        },
+        {
+            "filename": "James_5.txt",
+            "char_count": 4798
+        }
     ],
     "1_Peter": [
-        "1_Peter_Int.txt",
-        "1_Peter_1.txt",
-        "1_Peter_2.txt",
-        "1_Peter_3.txt",
-        "1_Peter_4.txt",
-        "1_Peter_5.txt"
+        {
+            "filename": "1_Peter_Int.txt",
+            "char_count": 5059
+        },
+        {
+            "filename": "1_Peter_1.txt",
+            "char_count": 6136
+        },
+        {
+            "filename": "1_Peter_2.txt",
+            "char_count": 6948
+        },
+        {
+            "filename": "1_Peter_3.txt",
+            "char_count": 5559
+        },
+        {
+            "filename": "1_Peter_4.txt",
+            "char_count": 4112
+        },
+        {
+            "filename": "1_Peter_5.txt",
+            "char_count": 3099
+        }
     ],
     "2_Peter": [
-        "2_Peter_Int.txt",
-        "2_Peter_1.txt",
-        "2_Peter_2.txt",
-        "2_Peter_3.txt"
+        {
+            "filename": "2_Peter_Int.txt",
+            "char_count": 4974
+        },
+        {
+            "filename": "2_Peter_1.txt",
+            "char_count": 6672
+        },
+        {
+            "filename": "2_Peter_2.txt",
+            "char_count": 6350
+        },
+        {
+            "filename": "2_Peter_3.txt",
+            "char_count": 6769
+        }
     ],
     "1_John": [
-        "1_John_Int.txt",
-        "1_John_1.txt",
-        "1_John_2.txt",
-        "1_John_3.txt",
-        "1_John_4.txt",
-        "1_John_5.txt"
+        {
+            "filename": "1_John_Int.txt",
+            "char_count": 3119
+        },
+        {
+            "filename": "1_John_1.txt",
+            "char_count": 2469
+        },
+        {
+            "filename": "1_John_2.txt",
+            "char_count": 6961
+        },
+        {
+            "filename": "1_John_3.txt",
+            "char_count": 4631
+        },
+        {
+            "filename": "1_John_4.txt",
+            "char_count": 4137
+        },
+        {
+            "filename": "1_John_5.txt",
+            "char_count": 4337
+        }
     ],
     "2_John": [
-        "2_John_2 John.txt"
+        {
+            "filename": "2_John_2 John.txt",
+            "char_count": 6483
+        }
     ],
     "3_John": [
-        "3_John_3 John.txt"
+        {
+            "filename": "3_John_3 John.txt",
+            "char_count": 6247
+        }
     ],
     "Jude": [
-        "Jude_Jude.txt"
+        {
+            "filename": "Jude_Jude.txt",
+            "char_count": 11542
+        }
     ],
     "Revelation": [
-        "Revelation_Int.txt",
-        "Revelation_1.txt",
-        "Revelation_2.txt",
-        "Revelation_3.txt",
-        "Revelation_4.txt",
-        "Revelation_5.txt",
-        "Revelation_6.txt",
-        "Revelation_7.txt",
-        "Revelation_8.txt",
-        "Revelation_9.txt",
-        "Revelation_10.txt",
-        "Revelation_11.txt",
-        "Revelation_12.txt",
-        "Revelation_13.txt",
-        "Revelation_14.txt",
-        "Revelation_15.txt",
-        "Revelation_16.txt",
-        "Revelation_17.txt",
-        "Revelation_18.txt",
-        "Revelation_19.txt",
-        "Revelation_20.txt",
-        "Revelation_21.txt",
-        "Revelation_22.txt"
+        {
+            "filename": "Revelation_Int.txt",
+            "char_count": 6512
+        },
+        {
+            "filename": "Revelation_1.txt",
+            "char_count": 7626
+        },
+        {
+            "filename": "Revelation_2.txt",
+            "char_count": 9982
+        },
+        {
+            "filename": "Revelation_3.txt",
+            "char_count": 7610
+        },
+        {
+            "filename": "Revelation_4.txt",
+            "char_count": 3473
+        },
+        {
+            "filename": "Revelation_5.txt",
+            "char_count": 3769
+        },
+        {
+            "filename": "Revelation_6.txt",
+            "char_count": 6600
+        },
+        {
+            "filename": "Revelation_7.txt",
+            "char_count": 4272
+        },
+        {
+            "filename": "Revelation_8.txt",
+            "char_count": 3471
+        },
+        {
+            "filename": "Revelation_9.txt",
+            "char_count": 4699
+        },
+        {
+            "filename": "Revelation_10.txt",
+            "char_count": 2983
+        },
+        {
+            "filename": "Revelation_11.txt",
+            "char_count": 5669
+        },
+        {
+            "filename": "Revelation_12.txt",
+            "char_count": 5973
+        },
+        {
+            "filename": "Revelation_13.txt",
+            "char_count": 4913
+        },
+        {
+            "filename": "Revelation_14.txt",
+            "char_count": 5866
+        },
+        {
+            "filename": "Revelation_15.txt",
+            "char_count": 2234
+        },
+        {
+            "filename": "Revelation_16.txt",
+            "char_count": 4255
+        },
+        {
+            "filename": "Revelation_17.txt",
+            "char_count": 4347
+        },
+        {
+            "filename": "Revelation_18.txt",
+            "char_count": 4747
+        },
+        {
+            "filename": "Revelation_19.txt",
+            "char_count": 5210
+        },
+        {
+            "filename": "Revelation_20.txt",
+            "char_count": 3878
+        },
+        {
+            "filename": "Revelation_21.txt",
+            "char_count": 6329
+        },
+        {
+            "filename": "Revelation_22.txt",
+            "char_count": 3805
+        }
     ]
 }

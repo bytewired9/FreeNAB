@@ -3,6 +3,31 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
+// types.ts (or near the top of main.tsx)
+interface ManifestChapter {
+  filename: string;
+  char_count: number;
+}
+type ManifestType = { [book: string]: ManifestChapter[] };
+
+interface FlatManifestItem {
+  book: string;
+  filename: string;
+  char_count: number;
+}
+
+interface VirtualPage {
+  chapterIndex: number;
+  pageIndex: number;
+  globalPageIndex: number;
+  book: string;
+  fileName: string;
+  char_count: number;
+  // content remains empty until the chapter is loaded
+  content: string;
+}
+
+
 interface BookPage {
   folder: string;
   fileName: string;
@@ -278,52 +303,35 @@ async function readLocalFile(filePath: string): Promise<string> {
 
 function App() {
   const [basePath, setBasePath] = React.useState('');
+  const [manifest, setManifest] = React.useState<ManifestType | null>(null);
+  const [loadingManifest, setLoadingManifest] = React.useState(true);
+  const [isMobile, setIsMobile] = React.useState(false);
+
+  // Our chapters state: an array where each index corresponds to a chapter (may be undefined if not loaded yet)
+  const [chapters, setChapters] = React.useState<Array<BookPage | undefined>>([]);
+  // currentPage is a global page number (across all chapters)
+  const [currentPage, setCurrentPage] = React.useState(0);
+  const [isFetchingChapter, setIsFetchingChapter] = React.useState(false);
+
+  // Get basePath as before.
   React.useEffect(() => {
     async function fetchBasePath() {
       if (window.electronAPI && window.electronAPI.getBasePath) {
         const path = await window.electronAPI.getBasePath();
         setBasePath(path);
       } else {
-        // For website, assume basePath is empty or adjust as needed.
         setBasePath('');
       }
     }
     fetchBasePath();
   }, []);
 
-  const [manifest, setManifest] = React.useState<{ [book: string]: string[] } | null>(
-    null
-  );
-  const [loadingManifest, setLoadingManifest] = React.useState(true);
-  const [isMobile, setIsMobile] = React.useState(false);
-
-  React.useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
-  const [chapters, setChapters] = React.useState<BookPage[]>([]);
-  const [pages, setPages] = React.useState<RenderedPage[]>([]);
-  const [chapterMapping, setChapterMapping] = React.useState<ChapterMapping[]>([]);
-  const [currentPage, setCurrentPage] = React.useState(0);
-  const [isFetchingChapter, setIsFetchingChapter] = React.useState(false);
-
-  const [initialFileParam, initialPageParam] = React.useMemo(() => {
-    const params = new URLSearchParams(window.location.search);
-    const file = params.get('file') ?? null;
-    const page = parseInt(params.get('page') ?? '', 10);
-    const safePage = Number.isNaN(page) ? 0 : page;
-    return [file, safePage];
-  }, []);
-
+  // Manifest load: now our json has an array of { filename, char_count } per book.
   React.useEffect(() => {
     async function loadManifest() {
-      if (basePath === null) return; // wait until basePath is set
-      const filePath = `${basePath}/nabre_books/books.json`;
+      // Use a default path (like '.') if basePath is empty.
+      const effectiveBasePath = basePath || '.';
+      const filePath = `${effectiveBasePath}/nabre_books/books.json`;
       try {
         const fileContent = await readLocalFile(filePath);
         const data = JSON.parse(fileContent);
@@ -335,18 +343,91 @@ function App() {
     }
     loadManifest();
   }, [basePath]);
+  
 
-  const flatManifest = React.useMemo(() => {
+  // Update isMobile on resize.
+  React.useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  // flatManifest: a simple flattened array from our manifest.
+  const flatManifest: FlatManifestItem[] = React.useMemo(() => {
     if (!manifest) return [];
-    const list: { book: string; file: string }[] = [];
-    for (const [book, files] of Object.entries(manifest)) {
-      for (const file of files) {
-        list.push({ book, file });
+    const list: FlatManifestItem[] = [];
+    for (const [book, chapters] of Object.entries(manifest)) {
+      for (const chap of chapters) {
+        list.push({ book, filename: chap.filename, char_count: chap.char_count });
       }
     }
     return list;
   }, [manifest]);
 
+  // Build virtualPages from the manifest.
+  const virtualPages: VirtualPage[] = React.useMemo(() => {
+    if (!manifest) return [];
+    const charsPerPage = isMobile ? 1300 : 1700;
+    let globalPage = 0;
+    let chapterIndex = 0;
+    const pages: VirtualPage[] = [];
+    for (const [book, chapters] of Object.entries(manifest)) {
+      for (const chap of chapters) {
+        const cleanedFileName = chap.filename.replace(/\.txt$/i, '').replace(/_/g, ' ');
+        const numPages = Math.ceil(chap.char_count / charsPerPage);
+        for (let i = 0; i < numPages; i++) {
+          pages.push({
+            chapterIndex,
+            pageIndex: i,
+            globalPageIndex: globalPage,
+            book: book.replace(/_/g, ' '),
+            fileName: cleanedFileName,
+            char_count: chap.char_count,
+            content: '' // will be filled in when the chapter loads
+          });
+          globalPage++;
+        }
+        chapterIndex++;
+      }
+    }
+    return pages;
+  }, [manifest, isMobile]);
+
+  // renderedPages: combine virtualPages with any loaded chapter content.
+  const renderedPages: RenderedPage[] = React.useMemo(() => {
+    const charsPerPage = isMobile ? 1300 : 1700;
+    return virtualPages.map(vp => {
+      const loadedChapter = chapters[vp.chapterIndex];
+      const pageContent = loadedChapter
+        ? paginateContent(loadedChapter.content, charsPerPage)[vp.pageIndex] || ''
+        : '';
+      return {
+        folder: vp.book, // map the virtual "book" to "folder"
+        fileName: vp.fileName,
+        content: pageContent,
+        chapterIndex: vp.chapterIndex,
+        pageIndex: vp.pageIndex
+      };
+    });
+  }, [virtualPages, chapters, isMobile]);
+
+
+  // chapterMapping: first page for each chapter.
+  const chapterMapping: ChapterMapping[] = React.useMemo(() => {
+    return virtualPages
+      .filter(vp => vp.pageIndex === 0)
+      .map(vp => ({
+        chapterIndex: vp.chapterIndex,
+        globalPageIndex: vp.globalPageIndex,
+        folder: vp.book,
+        fileName: vp.fileName
+      }));
+  }, [virtualPages]);
+
+  // Update URL as before.
   function updateUrl(fileName: string, page: number) {
     const params = new URLSearchParams(window.location.search);
     params.set('file', fileName);
@@ -355,24 +436,16 @@ function App() {
     window.history.replaceState({}, '', newUrl);
   }
 
-  function recalcAndSetAll(updatedChapters: BookPage[]) {
-    const charsPerPage = isMobile ? 1300 : 1700;
-    const newPages = paginateChapters(updatedChapters, charsPerPage);
-    const newMapping = getChapterIndexMapping(updatedChapters, newPages);
-    setChapters(updatedChapters);
-    setPages(newPages);
-    setChapterMapping(newMapping);
-  }
-
-  async function loadChapterByIndex(idx: number) {
+  // loadChapterByIndex now uses flatManifest.
+  async function loadChapterByIndex(idx: number): Promise<BookPage | null> {
     if (idx < 0 || idx >= flatManifest.length) return null;
-    const { book, file } = flatManifest[idx];
-    const filePath = `${basePath}/nabre_books/${book}/${file}`;
+    const { book, filename } = flatManifest[idx];
+    const filePath = `${basePath}/nabre_books/${book}/${filename}`;
     try {
       const content = await readLocalFile(filePath);
       return {
         folder: book.replace(/_/g, ' '),
-        fileName: file.replace(/\.txt$/i, '').replace(/_/g, ' '),
+        fileName: filename.replace(/\.txt$/i, '').replace(/_/g, ' '),
         content,
       };
     } catch (error) {
@@ -381,125 +454,55 @@ function App() {
     }
   }
 
-  // On first render, load initial chapters from URL
-  React.useEffect(() => {
-    if (!loadingManifest && flatManifest.length > 0 && chapters.length === 0) {
-      (async () => {
-        let idxToLoad = 0;
-        if (initialFileParam) {
-          const foundIndex = flatManifest.findIndex(
-            (item) => item.file.replace(/\.txt$/i, '') === initialFileParam
-          );
-          if (foundIndex >= 0) idxToLoad = foundIndex;
-        }
-        const chaptersToLoad: BookPage[] = [];
-        // Load all chapters from 0 to idxToLoad so that pagination is calculated globally.
-        for (let i = 0; i <= idxToLoad; i++) {
-          setIsFetchingChapter(true);
-          const chap = await loadChapterByIndex(i);
-          setIsFetchingChapter(false);
-          if (chap) chaptersToLoad.push(chap);
-        }
-        recalcAndSetAll(chaptersToLoad);
-        await handlePageChange(Math.max(0, initialPageParam));
-      })();
-    }
-  }, [
-    loadingManifest,
-    flatManifest,
-    chapters.length,
-    initialFileParam,
-    initialPageParam,
-  ]);
-
-  // User picks something in the menu
-  async function handleSelectChapter(bookIndex: number) {
-    let newChapters = [...chapters];
-    // Use the current count as the highest loaded chapter index.
-    let highestLoaded = newChapters.length - 1;
-
-    if (bookIndex > highestLoaded) {
-      for (let idx = highestLoaded + 1; idx <= bookIndex; idx++) {
-        setIsFetchingChapter(true);
-        const newChap = await loadChapterByIndex(idx);
-        setIsFetchingChapter(false);
-        if (newChap) {
-          newChapters.push(newChap);
-        }
+  // When user selects a chapter from the index,
+  // we don’t load every chapter in between; we just compute the target page.
+  async function handleSelectChapter(chapterIndex: number) {
+    if (!chapters[chapterIndex]) {
+      setIsFetchingChapter(true);
+      const newChap = await loadChapterByIndex(chapterIndex);
+      setIsFetchingChapter(false);
+      if (newChap) {
+        const newChapters = [...chapters];
+        newChapters[chapterIndex] = newChap;
+        setChapters(newChapters);
       }
-      recalcAndSetAll(newChapters);
     }
-
-    // Recalculate the mapping using the new chapters.
-    const charsPerPage = isMobile ? 1300 : 1700;
-    const newPages = paginateChapters(newChapters, charsPerPage);
-    const newMapping = getChapterIndexMapping(newChapters, newPages);
-
-    const target = newMapping.find((m) => m.chapterIndex === bookIndex);
+    const target = chapterMapping.find(m => m.chapterIndex === chapterIndex);
     if (target) {
       setCurrentPage(target.globalPageIndex);
-      updateUrl(
-        flatManifest[bookIndex].file.replace(/\.txt$/i, ''),
-        target.globalPageIndex
-      );
+      updateUrl(flatManifest[chapterIndex].filename.replace(/\.txt$/i, ''), target.globalPageIndex);
     }
   }
 
-  // Called when user hits next/prev
+  // When the user navigates pages (prev/next), we use our renderedPages.
   async function handlePageChange(newPage: number) {
-    let currentChapters = chapters;
-    let newPages = pages;
-    const charsPerPage = isMobile ? 1300 : 1700;
-
-    // Load chapters until we have enough pages for the requested newPage
-    while (newPage >= newPages.length) {
-      const highestLoaded = currentChapters.length - 1;
-      if (highestLoaded >= flatManifest.length - 1) break;
-      setIsFetchingChapter(true);
-      const nextChapter = await loadChapterByIndex(highestLoaded + 1);
-      setIsFetchingChapter(false);
-      if (!nextChapter) break;
-      currentChapters = [...currentChapters, nextChapter];
-      newPages = paginateChapters(currentChapters, charsPerPage);
-      setChapterMapping(getChapterIndexMapping(currentChapters, newPages));
-      setChapters(currentChapters);
-      setPages(newPages);
-    }
-
-    const finalPage = newPage < newPages.length ? newPage : newPages.length - 1;
-    setCurrentPage(finalPage);
-
-    const p = newPages[finalPage];
-    if (p) {
-      const originalIndex = flatManifest.findIndex(
-        (f) =>
-          f.book.replace(/_/g, ' ') === p.folder &&
-          f.file.replace(/\.txt$/i, '').replace(/_/g, ' ') === p.fileName
-      );
-      if (originalIndex >= 0) {
-        updateUrl(flatManifest[originalIndex].file.replace(/\.txt$/i, ''), finalPage);
-      }
+    if (newPage < 0 || newPage >= virtualPages.length) return;
+    setCurrentPage(newPage);
+    // Update URL based on the chapter that this page belongs to.
+    const vp = virtualPages[newPage];
+    if (vp) {
+      updateUrl(vp.fileName, newPage);
     }
   }
 
-  async function ensureNextChapterLoaded() {
-    if (!chapters.length) return;
-    const maxLoaded = chapters.length - 1;
-    if (maxLoaded < flatManifest.length - 1) {
-      const nextIdx = maxLoaded + 1;
-      if (!chapters[nextIdx]) {
+  // When currentPage changes, if the chapter for that page isn’t loaded, load it on-demand.
+  React.useEffect(() => {
+    const vp = virtualPages[currentPage];
+    if (vp && !chapters[vp.chapterIndex]) {
+      (async () => {
         setIsFetchingChapter(true);
-        const nextChapter = await loadChapterByIndex(nextIdx);
+        const loadedChap = await loadChapterByIndex(vp.chapterIndex);
         setIsFetchingChapter(false);
-        if (nextChapter) {
-          const updated = [...chapters, nextChapter];
-          recalcAndSetAll(updated);
+        if (loadedChap) {
+          const newChapters = [...chapters];
+          newChapters[vp.chapterIndex] = loadedChap;
+          setChapters(newChapters);
         }
-      }
+      })();
     }
-  }
+  }, [currentPage, virtualPages, chapters]);
 
-  if (loadingManifest && chapters.length === 0) {
+  if (loadingManifest || !manifest) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-100">
         <span className="text-xl font-medium text-gray-600">Loading manifest...</span>
@@ -515,14 +518,14 @@ function App() {
         </div>
       )}
       <Book
-        pages={pages}
+        pages={renderedPages}
         chapterMapping={chapterMapping}
-        flatManifest={flatManifest}
+        flatManifest={flatManifest.map(item => ({ book: item.book, file: item.filename }))}
         currentPage={currentPage}
         onPageChange={handlePageChange}
         onSelectChapter={handleSelectChapter}
         isMobile={isMobile}
-        ensureNextChapterLoaded={ensureNextChapterLoaded}
+        ensureNextChapterLoaded={() => Promise.resolve()} // no-op since we use lazy loading now
       />
     </>
   );
