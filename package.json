@@ -40,7 +40,7 @@
   },
   "main": "electron/main.js",
   "build": {
-    "appId": "whats.an.appid",
+    "appId": "net.squawksquad.freenab",
     "productName": "FreeNAB",
     "directories": {
       "output": "dist",
@@ -48,7 +48,23 @@
     },
     "files": [
       "dist/**/*",
-      "electron/**/*"
-    ]
+      "electron/**/*",
+      "dist/nabre_books/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "dist/nabre_books",
+        "to": "nabre_books"
+      }
+    ],
+    "win": {
+      "icon": "electron/freenab.ico"
+    },
+    "mac": {
+      "icon": "electron/freenab.ico"
+    },
+    "linux": {
+      "icon": "electron/freenab.ico"
+    }
   }
 }
