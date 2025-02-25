@@ -65,39 +65,6 @@ function paginateContent(content: string, charsPerPage: number): string[] {
   return pages;
 }
 
-function paginateChapters(chapters: BookPage[], charsPerPage: number): RenderedPage[] {
-  const rendered: RenderedPage[] = [];
-  chapters.forEach((chap, chapIndex) => {
-    const pageContents = paginateContent(chap.content, charsPerPage);
-    pageContents.forEach((pageContent, pageIndex) => {
-      rendered.push({
-        folder: chap.folder,
-        fileName: chap.fileName,
-        content: pageContent,
-        chapterIndex: chapIndex,
-        pageIndex,
-      });
-    });
-  });
-  return rendered;
-}
-
-function getChapterIndexMapping(chapters: BookPage[], pages: RenderedPage[]): ChapterMapping[] {
-  const mapping: ChapterMapping[] = [];
-  for (let i = 0; i < chapters.length; i++) {
-    const globalPageIndex = pages.findIndex((p) => p.chapterIndex === i);
-    if (globalPageIndex >= 0) {
-      mapping.push({
-        chapterIndex: i,
-        globalPageIndex,
-        folder: chapters[i].folder,
-        fileName: chapters[i].fileName,
-      });
-    }
-  }
-  return mapping;
-}
-
 /**
  * Convert "[123]" => <sup>123</sup>.
  */
