@@ -117,7 +117,6 @@ function Page({ page, isMobile }: { page: RenderedPage; isMobile: boolean }) {
 }
 
 function IndexMenu({
-  mapping,
   manifestKeys,
   onSelect,
   onClose,
