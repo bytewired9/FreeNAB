@@ -6,7 +6,6 @@ FreeNAB is an open-source Bible reader designed for the New American Bible (NAB)
 
 - 📖 Read the New American Bible (NAB) translation
 - 🔍 Fast search and navigation
-- 📑 Bookmark and highlight verses
 - ⚡ Powered by Node.js, React, and Vite for high performance
 - 📜 Open-source and free for everyone
 
