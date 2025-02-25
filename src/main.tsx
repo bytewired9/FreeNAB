@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
+
 interface BookPage {
   folder: string;
   fileName: string;
@@ -117,7 +118,6 @@ function Page({ page, isMobile }: { page: RenderedPage; isMobile: boolean }) {
 }
 
 function IndexMenu({
-  mapping,
   manifestKeys,
   onSelect,
   onClose,
@@ -265,11 +265,26 @@ function Book({
 }
 
 function App() {
+  const [basePath, setBasePath] = React.useState('');
+
+  React.useEffect(() => {
+    async function fetchBasePath() {
+      if (window.electronAPI) {
+        const path = await window.electronAPI.getBasePath();
+        setBasePath(path);
+      }
+    }
+    fetchBasePath();
+  }, []);
   const [manifest, setManifest] = React.useState<{ [book: string]: string[] } | null>(
     null
   );
   const [loadingManifest, setLoadingManifest] = React.useState(true);
   const [isMobile, setIsMobile] = React.useState(false);
+
+
+  
+
 
   React.useEffect(() => {
     const handleResize = () => {
@@ -296,13 +311,19 @@ function App() {
 
   React.useEffect(() => {
     async function loadManifest() {
-      const res = await fetch('/nabre_books/books.json');
-      const data = await res.json();
-      setManifest(data);
+      if (!basePath) return; // wait until basePath is set
+      const filePath = `${basePath}/nabre_books/books.json`;
+      try {
+        const fileContent = await window.electronAPI.readLocalFile(filePath);
+        const data = JSON.parse(fileContent);
+        setManifest(data);
+      } catch (error) {
+        console.error('Failed to load manifest:', error);
+      }
       setLoadingManifest(false);
     }
     loadManifest();
-  }, []);
+  }, [basePath]);
 
   const flatManifest = React.useMemo(() => {
     if (!manifest) return [];
@@ -335,16 +356,21 @@ function App() {
   async function loadChapterByIndex(idx: number) {
     if (idx < 0 || idx >= flatManifest.length) return null;
     const { book, file } = flatManifest[idx];
-    const fileUrl = `/nabre_books/${book}/${file}`;
-    const res = await fetch(fileUrl);
-    if (!res.ok) return null;
-    const content = await res.text();
-    return {
-      folder: book.replace(/_/g, ' '),
-      fileName: file.replace(/\.txt$/i, '').replace(/_/g, ' '),
-      content,
-    } as BookPage;
+    const filePath = `${basePath}/nabre_books/${book}/${file}`;
+    try {
+      const content = await window.electronAPI.readLocalFile(filePath);
+      return {
+        folder: book.replace(/_/g, ' '),
+        fileName: file.replace(/\.txt$/i, '').replace(/_/g, ' '),
+        content,
+      };
+    } catch (error) {
+      console.error(`Error reading file at ${filePath}`, error);
+      return null;
+    }
   }
+  
+  
 
   // On first render, load initial chapters from URL
   React.useEffect(() => {
