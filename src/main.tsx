@@ -3,7 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-
 interface BookPage {
   folder: string;
   fileName: string;
@@ -264,27 +263,39 @@ function Book({
   );
 }
 
+// Utility function to abstract file reading
+async function readLocalFile(filePath: string): Promise<string> {
+  if (window.electronAPI && window.electronAPI.readLocalFile) {
+    return await window.electronAPI.readLocalFile(filePath);
+  } else {
+    const response = await fetch(filePath);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch ${filePath}`);
+    }
+    return await response.text();
+  }
+}
+
 function App() {
   const [basePath, setBasePath] = React.useState('');
-
   React.useEffect(() => {
     async function fetchBasePath() {
-      if (window.electronAPI) {
+      if (window.electronAPI && window.electronAPI.getBasePath) {
         const path = await window.electronAPI.getBasePath();
         setBasePath(path);
+      } else {
+        // For website, assume basePath is empty or adjust as needed.
+        setBasePath('');
       }
     }
     fetchBasePath();
   }, []);
+
   const [manifest, setManifest] = React.useState<{ [book: string]: string[] } | null>(
     null
   );
   const [loadingManifest, setLoadingManifest] = React.useState(true);
   const [isMobile, setIsMobile] = React.useState(false);
-
-
-  
-
 
   React.useEffect(() => {
     const handleResize = () => {
@@ -311,10 +322,10 @@ function App() {
 
   React.useEffect(() => {
     async function loadManifest() {
-      if (!basePath) return; // wait until basePath is set
+      if (basePath === null) return; // wait until basePath is set
       const filePath = `${basePath}/nabre_books/books.json`;
       try {
-        const fileContent = await window.electronAPI.readLocalFile(filePath);
+        const fileContent = await readLocalFile(filePath);
         const data = JSON.parse(fileContent);
         setManifest(data);
       } catch (error) {
@@ -358,7 +369,7 @@ function App() {
     const { book, file } = flatManifest[idx];
     const filePath = `${basePath}/nabre_books/${book}/${file}`;
     try {
-      const content = await window.electronAPI.readLocalFile(filePath);
+      const content = await readLocalFile(filePath);
       return {
         folder: book.replace(/_/g, ' '),
         fileName: file.replace(/\.txt$/i, '').replace(/_/g, ' '),
@@ -369,8 +380,6 @@ function App() {
       return null;
     }
   }
-  
-  
 
   // On first render, load initial chapters from URL
   React.useEffect(() => {
