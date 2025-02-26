@@ -2,6 +2,9 @@
 
 FreeNAB is an open-source Bible reader designed for the New American Bible (NAB) translation. Built with Node.js, React, and Vite, FreeNAB offers a fast, modern, and user-friendly interface for reading and studying the Bible.
 
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/bytewired9/freenab/total)
+
+
 ## Features
 
 - 📖 Read the New American Bible (NAB) translation
