@@ -109,15 +109,41 @@ function Page({ page, isMobile }: { page: RenderedPage; isMobile: boolean }) {
 }
 
 function IndexMenu({
+  mapping,
   manifestKeys,
   onSelect,
   onClose,
 }: {
   mapping: ChapterMapping[];
   manifestKeys: { book: string; file: string }[];
-  onSelect: (bookIndex: number) => void;
+  onSelect: (chapterIndex: number) => void;
   onClose: () => void;
 }) {
+  // Build an array of { book: string; chapters: { file: string; index: number }[] }
+  const groupedManifest = React.useMemo(() => {
+    const groupMap = new Map<string, Array<{ file: string; index: number }>>();
+    manifestKeys.forEach(({ book, file }, i) => {
+      if (!groupMap.has(book)) {
+        groupMap.set(book, []);
+      }
+      groupMap.get(book)!.push({ file, index: i });
+    });
+
+    // Convert the Map to a simpler array of { book, chapters }
+    return Array.from(groupMap.entries()).map(([book, chapters]) => ({
+      book,
+      chapters,
+    }));
+  }, [manifestKeys]);
+
+  // Keep track of which book is open
+  const [openBook, setOpenBook] = React.useState<string | null>(null);
+
+  function toggleBook(book: string) {
+    // If the same book is clicked again, close it. Otherwise, open the new one
+    setOpenBook((prev) => (prev === book ? null : book));
+  }
+
   return (
     <div className="fixed inset-0 z-50 flex">
       <div
@@ -134,18 +160,36 @@ function IndexMenu({
             &times;
           </button>
         </div>
+
         <ul className="space-y-2">
-          {manifestKeys.map((item, idx) => (
-            <li key={idx}>
+          {groupedManifest.map(({ book, chapters }) => (
+            <li key={book}>
+              {/* Book header, toggles the dropdown */}
               <button
-                onClick={() => {
-                  onSelect(idx);
-                  onClose();
-                }}
-                className="text-blue-600 hover:text-blue-800 transition-colors"
+                onClick={() => toggleBook(book)}
+                className="w-full text-left font-semibold mb-1 hover:underline"
               >
-                {item.file.replace(/\.txt$/i, '').replace(/_/g, ' ')}
+                {book.replace(/_/g, ' ')}
               </button>
+
+              {/* If the current book is open, render the list of chapters */}
+              {openBook === book && (
+                <ul className="pl-4 space-y-1">
+                  {chapters.map(({ file, index }) => (
+                    <li key={file}>
+                      <button
+                        onClick={() => {
+                          onSelect(index);
+                          onClose();
+                        }}
+                        className="text-blue-600 hover:text-blue-800 transition-colors"
+                      >
+                        {file.replace(/\.txt$/i, '').replace(/_/g, ' ')}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </li>
           ))}
         </ul>
@@ -153,6 +197,7 @@ function IndexMenu({
     </div>
   );
 }
+
 
 function Book({
   pages,
@@ -310,7 +355,7 @@ function App() {
     }
     loadManifest();
   }, [basePath]);
-  
+
 
   // Update isMobile on resize.
   React.useEffect(() => {
@@ -362,8 +407,8 @@ function App() {
     }
     return pages;
   }, [manifest, isMobile]);
-  
-  
+
+
 
   // renderedPages: combine virtualPages with any loaded chapter content.
   const renderedPages: RenderedPage[] = React.useMemo(() => {
@@ -477,7 +522,7 @@ function App() {
       const pageParam = params.get("page");
       const fileParam = params.get("file");
       let targetPage = 0;
-  
+
       if (pageParam) {
         const parsed = parseInt(pageParam, 10);
         if (!isNaN(parsed)) {
@@ -494,15 +539,15 @@ function App() {
           targetPage = mapping.globalPageIndex;
         }
       }
-  
+
       if (targetPage !== currentPage && targetPage >= 0 && targetPage < virtualPages.length) {
         setCurrentPage(targetPage);
       }
     }
   }, [manifest, virtualPages, chapterMapping]);
-  
-  
-  
+
+
+
 
   if (loadingManifest || !manifest) {
     return (
